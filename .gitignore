@@ -14,6 +14,12 @@ shapefiles/
 *.sbx
 *.cpg
 
+# Archives / junk
+*.zip
+geoserver/__MACOSX/
+**/__MACOSX/
+**/.DS_Store
+
 # Python / OS
 __pycache__/
 *.py[cod]
