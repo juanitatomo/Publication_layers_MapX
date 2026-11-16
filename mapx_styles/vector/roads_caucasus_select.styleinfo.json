@@ -1,0 +1,42 @@
+{
+  "geonode_name": "roads_caucasus_select",
+  "mapx_id": "",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "fclass",
+  "paste_json_as_categorical": true,
+  "geometry": "line",
+  "style_json": "roads_caucasus_select.json",
+  "how_to_paste": "1) Set Source attribute = `fclass`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "motorway",
+      "label_en": "motorway",
+      "color": "#fb6100",
+      "opacity": 1.0,
+      "size": 3
+    },
+    {
+      "value": "trunk",
+      "label_en": "trunk",
+      "color": "#c93f04",
+      "opacity": 1.0,
+      "size": 1
+    },
+    {
+      "value": "primary",
+      "label_en": "primary",
+      "color": "#020000",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "secondary",
+      "label_en": "secondary",
+      "color": "#646464",
+      "opacity": 1.0,
+      "size": 2
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'fclass', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

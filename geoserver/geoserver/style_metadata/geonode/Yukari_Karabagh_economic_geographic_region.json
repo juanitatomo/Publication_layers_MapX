@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "Yukari_Karabagh_economic_geographic_region",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.1.0"
+    },
+    "filename": "Yukari_Karabagh_economic_geographic_region.sld"
+  }
+}

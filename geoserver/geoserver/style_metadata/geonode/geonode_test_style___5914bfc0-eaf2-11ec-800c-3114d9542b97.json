@@ -1,0 +1,38 @@
+{
+  "style": {
+    "name": "test_style___5914bfc0-eaf2-11ec-800c-3114d9542b97",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "test_style___5914bfc0-eaf2-11ec-800c-3114d9542b97.sld",
+    "metadata": {
+      "entry": [
+        {
+          "@key": "msEditorType",
+          "$": "visual"
+        },
+        {
+          "@key": "msStyleJSON",
+          "$": "{\"name\":\"test style\",\"rules\":[{\"ruleId\":\"a26c3b30-eaf2-11ec-800c-3114d9542b97\",\"kind\":\"Classification\",\"color\":\"#dddddd\",\"fillOpacity\":1,\"outlineColor\":\"#777777\",\"outlineWidth\":1,\"classification\":[{\"title\":\" >= 1.0 AND <23.0\",\"color\":\"#7f0000\",\"type\":\"Polygon\",\"min\":1,\"max\":23},{\"title\":\" >= 23.0 AND <45.0\",\"color\":\"#d7301f\",\"type\":\"Polygon\",\"min\":23,\"max\":45},{\"title\":\" >= 45.0 AND <67.0\",\"color\":\"#fc8d59\",\"type\":\"Polygon\",\"min\":45,\"max\":67},{\"title\":\" >= 67.0 AND <89.0\",\"color\":\"#fdd49e\",\"type\":\"Polygon\",\"min\":67,\"max\":89},{\"title\":\" >= 89.0 AND <=111.0\",\"color\":\"#fff7ec\",\"type\":\"Polygon\",\"min\":89,\"max\":111}],\"intervals\":5,\"method\":\"equalInterval\",\"ramp\":\"orrd\",\"reverse\":true,\"symbolizerKind\":\"Fill\",\"attribute\":\"COD_PROV\"},{\"name\":\"\",\"ruleId\":\"d5b3ddd0-eaf3-11ec-800c-3114d9542b97\",\"symbolizers\":[{\"kind\":\"Mark\",\"wellKnownName\":\"Circle\",\"color\":\"#417505\",\"fillOpacity\":1,\"strokeColor\":\"#417505\",\"strokeOpacity\":1,\"strokeWidth\":1,\"radius\":5,\"rotate\":0,\"symbolizerId\":\"d5b3ddd1-eaf3-11ec-800c-3114d9542b97\"}],\"filter\":{\"filterFields\":[{\"rowId\":1655109356135,\"groupId\":1,\"attribute\":\"COD_PROV\",\"operator\":\"=\",\"value\":1,\"type\":\"number\",\"fieldOptions\":{\"valuesCount\":0,\"currentPage\":1},\"exception\":null}],\"groupFields\":[{\"id\":1,\"logic\":\"OR\",\"index\":0}]}}]}"
+        },
+        {
+          "@key": "msMD5Hash",
+          "$": "da951251253399262393c346e11b7bab"
+        },
+        {
+          "@key": "description"
+        },
+        {
+          "@key": "title",
+          "$": "test style"
+        }
+      ]
+    },
+    "dateCreated": "2022-06-13 08:25:14.56 UTC",
+    "dateModified": "2022-06-13 08:36:55.525 UTC"
+  }
+}

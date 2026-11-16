@@ -1,0 +1,91 @@
+{
+  "geonode_name": "climat",
+  "mapx_id": "MX-5OWCY-066WV-QKN1U",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Descriptio",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "climat.json",
+  "how_to_paste": "1) Set Source attribute = `Descriptio`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "Arid continental, with dry warm summersand moderate cold winters",
+      "label_en": "Arid continental, with dry warm summersand moderate cold winters",
+      "color": "#d7191c",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Arid subtropical, with hot summers and calm winters",
+      "label_en": "Arid subtropical, with hot summers and calm winters",
+      "color": "#e75437",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Arid, continental, with hot summers and cold winters",
+      "label_en": "Arid, continental, with hot summers and cold winters",
+      "color": "#f69053",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Moderate, relatively dry warm summers and cold winters",
+      "label_en": "Moderate, relatively dry warm summers and cold winters",
+      "color": "#febe4e",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Moderate, relativly humid during all seasons",
+      "label_en": "Moderate, relativly humid during all seasons",
+      "color": "#ffdf29",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Moderate, warm arid summers and moderate cold winters",
+      "label_en": "Moderate, warm arid summers and moderate cold winters",
+      "color": "#ffff05",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Moderate, with short cool summers and cold winters",
+      "label_en": "Moderate, with short cool summers and cold winters",
+      "color": "#dcf02d",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Moderate, with warm summers, relatively humid calm winters",
+      "label_en": "Moderate, with warm summers, relatively humid calm winters",
+      "color": "#b8e156",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Mountain tundra climate",
+      "label_en": "Mountain tundra climate",
+      "color": "#8acc62",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Warm summers and relatively calm winters",
+      "label_en": "Warm summers and relatively calm winters",
+      "color": "#52b151",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "",
+      "label_en": "Descriptio is ''",
+      "color": "#808080",
+      "opacity": 0.7,
+      "size": 7
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Descriptio', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

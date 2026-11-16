@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "mountains_delimitations_caucasus_clip0",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "mountains_delimitations_caucasus_clip0.sld"
+  }
+}

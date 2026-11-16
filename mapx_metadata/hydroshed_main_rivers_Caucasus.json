@@ -1,0 +1,218 @@
+{
+  "text": {
+    "title": {
+      "en": "Caucasus Main Rivers (HydroSHEDS)",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Main river network of the Caucasus ecoregion derived from the HydroSHEDS global hydrographic database. Source river lines were cropped to the Caucasus ecoregion boundary and filtered to retain principal channels. Supports hydrological mapping, basin analysis, freshwater connectivity assessment, and regional environmental planning.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "hydroshed_main_rivers_Caucasus",
+        "HydroSHEDS",
+        "rivers",
+        "river network",
+        "hydrology",
+        "freshwater",
+        "drainage",
+        "caucasus"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "2924",
+        "7235",
+        "4612"
+      ],
+      "keys_topic": [
+        "inlandWaters"
+      ]
+    },
+    "attributes": {
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "ARCID": {
+        "en": "Arc Identifier",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "UP_CELLS": {
+        "en": "Upstream Cells (flow accumulation)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "attributes_alias": {
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "ARCID": {
+        "en": "Arc Identifier",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "UP_CELLS": {
+        "en": "Upstream Cells (flow accumulation)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "notes": {
+      "en": "<ul><li>Source: HydroSHEDS river network; Caucasus ecoregion subset with main rivers filtered.</li><li>UP_CELLS indicates upstream contributing cells (flow accumulation proxy).</li><li>HydroSHEDS is derived primarily from SRTM elevation; local channel position may differ from surveyed hydrography.</li><li>Bounding box is approximate Caucasus extent; use MapX Update values from source for precision.</li><li>Homepage: https://www.hydrosheds.org/</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "HydroSHEDS (WWF / USGS and partners).",
+    "citation": "Lehner, B., Verdin, K., Jarvis, A. (2008). HydroSHEDS. World Wildlife Fund US / USGS. https://www.hydrosheds.org/. Caucasus main-rivers subset, Sustainable Caucasus archive."
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "2008-01-01",
+      "modified_at": "2008-01-01"
+    },
+    "range": {
+      "is_timeless": true,
+      "start_at": "0001-01-01",
+      "end_at": "0001-01-01"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:4326",
+      "url": "http://spatialreference.org/ref/epsg/4326/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "https://www.hydrosheds.org/"
+    },
+    "source": {
+      "urls": [
+        {
+          "is_download_link": false,
+          "url": "https://www.hydrosheds.org/",
+          "label": "HydroSHEDS"
+        }
+      ]
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "HydroSHEDS terms",
+        "text": "HydroSHEDS data use is subject to the HydroSHEDS licence and citation requirements. See https://www.hydrosheds.org/page/license."
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "geonode_name": "armenia_prec",
+  "mapx_id": "MX-4FZRH-PUX6Q-DR30D",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Precipitat",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "armenia_prec.json",
+  "how_to_paste": "1) Set Source attribute = `Precipitat`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "200",
+      "label_en": "200 mm/year",
+      "color": "#8bc5ff",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "300",
+      "label_en": "300 mm/year",
+      "color": "#7ab2eb",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "400",
+      "label_en": "400 mm/year",
+      "color": "#6a9ed6",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "500",
+      "label_en": "500 mm/year",
+      "color": "#598bc1",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "600",
+      "label_en": "600 mm/year",
+      "color": "#4977ad",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "700",
+      "label_en": "700 mm/year",
+      "color": "#386498",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "800",
+      "label_en": "800 mm/year",
+      "color": "#275083",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "900",
+      "label_en": "900 mm/year",
+      "color": "#173d6f",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "1000",
+      "label_en": "1000 mm/year",
+      "color": "#06295a",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Precipitat', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

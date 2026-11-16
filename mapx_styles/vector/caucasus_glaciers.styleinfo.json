@@ -1,0 +1,21 @@
+{
+  "geonode_name": "caucasus_glaciers",
+  "mapx_id": "MX-RP7QR-TXY1S-MTJY5",
+  "kind": "single",
+  "status": "ok",
+  "source_attribute": "",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "caucasus_glaciers.json",
+  "how_to_paste": "Single symbol: paste JSON for color; Source attribute optional (one rule applies to all features)",
+  "rules": [
+    {
+      "value": "Single symbol",
+      "label_en": "Single symbol",
+      "color": "#bae9ff",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "Single-symbol layer; one color for all features."
+}

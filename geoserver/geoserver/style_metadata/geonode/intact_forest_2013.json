@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "intact_forest_2013",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "intact_forest_2013.sld"
+  }
+}

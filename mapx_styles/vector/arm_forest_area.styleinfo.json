@@ -1,0 +1,21 @@
+{
+  "geonode_name": "arm_forest_area",
+  "mapx_id": "MX-APENA-FRKKE-0DSRK",
+  "kind": "single",
+  "status": "ok",
+  "source_attribute": "",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "arm_forest_area.json",
+  "how_to_paste": "Single symbol: paste JSON for color; Source attribute optional (one rule applies to all features)",
+  "rules": [
+    {
+      "value": "Forest areas",
+      "label_en": "Forest areas",
+      "color": "#0a6400",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "Single-symbol layer; one color for all features."
+}

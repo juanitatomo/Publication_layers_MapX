@@ -1,0 +1,15 @@
+{
+  "style": {
+    "name": "nuts3_2000_2020hectares_last",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.1.0"
+    },
+    "filename": "nuts3_2000_2020hectares_last.sld",
+    "dateCreated": "2024-08-29 20:44:14.855 UTC",
+    "dateModified": "2024-08-29 20:44:17.96 UTC"
+  }
+}

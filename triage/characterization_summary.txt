@@ -1,0 +1,63 @@
+Sustainable Caucasus GeoNode -> MapX characterization
+Layers scored: 186
+Vector: 140 | Raster: 46
+
+P1: 36  (vector 24, raster 12)
+P2: 84  (vector 76, raster 8)
+P3: 13  (vector 13, raster 0)
+P4: 53  (vector 27, raster 26)
+
+MapX actions:
+  publish: 120
+  review: 13
+  archive: 50
+  drop_demo: 3
+
+Source files in local archive:
+  found: 182
+  missing_geotiff: 4
+
+
+Missing source files: 4
+  [P2] raster thickness_rgi_12_2021july09  |  missing_geotiff
+  [P2] raster v_rgi_12_2021july01  |  missing_geotiff
+  [P4] raster Forest_height_2019_NAFR_Caucasus_Ecoregion0  |  missing_geotiff
+  [P4] raster elevation_caucasus0  |  missing_geotiff
+
+P1 publish list (36 layers) - validate before MapX ingest:
+  [R] ESA2000_Cauc  |  Caucasus landcover 2000  |  score 87  |  land_cover  |  OK
+  [R] ESA2005_Cauc  |  Caucasus landcover 2005  |  score 87  |  land_cover  |  OK
+  [R] ESA2010_Cauc  |  Caucasus landcover 2010  |  score 87  |  land_cover  |  OK
+  [R] GHS_2015  |  Caucasus population density (2015)  |  score 87  |  population_socio  |  OK
+  [V] IFL_2000_Caucasus  |  Caucasus intact forests 2000  |  score 87  |  forest  |  OK
+  [V] IFL_2013_Caucasus  |  Caucasus intact forests 2013  |  score 87  |  forest  |  OK
+  [V] IFL_difference_2000_2013_Caucasus  |  Caucasus intact forests difference 2000-2013  |  score 87  |  forest  |  OK
+  [V] caucasus_population_density_2020  |  Caucasus population density 2020  |  score 87  |  population_socio  |  OK
+  [R] elevation_caucasus  |  Caucasus SRTM Elevation 900m 2020  |  score 86  |  elevation_mountains  |  OK
+  [R] k1k2k3_matrix  |  Combination of the three moutain coverages (Kapos, Koerner, Sayre)   |  score 86  |  elevation_mountains  |  OK
+  [V] WDPA_Caucasus  |  Caucasus Protected areas (IUCN classification)  |  score 86  |  biodiversity_pa  |  OK
+  [V] hydroshed_main_rivers_Caucasus  |  Caucasus main rivers  |  score 86  |  water_glacier  |  OK
+  [V] total_population_2019_NUTS2  |  Caucasus Total Population 2020 per NUTS2  |  score 82  |  population_socio  |  OK
+  [V] mountains_delimitations_caucasus_clip0  |  Caucasus Mountains Ranges  |  score 81  |  elevation_mountains  |  OK
+  [R] gmba_thermal  |  Subdivision of the world into climatic belts following Koerner et al.   |  score 78  |  elevation_mountains  |  OK
+  [R] k1_kapos  |  Mountain coverages based on Kapos et al., 2000  |  score 78  |  elevation_mountains  |  OK
+  [R] k2_gmba_thermal  |  Mountain coverages based on Koerner et al., 2011  |  score 78  |  elevation_mountains  |  OK
+  [V] caucasus_annual_growth_pop_2020a  |  Caucasus annual growth of population in 2020  |  score 78  |  population_socio  |  OK
+  [V] caucasus_urbanization_level_2020a  |  Caucasus urbanization level 2020  |  score 78  |  population_socio  |  OK
+  [V] protect_areas  |  Caucasus Protected Areas 2021  |  score 78  |  biodiversity_pa  |  OK
+  [V] caucasus_ecoregion_wgs84_new  |  Caucasus ecoregion  |  score 76  |  biodiversity_pa  |  OK
+  [V] mountains_delimitations_caucasus_etiquettes  |  Caucasus Mountain Ranges  |  score 76  |  elevation_mountains  |  OK
+  [V] Priority_Conservation_Areas_WGS84  |  Caucasus Priority Conservation Areas  |  score 73  |  biodiversity_pa  |  OK
+  [V] caucasus_ecoregion_forest_cover  |  Caucasus ecoregion forest cover  |  score 73  |  land_cover  |  OK
+  [V] caucasus_glaciers  |  Caucasus glaciers  |  score 73  |  water_glacier  |  OK
+  [V] UNESCO_WHC_sites_Caucasus_geonode  |  Caucasus cultural heritage of universal value  |  score 71  |  culture_tourism  |  OK
+  [V] railroads  |  Caucasus railroads network 2021  |  score 71  |  infrastructure  |  OK
+  [V] roads_caucasus_select  |  Caucasus Roads Network 2021  |  score 71  |  infrastructure  |  OK
+  [R] Forest_height_2019_NAFR_Caucasus_Ecoregion  |  Global forest height 2019 for Caucasus Ecoregion  |  score 68  |  forest  |  OK
+  [R] ls_risk_cauc  |  Caucasus mortality risk due to landslides  |  score 68  |  hazard  |  OK
+  [V] Caucasus_Ecocorridors_WGS84  |  Caucasus Ecocorridors  |  score 68  |  biodiversity_pa  |  OK
+  [V] caucasus_ecoregion_land_cover  |  Caucasus ecoregion land cover  |  score 68  |  land_cover  |  OK
+  [V] fires_2020  |  Caucasus Fires 2020  |  score 68  |  hazard  |  OK
+  [V] emerald_2020_epsg4326_caucasus  |  emerald_2020_epsg4326_caucasus  |  score 61  |  biodiversity_pa  |  OK
+  [R] k3_elu_lf  |  Mountain coverages based on Sayre et al., 2014  |  score 54  |  elevation_mountains  |  OK
+  [V] leopard_distribution_area_wgs84  |  Leopard distribution area  |  score 54  |  biodiversity_pa  |  OK

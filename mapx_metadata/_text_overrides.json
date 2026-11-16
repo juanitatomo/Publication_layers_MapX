@@ -1,0 +1,997 @@
+{
+  "ESA2000_Cauc": {
+    "title": "Caucasus Land Cover 2000",
+    "abstract": "Land-cover classification for the Caucasus ecoregion for year 2000, derived from the ESA Climate Change Initiative Land Cover product and cropped to the Caucasus ecoregion boundary. Supports land-system change analysis, habitat assessment, and environmental reporting.",
+    "notes": "<ul><li>Source: ESA CCI Land Cover; cropped to the Caucasus ecoregion.</li><li>Raster classes follow the ESA CCI land-cover legend; consult the Product User Guide for class definitions.</li><li>Compare carefully with ESA2005/ESA2010 products when analysing change.</li></ul>",
+    "data_attribution": "European Space Agency (ESA) Climate Change Initiative — Land Cover.",
+    "citation": "ESA CCI Land Cover (2000). Cropped to the Caucasus ecoregion. https://www.esa-landcover-cci.org",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.esa-landcover-cci.org",
+        "label": "ESA CCI Land Cover"
+      }
+    ],
+    "license_text": "Refer to ESA CCI Land Cover terms of use at https://www.esa-landcover-cci.org."
+  },
+  "ESA2005_Cauc": {
+    "title": "Caucasus Land Cover 2005",
+    "abstract": "Land-cover classification for the Caucasus ecoregion for year 2005, derived from the ESA Climate Change Initiative Land Cover product and cropped to the Caucasus ecoregion boundary. Supports land-system change analysis, habitat assessment, and environmental reporting.",
+    "notes": "<ul><li>Source: ESA CCI Land Cover; cropped to the Caucasus ecoregion.</li><li>MapX view ID in the catalog may be flagged wrong_layer — confirm the published WMS layer before pasting metadata.</li></ul>",
+    "data_attribution": "European Space Agency (ESA) Climate Change Initiative — Land Cover.",
+    "citation": "ESA CCI Land Cover (2005). Cropped to the Caucasus ecoregion. https://www.esa-landcover-cci.org",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.esa-landcover-cci.org",
+        "label": "ESA CCI Land Cover"
+      }
+    ],
+    "license_text": "Refer to ESA CCI Land Cover terms of use at https://www.esa-landcover-cci.org."
+  },
+  "ESA2010_Cauc": {
+    "title": "Caucasus Land Cover 2010",
+    "abstract": "Land-cover classification for the Caucasus ecoregion for year 2010, derived from the ESA Climate Change Initiative Land Cover product and cropped to the Caucasus ecoregion boundary. Supports land-system change analysis, habitat assessment, and environmental reporting.",
+    "notes": "<ul><li>Source: ESA CCI Land Cover; cropped to the Caucasus ecoregion.</li><li>MapX view ID in the catalog may be flagged wrong_layer — confirm the published WMS layer before pasting metadata.</li></ul>",
+    "data_attribution": "European Space Agency (ESA) Climate Change Initiative — Land Cover.",
+    "citation": "ESA CCI Land Cover (2010). Cropped to the Caucasus ecoregion. https://www.esa-landcover-cci.org",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.esa-landcover-cci.org",
+        "label": "ESA CCI Land Cover"
+      }
+    ],
+    "license_text": "Refer to ESA CCI Land Cover terms of use at https://www.esa-landcover-cci.org."
+  },
+  "Forest_height_2019_NAFR_Caucasus_Ecoregion": {
+    "title": "Caucasus Ecoregion Forest Canopy Height 2019",
+    "abstract": "Global 30 m forest canopy height for 2019, subsampled to the Caucasus ecoregion. The product integrates GEDI lidar forest-structure measurements with Landsat analysis-ready time series. Pixel values 0–60 represent canopy height in metres; 101 = water; 102 = snow/ice; 103 = no data.",
+    "notes": "<ul><li>Pixel coding: 0–60 m canopy height; 101 water; 102 snow/ice; 103 no data.</li><li>Source: GLAD/UMD GEDI–Landsat canopy height product.</li><li>Use for forest structure, biomass proxies, and habitat connectivity studies.</li></ul>",
+    "data_attribution": "GLAD / University of Maryland — GEDI–Landsat forest canopy height.",
+    "citation": "Potapov et al. Global forest canopy height 2019 (GEDI–Landsat). https://glad.umd.edu/dataset/gedi. Caucasus ecoregion subset.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://glad.umd.edu/dataset/gedi",
+        "label": "GLAD GEDI forest height"
+      }
+    ]
+  },
+  "GHS_2015": {
+    "title": "Caucasus Population Density (2015)",
+    "abstract": "Population density for the Caucasus ecoregion in 2015 from the Global Human Settlement Layer (GHSL) population grid. Pixel values represent the number of people per 250 m cell. Supports demographic analysis, exposure assessment, and urban–rural planning at regional scale.",
+    "notes": "<ul><li>Unit: people per 250 m grid cell.</li><li>Source: JRC GHSL population grid; cropped to the Caucasus ecoregion.</li><li>Do not interpret as cadastral population counts; values are modelled grid estimates.</li></ul>",
+    "data_attribution": "European Commission, Joint Research Centre — Global Human Settlement Layer (GHSL).",
+    "citation": "European Commission, JRC. GHSL population grid (2015). http://ghsl.jrc.ec.europa.eu/ghs_pop.php. Cropped to the Caucasus ecoregion.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://ghsl.jrc.ec.europa.eu/ghs_pop.php",
+        "label": "GHSL population grid"
+      }
+    ],
+    "license_text": "Refer to JRC GHSL licensing and citation guidance for the population grid product."
+  },
+  "IFL_2000_Caucasus": {
+    "title": "Caucasus Intact Forests 2000",
+    "abstract": "Extent of Intact Forest Landscapes (IFLs) in the Caucasus region in 2000. IFLs are large, continuous areas of natural ecosystems without significant human disturbance or fragmentation. The 2000 baseline supports comparison with later IFL assessments to track forest integrity, habitat connectivity, and conservation status across the Caucasus ecoregion.",
+    "notes": "<ul><li>Baseline Intact Forest Landscapes for year 2000.</li><li>Clipped to the Caucasus ecoregion extent from the global IFL product.</li><li>Compare with the 2013 IFL layer and the 2000–2013 difference layer.</li></ul>",
+    "data_attribution": "Intact Forest Landscapes Project, Transparent World, and Global Forest Watch.",
+    "citation": "Potapov, P. et al. Intact Forest Landscapes of the World (2000 baseline). Intact Forest Landscapes Project. https://www.intactforests.org.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.intactforests.org",
+        "label": "Intact Forest Landscapes Project"
+      }
+    ],
+    "license_text": "Please refer to the original data provider's terms of use and licensing conditions available at https://www.intactforests.org."
+  },
+  "IFL_2013_Caucasus": {
+    "title": "Caucasus Intact Forests 2013",
+    "abstract": "Extent of Intact Forest Landscapes (IFLs) in the Caucasus region in 2013. Intact Forest Landscapes are large, continuous areas of natural ecosystems that show no significant signs of human activity or habitat fragmentation. The dataset provides an updated assessment of forest integrity across the Caucasus and serves as a reference for evaluating changes in forest condition, biodiversity conservation, and ecosystem connectivity over time.",
+    "notes": "<ul><li>Intact Forest Landscapes (IFLs) are unfragmented natural ecosystems large enough to maintain native biodiversity and ecological processes.</li><li>The layer represents forest conditions in 2013.</li><li>IFL boundaries were derived from satellite imagery and ancillary environmental datasets.</li><li>The dataset supports assessments of forest integrity, habitat connectivity, and conservation planning.</li><li>This layer can be compared with the 2000 IFL dataset to identify areas of forest loss, fragmentation, or persistence.</li></ul>",
+    "data_attribution": "Intact Forest Landscapes Project, Transparent World, and Global Forest Watch.",
+    "citation": "Potapov, P., Yaroshenko, A., Turubanova, S., Hansen, M.C., et al. Intact Forest Landscapes of the World (2013 baseline). Intact Forest Landscapes Project. Available through https://www.intactforests.org.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.intactforests.org",
+        "label": "Intact Forest Landscapes Project"
+      },
+      {
+        "is_download_link": true,
+        "url": "https://storage.googleapis.com/ifl-files/IFL_2013.zip",
+        "label": "Global Intact Forest Landscapes 2013 Dataset"
+      }
+    ],
+    "license_text": "Please refer to the original data provider's terms of use and licensing conditions available at https://www.intactforests.org."
+  },
+  "IFL_difference_2000_2013_Caucasus": {
+    "title": "Caucasus Intact Forests Difference 2000–2013",
+    "abstract": "Symmetrical difference between Intact Forest Landscapes in the Caucasus for 2000 and 2013. Highlights areas of IFL loss, gain, or change between the two baselines and supports analysis of forest fragmentation and integrity trends in the ecoregion.",
+    "notes": "<ul><li>Derived by geoprocessing a symmetrical difference between IFL 2000 and IFL 2013.</li><li>Use together with the 2000 and 2013 IFL layers for change assessment.</li></ul>",
+    "data_attribution": "Intact Forest Landscapes Project; difference computed in the Sustainable Caucasus archive.",
+    "citation": "Derived from Intact Forest Landscapes 2000 and 2013 baselines (https://www.intactforests.org) via symmetrical difference for the Caucasus ecoregion.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.intactforests.org",
+        "label": "Intact Forest Landscapes Project"
+      }
+    ]
+  },
+  "UNESCO_WHC_sites_Caucasus_geonode": {
+    "title": "Caucasus UNESCO Cultural Heritage Sites",
+    "abstract": "Dataset showing the location of the UNESCO sites in Caucasus. The data has been downloaded from http://whc.unesco.org/fr/syndication/ as .xls file and converted to a shapefile for the countries of Caucasus.",
+    "notes": "<ul><li>Theme/title: Caucasus UNESCO Cultural Heritage Sites.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus UNESCO Cultural Heritage Sites. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://whc.unesco.org/fr/syndication/",
+        "label": "whc.unesco.org"
+      }
+    ],
+    "data_attribution": "UNESCO World Heritage Centre."
+  },
+  "caucasus_annual_growth_pop_2020a": {
+    "title": "Average annual growth of Caucasus population 2020",
+    "abstract": "Map representing the average annual growth of population in Caucasus in 2020 per NUTS3. The unit used to represent the annual growth is the percentages. The data comes from the national offices of statistics of each country in Caucasus : Armenia, Azerbaijan, Georgia, Iran, Russia and Turkey. Data sources : Statistical Committee of the Republic of Armenia, Statistical Committee of the Republic of Azerbaijan, National Statistics Office of Georgia, Statistical Centre of Iran, Federal State Statistics Service of Russia and Turkish Statistical Institute. To download the data please click on the following links : https://www.armstat.am/en/ https://www.stat.gov.az/ https://www.amar.org.ir/english https://data.tuik.gov.tr/ https://www.geostat.ge/en https://eng.rosstat.gov.ru/.",
+    "notes": "<ul><li>Theme/title: Average annual growth of Caucasus population 2020.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Average annual growth of Caucasus population 2020 (2020). Sustainable Caucasus GeoNode archive. Source: https://www.armstat.am/en/.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.armstat.am/en/",
+        "label": "armstat.am"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://www.stat.gov.az/",
+        "label": "stat.gov.az"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://www.amar.org.ir/english",
+        "label": "amar.org.ir"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://data.tuik.gov.tr/",
+        "label": "data.tuik.gov.tr"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://www.geostat.ge/en",
+        "label": "geostat.ge"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://eng.rosstat.gov.ru/",
+        "label": "eng.rosstat.gov.ru"
+      }
+    ],
+    "data_attribution": "National statistical offices of Armenia, Azerbaijan, Georgia, Iran, Russia and Turkey; Sustainable Caucasus compilation."
+  },
+  "caucasus_glaciers": {
+    "title": "Caucasus Glaciers (RGI 6.0)",
+    "abstract": "Glacier outlines for the Caucasus region from the Randolph Glacier Inventory (RGI) version 6.0. Outlines were produced by digitising ASTER imagery and provide a regional inventory of glacier extent for cryosphere monitoring, hydrological assessment, climate-impact studies, and conservation planning.",
+    "notes": "<ul><li>Source product: Randolph Glacier Inventory (RGI) 6.0; outlines digitised from ASTER imagery.</li><li>Attribute schema follows RGI conventions (RGIId, GLIMSId, Area in km², elevation statistics, etc.).</li><li>Survey dates (BgnDate–EndDate) can vary by glacier; interpret temporal coverage carefully.</li><li>Caucasus subset compiled in the Sustainable Caucasus archive; not a substitute for the latest national glacier inventories.</li><li>Compare with GLIMS glacier polygons where multi-source validation is required.</li></ul>",
+    "data_attribution": "RGI Consortium (2017). Randolph Glacier Inventory — A Dataset of Global Glacier Outlines, Version 6. NSIDC / GLIMS.",
+    "citation": "RGI Consortium (2017). Randolph Glacier Inventory 6.0. https://www.glims.org/RGI/. Caucasus subset, Sustainable Caucasus GeoNode archive.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.glims.org/RGI/",
+        "label": "Randolph Glacier Inventory (GLIMS/RGI)"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://nsidc.org/data/nsidc-0770",
+        "label": "NSIDC RGI documentation"
+      }
+    ],
+    "license_text": "Use and citation of RGI data should follow GLIMS/RGI guidance at https://www.glims.org/RGI/ and the associated NSIDC dataset documentation.",
+    "years": [
+      "2017"
+    ],
+    "temporal": {
+      "issuance": {
+        "periodicity": "notPlanned",
+        "released_at": "2017-01-01",
+        "modified_at": "2017-01-01"
+      },
+      "range": {
+        "is_timeless": false,
+        "start_at": "2000-01-01",
+        "end_at": "2017-12-31"
+      }
+    }
+  },
+  "caucasus_population_density_2020": {
+    "title": "Caucasus Population Density 2020",
+    "abstract": "Population density of the Caucasus for 2020 by NUTS3 units, expressed as people per km2. Values are compiled from national statistical offices of Armenia, Azerbaijan, Georgia, Iran, Russia and Turkey. Supports demographic analysis, exposure assessment and regional planning.",
+    "notes": "<ul><li>Unit: people per km2 at NUTS3 level.</li><li>Source offices: Armstat, Stat.gov.az, GeoStat, Amar, Rosstat, TurkStat.</li><li>Style classification in MapX uses numeric field pop_densit (range classes); see style paste guide.</li><li>Bounding box is approximate Caucasus extent; use MapX Update values from source for precision.</li></ul>",
+    "data_attribution": "National statistical offices of Armenia, Azerbaijan, Georgia, Iran, Russia and Turkey; Sustainable Caucasus compilation.",
+    "citation": "Caucasus population density 2020 (NUTS3). Sustainable Caucasus GeoNode archive. Compiled from national statistical offices (Armstat, Stat.az, GeoStat, Amar, Rosstat, TurkStat).",
+    "license_name": "Provider terms",
+    "license_text": "Refer to each national statistical office terms of use. Links listed under origin sources.",
+    "years": [
+      "2020"
+    ]
+  },
+  "caucasus_urbanization_level_2020a": {
+    "title": "Caucasus urbanization level 2020",
+    "abstract": "Map representing the urbanization level of Caucasus in 2020 per NUTS3. The unit used to represent the urbanization level is the percentages. The data comes from the national offices of statistics of each country in Caucasus : Armenia, Azerbaijan, Georgia, Iran, Russia and Turkey. Data sources : Statistical Committee of the Republic of Armenia, Statistical Committee of the Republic of Azerbaijan, National Statistics Office of Georgia, Statistical Centre of Iran, Federal State Statistics Service of Russia and Turkish Statistical Institute. To download the data please click on the following links : https://www.armstat.am/en/ https://www.stat.gov.az/ https://www.amar.org.ir/english https://data.tuik.gov.tr/ https://www.geostat.ge/en https://eng.rosstat.gov.ru/.",
+    "notes": "<ul><li>Theme/title: Caucasus urbanization level 2020.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus urbanization level 2020 (2020). Sustainable Caucasus GeoNode archive. Source: https://www.armstat.am/en/.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.armstat.am/en/",
+        "label": "armstat.am"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://www.stat.gov.az/",
+        "label": "stat.gov.az"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://www.amar.org.ir/english",
+        "label": "amar.org.ir"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://data.tuik.gov.tr/",
+        "label": "data.tuik.gov.tr"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://www.geostat.ge/en",
+        "label": "geostat.ge"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://eng.rosstat.gov.ru/",
+        "label": "eng.rosstat.gov.ru"
+      }
+    ],
+    "data_attribution": "National statistical offices of Armenia, Azerbaijan, Georgia, Iran, Russia and Turkey; Sustainable Caucasus compilation."
+  },
+  "hydroshed_main_rivers_Caucasus": {
+    "title": "Caucasus Main Rivers (HydroSHEDS)",
+    "abstract": "Main river network of the Caucasus ecoregion derived from the HydroSHEDS global hydrographic database. Source river lines were cropped to the Caucasus ecoregion boundary and filtered to retain principal channels. Supports hydrological mapping, basin analysis, freshwater connectivity assessment, and regional environmental planning.",
+    "notes": "<ul><li>Source: HydroSHEDS river network; Caucasus ecoregion subset with main rivers filtered.</li><li>UP_CELLS indicates upstream contributing cells (flow accumulation proxy).</li><li>HydroSHEDS is derived primarily from SRTM elevation; local channel position may differ from surveyed hydrography.</li><li>Bounding box is approximate Caucasus extent; use MapX Update values from source for precision.</li><li>Homepage: https://www.hydrosheds.org/</li></ul>",
+    "data_attribution": "HydroSHEDS (WWF / USGS and partners).",
+    "citation": "Lehner, B., Verdin, K., Jarvis, A. (2008). HydroSHEDS. World Wildlife Fund US / USGS. https://www.hydrosheds.org/. Caucasus main-rivers subset, Sustainable Caucasus archive.",
+    "years": ["2008"],
+    "temporal": {
+      "issuance": {
+        "periodicity": "notPlanned",
+        "released_at": "2008-01-01",
+        "modified_at": "2008-01-01"
+      },
+      "range": {
+        "is_timeless": true,
+        "start_at": "0001-01-01",
+        "end_at": "0001-01-01"
+      }
+    },
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.hydrosheds.org/",
+        "label": "HydroSHEDS"
+      }
+    ],
+    "license_name": "HydroSHEDS terms",
+    "license_text": "HydroSHEDS data use is subject to the HydroSHEDS licence and citation requirements. See https://www.hydrosheds.org/page/license.",
+    "keywords": {
+      "keys": [
+        "hydroshed_main_rivers_Caucasus",
+        "HydroSHEDS",
+        "rivers",
+        "river network",
+        "hydrology",
+        "freshwater",
+        "drainage",
+        "caucasus"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "2924",
+        "7235",
+        "4612"
+      ],
+      "keys_topic": [
+        "inlandWaters"
+      ]
+    }
+  },
+  "mountains_delimitations_caucasus_clip0": {
+    "title": "Caucasus Mountain Ranges",
+    "abstract": "Dataset representing the mountains in Caucasus. Each polygon of the shapefile is a different mountain. The data comes from the University of Bern and was published in 2018, https://ilias.unibe.ch/ilias.php?ref_id=1047348&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=11n&baseClass=ilRepositoryGUI.",
+    "notes": "<ul><li>Theme/title: Caucasus Mountain Ranges.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus Mountain Ranges (2018). Sustainable Caucasus GeoNode archive. Source: https://ilias.unibe.ch/ilias.php?ref_id=1047348&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=11n&baseClass=ilRepositoryGUI.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://ilias.unibe.ch/ilias.php?ref_id=1047348&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=11n&baseClass=ilRepositoryGUI",
+        "label": "ilias.unibe.ch"
+      }
+    ]
+  },
+  "mountains_delimitations_caucasus_etiquettes": {
+    "title": "Caucasus Mountain Ranges GMBA v2 0",
+    "abstract": "Dataset representing the mountains in Caucasus. Each polygon of the shapefile is a different mountain. The data comes from the University of Bern and was published in 2018, https://ilias.unibe.ch/ilias.php?ref_id=1047348&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=11n&baseClass=ilRepositoryGUI.",
+    "notes": "<ul><li>Theme/title: Caucasus Mountain Ranges GMBA v2 0.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus Mountain Ranges GMBA v2 0 (2018). Sustainable Caucasus GeoNode archive. Source: https://ilias.unibe.ch/ilias.php?ref_id=1047348&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=11n&baseClass=ilRepositoryGUI.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://ilias.unibe.ch/ilias.php?ref_id=1047348&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=11n&baseClass=ilRepositoryGUI",
+        "label": "ilias.unibe.ch"
+      }
+    ]
+  },
+  "protect_areas": {
+    "title": "Caucasus Protected Areas 2021",
+    "abstract": "Protected areas in the Caucasus based on October 2021 Protected Planet / WDPA data. Features are classified by IUCN management categories and support biodiversity conservation planning, gap analysis, and environmental reporting across the ecoregion.",
+    "notes": "<ul><li>Source: Protected Planet / WDPA (October 2021).</li><li>Style classification attribute in MapX: IUCN_CAT.</li><li>Boundaries and statuses can change; verify against Protected Planet for formal reporting.</li></ul>",
+    "data_attribution": "UNEP-WCMC and IUCN — World Database on Protected Areas / Protected Planet.",
+    "citation": "UNEP-WCMC and IUCN (2021). Protected Planet / WDPA. https://www.protectedplanet.net/en. Caucasus subset, October 2021.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.protectedplanet.net/en",
+        "label": "Protected Planet"
+      }
+    ],
+    "license_text": "Refer to Protected Planet / WDPA terms of use at https://www.protectedplanet.net/en."
+  },
+  "total_population_2019_NUTS2": {
+    "title": "Caucasus total population 2020",
+    "abstract": "Map representing the total population of Caucasus in 2020 per NUTS2. The data comes from the national offices of statistics of each country in Caucasus : Armenia, Azerbaijan, Georgia, Iran, Russia and Turkey. Data sources : Statistical Committee of the Republic of Armenia, Statistical Committee of the Republic of Azerbaijan, National Statistics Office of Georgia, Statistical Centre of Iran, Federal State Statistics Service of Russia and Turkish Statistical Institute. To download the data please click on the following links : https://www.armstat.am/en/ https://www.stat.gov.az/ https://www.amar.org.ir/english https://data.tuik.gov.tr/ https://www.geostat.ge/en https://eng.rosstat.gov.ru/.",
+    "notes": "<ul><li>Theme/title: Caucasus total population 2020.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus total population 2020 (2020). Sustainable Caucasus GeoNode archive. Source: https://www.armstat.am/en/.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.armstat.am/en/",
+        "label": "armstat.am"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://www.stat.gov.az/",
+        "label": "stat.gov.az"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://www.amar.org.ir/english",
+        "label": "amar.org.ir"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://data.tuik.gov.tr/",
+        "label": "data.tuik.gov.tr"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://www.geostat.ge/en",
+        "label": "geostat.ge"
+      },
+      {
+        "is_download_link": false,
+        "url": "https://eng.rosstat.gov.ru/",
+        "label": "eng.rosstat.gov.ru"
+      }
+    ],
+    "data_attribution": "National statistical offices of Armenia, Azerbaijan, Georgia, Iran, Russia and Turkey; Sustainable Caucasus compilation."
+  },
+  "elevation_caucasus": {
+    "title": "Caucasus SRTM Elevation 900m 2020",
+    "abstract": "Dataset representing the SRTM elevation of Caucasus with a 900m precision. The data comes from WorldClim, https://www.worldclim.org/data/worldclim21.html.",
+    "notes": "<ul><li>Theme/title: Caucasus SRTM Elevation 900m 2020.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Raster values encode the thematic variable described in the abstract; check units before analysis.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus SRTM Elevation 900m 2020 (2020). Sustainable Caucasus GeoNode archive. Source: https://www.worldclim.org/data/worldclim21.html.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://www.worldclim.org/data/worldclim21.html",
+        "label": "worldclim.org"
+      }
+    ],
+    "data_attribution": "WorldClim."
+  },
+  "gmba_thermal": {
+    "title": "Subdivision of the world into climatic belts following Koerner et al. (2011)",
+    "abstract": "Subdivision of the world into climatic belts following Koerner et al. (2011). Data obtained from the Ilias universität Bern (https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html).",
+    "notes": "<ul><li>Theme/title: Subdivision of the world into climatic belts following Koerner et al. (2011).</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Raster values encode the thematic variable described in the abstract; check units before analysis.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Subdivision of the world into climatic belts following Koerner et al. (2011) (2011). Sustainable Caucasus GeoNode archive. Source: https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html",
+        "label": "ilias.unibe.ch"
+      }
+    ]
+  },
+  "k1_kapos": {
+    "title": "Mountain coverages based on Kapos et al., 2000",
+    "abstract": "Mountain coverages based on the mountain definition by Kapos et al., 2000 . Data obtained from the Ilias universität Bern (https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html).",
+    "notes": "<ul><li>Theme/title: Mountain coverages based on Kapos et al., 2000.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Raster values encode the thematic variable described in the abstract; check units before analysis.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Mountain coverages based on Kapos et al., 2000 (2000). Sustainable Caucasus GeoNode archive. Source: https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html",
+        "label": "ilias.unibe.ch"
+      }
+    ]
+  },
+  "k1k2k3_matrix": {
+    "title": "Combination of the three moutain coverages (Kapos, Koerner, Sayre)",
+    "abstract": "Matrix combining the three mountain coverages for comparative purposes and showing areas of agreement and disagreement between the three approaches. Data obtained from the Ilias universität Bern (https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html).",
+    "notes": "<ul><li>Theme/title: Combination of the three moutain coverages (Kapos, Koerner, Sayre).</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Raster values encode the thematic variable described in the abstract; check units before analysis.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Combination of the three moutain coverages (Kapos, Koerner, Sayre). Sustainable Caucasus GeoNode / MapX publication archive.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html",
+        "label": "ilias.unibe.ch"
+      }
+    ]
+  },
+  "k2_gmba_thermal": {
+    "title": "Mountain coverages based on Koerner et al., 2011",
+    "abstract": "Mountain coverages based on the mountain and climatic belt definition by Koerner et al., 2011. Data obtained from the Ilias universität Bern (https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html).",
+    "notes": "<ul><li>Theme/title: Mountain coverages based on Koerner et al., 2011.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Raster values encode the thematic variable described in the abstract; check units before analysis.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Mountain coverages based on Koerner et al., 2011 (2011). Sustainable Caucasus GeoNode archive. Source: https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html",
+        "label": "ilias.unibe.ch"
+      }
+    ]
+  },
+  "k3_elu_lf": {
+    "title": "Mountain coverages based on Sayre et al., 2014",
+    "abstract": "Mountain coverages based on the the work by Sayre et al., 2014 (ELU = Ecological Land Units; LF = (physical) Land (surface) Features). Data obtained from the Ilias universität Bern (https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html).",
+    "notes": "<ul><li>Theme/title: Mountain coverages based on Sayre et al., 2014.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Raster values encode the thematic variable described in the abstract; check units before analysis.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Mountain coverages based on Sayre et al., 2014 (2014). Sustainable Caucasus GeoNode archive. Source: https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html",
+        "label": "ilias.unibe.ch"
+      }
+    ]
+  },
+  "ls_risk_cauc": {
+    "title": "Caucasus mortality risk due to landslides",
+    "abstract": "Dataset showing the mortality risks in Caucasus due to landslides . It was originally downloaded from the PREVIEW platform (http://preview.unepgrid.ch) . The layer has then been cropped at the Caucasus ecoregion boundary extent.",
+    "notes": "<ul><li>Theme/title: Caucasus mortality risk due to landslides.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Spatial coverage limited to the Caucasus ecoregion / study area where noted in source metadata.</li><li>Raster values encode the thematic variable described in the abstract; check units before analysis.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus mortality risk due to landslides. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://preview.unepgrid.ch",
+        "label": "preview.unepgrid.ch"
+      }
+    ],
+    "data_attribution": "UNEP/GRID-Geneva PREVIEW."
+  },
+  "Caucasus_Ecocorridors_WGS84": {
+    "title": "Caucasus Ecocorridors",
+    "abstract": "Dataset showing the ecocorridors in Caucasus based on WWF. It has been provided by WWF and cropped to the Caucasus ecoregion extent.",
+    "notes": "<ul><li>Theme/title: Caucasus Ecocorridors.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Spatial coverage limited to the Caucasus ecoregion / study area where noted in source metadata.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus Ecocorridors. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "data_attribution": "Data provided by WWF (non-commercial use; credit required)."
+  },
+  "Priority_Conservation_Areas_WGS84": {
+    "title": "Caucasus Priority Conservation Areas",
+    "abstract": "Dataset showing the priority conservation areas in Caucasus based on WWF. It has been provided by WWF and cropped to the Caucasus ecoregion extent.",
+    "notes": "<ul><li>Theme/title: Caucasus Priority Conservation Areas.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Spatial coverage limited to the Caucasus ecoregion / study area where noted in source metadata.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus Priority Conservation Areas. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "data_attribution": "Data provided by WWF (non-commercial use; credit required)."
+  },
+  "WDPA_Caucasus": {
+    "title": "Caucasus Protected Areas (IUCN classification)",
+    "abstract": "Caucasus subset of the World Database on Protected Areas (WDPA, June 2017 version), cropped to the Caucasus ecoregion extent. Features include IUCN protected-area classifications for regional conservation analysis.",
+    "data_attribution": "UNEP-WCMC and IUCN — World Database on Protected Areas / Protected Planet.",
+    "citation": "UNEP-WCMC and IUCN (June 2017). World Database on Protected Areas. https://www.protectedplanet.net/c/world-database-on-protected-areas. Cropped to the Caucasus ecoregion."
+  },
+  "caucasus_ecoregion_forest_cover": {
+    "title": "Caucasus ecoregion forest cover",
+    "abstract": "Caucasus Ecoregion Forest Cover derived from BaseVue 2013 (raster layer downloaded, merged, clipped to WWF Caucasus Ecoregion and converted into vector format, forest cover extracted). BaseVue 2013 (accessible from ESRI Living Atlas at http://goto.arcgisonline.com/landscape6/World_Land_Cover_30m_BaseVue_2013) is a global, land use / land cover (LULC) product developed by MDA (US), derived from roughly 9,200 Landsat 8 images, 30m spatial resolution. The capture dates for the Landsat 8 imagery range from April 11, 2013 to June 29, 2014. The following 16 classes of land use / land cover are listed by their cell value in this layer: (1) deciduous forest, (2) evergreen forest, (3) shrub/scrub, (4) grassland, (5) barren or minimal vegetation, (6) not used, (7) agriculture (general), (8) agriculture (paddy), (9) wetland, (10) mangrove, (11) water: (12) ice/snow, (13) clouds, (14) woody wetlands (only continental US), (15) mixed forest (only continental US), (16) not used, (17) not used, (18) not used, (19) not used, (20) high density urban, (21) medium-low density urban.",
+    "notes": "<ul><li>Theme/title: Caucasus ecoregion forest cover.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Spatial coverage limited to the Caucasus ecoregion / study area where noted in source metadata.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus ecoregion forest cover (2013). Sustainable Caucasus GeoNode archive. Source: http://goto.arcgisonline.com/landscape6/World_Land_Cover_30m_BaseVue_2013.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://goto.arcgisonline.com/landscape6/World_Land_Cover_30m_BaseVue_2013",
+        "label": "goto.arcgisonline.com"
+      }
+    ],
+    "data_attribution": "Data provided by WWF (non-commercial use; credit required)."
+  },
+  "caucasus_ecoregion_land_cover": {
+    "title": "Caucasus ecoregion land cover",
+    "abstract": "Caucasus Ecoregion Land Cover derived from BaseVue 2013 (raster layer downloaded, merged, clipped to WWF Caucasus Ecoregion and converted into vector format). BaseVue 2013 (accessible from ESRI Living Atlas at http://goto.arcgisonline.com/landscape6/World_Land_Cover_30m_BaseVue_2013) is a global, land use / land cover (LULC) product developed by MDA (US), derived from roughly 9,200 Landsat 8 images, 30m spatial resolution. The capture dates for the Landsat 8 imagery range from April 11, 2013 to June 29, 2014. The following 16 classes of land use / land cover are listed by their cell value in this layer: (1) deciduous forest, (2) evergreen forest, (3) shrub/scrub, (4) grassland, (5) barren or minimal vegetation, (6) not used, (7) agriculture (general), (8) agriculture (paddy), (9) wetland, (10) mangrove, (11) water: (12) ice/snow, (13) clouds, (14) woody wetlands (only continental US), (15) mixed forest (only continental US), (16) not used, (17) not used, (18) not used, (19) not used, (20) high density urban, (21) medium-low density urban.",
+    "notes": "<ul><li>Theme/title: Caucasus ecoregion land cover.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Spatial coverage limited to the Caucasus ecoregion / study area where noted in source metadata.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus ecoregion land cover (2013). Sustainable Caucasus GeoNode archive. Source: http://goto.arcgisonline.com/landscape6/World_Land_Cover_30m_BaseVue_2013.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://goto.arcgisonline.com/landscape6/World_Land_Cover_30m_BaseVue_2013",
+        "label": "goto.arcgisonline.com"
+      }
+    ],
+    "data_attribution": "Data provided by WWF (non-commercial use; credit required)."
+  },
+  "caucasus_ecoregion_wgs84_new": {
+    "title": "Caucasus ecoregion",
+    "abstract": "Data provided by WWF. Dataset representing the Caucasus Ecoregion Caucasus . It has been produced by WWF Caucasus and WWF Germany offices, and is available from http://panda.maps.arcgis.com/home/item.html?id=5980f8f3e3744711865567948e87ba77. Terrestrial ECOS WWF Over the past eight years WWF's Conservation Science Program (CSP) has developed a biogeographic regionalization of the Earth's terrestrial biodiversity. WWF term their biogeographic units ecoregions, which they define as a relatively large units of land or water containing a distinct assemblage of natural communities sharing a large majority of species, dynamics, and environmental conditions. Ecoregions represent the original distribution of distinct assemblages of species and communities. There are multiple uses for the terrestrial ecoregion map in WWF efforts to conserve biodiversity around the world. This data is only for non-commercial use and must be credited with the following \"Data provided by WWF\". Information may not be reproduced or downloaded without permission from WWF.",
+    "notes": "<ul><li>Theme/title: Caucasus ecoregion.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus ecoregion. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://panda.maps.arcgis.com/home/item.html?id=5980f8f3e3744711865567948e87ba77",
+        "label": "panda.maps.arcgis.com"
+      }
+    ],
+    "data_attribution": "Data provided by WWF (non-commercial use; credit required)."
+  },
+  "emerald_2020_epsg4326_caucasus": {
+    "title": "Caucasus Emerald Network Sites 2020",
+    "abstract": "Emerald Network sites in the Caucasus region (EPSG:4326), compiled for the Sustainable Caucasus archive. The Emerald Network is an ecological network of Areas of Special Conservation Interest under the Bern Convention.",
+    "notes": "<ul><li>No GeoNode abstract was available; description inferred from layer name and theme.</li><li>Coordinate reference system: EPSG:4326.</li><li>Verify site status and boundaries against the official Emerald Network / Bern Convention sources before formal reporting.</li></ul>",
+    "data_attribution": "Emerald Network / Bern Convention data as compiled in the Sustainable Caucasus GeoNode archive.",
+    "citation": "Emerald Network sites for the Caucasus (2020), Sustainable Caucasus GeoNode archive (EPSG:4326)."
+  },
+  "fires_2020": {
+    "title": "Caucasus Fires 2020",
+    "abstract": "Dataset representing the number of fires per NUTS3 in Caucasus during the year 2020. The data comes from the NASA FIRMS database, https://firms.modaps.eosdis.nasa.gov/country/.",
+    "notes": "<ul><li>Theme/title: Caucasus Fires 2020.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus Fires 2020 (2020). Sustainable Caucasus GeoNode archive. Source: https://firms.modaps.eosdis.nasa.gov/country/.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://firms.modaps.eosdis.nasa.gov/country/",
+        "label": "firms.modaps.eosdis.nasa.gov"
+      }
+    ],
+    "data_attribution": "NASA FIRMS."
+  },
+  "leopard_distribution_area_wgs84": {
+    "title": "Leopard distribution area",
+    "abstract": "Data provided by WWF. Dataset representing the Caucasian leopard actual distribution area. The Caucasian leopard is the rarest species in this ecoregion. It has been produced by WWF Caucasus and WWF Germany offices, and is available from http://panda.maps.arcgis.com/home/item.html?id=5980f8f3e3744711865567948e87ba77. This data is only for non-commercial use and must be credited with the following \"Data provided by WWF\". Information may not be reproduced or downloaded without permission from WWF.",
+    "notes": "<ul><li>Theme/title: Leopard distribution area.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Leopard distribution area. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://panda.maps.arcgis.com/home/item.html?id=5980f8f3e3744711865567948e87ba77",
+        "label": "panda.maps.arcgis.com"
+      }
+    ],
+    "data_attribution": "Data provided by WWF (non-commercial use; credit required)."
+  },
+  "railroads": {
+    "title": "Caucasus railroads network 2021",
+    "abstract": "Dataset representing the railroads network of Caucasus. The data comes from OpenStreetMap, https://download.geofabrik.de/asia/armenia.html.",
+    "notes": "<ul><li>Theme/title: Caucasus railroads network 2021.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>OpenStreetMap completeness varies by region and date of extract.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus railroads network 2021 (2021). Sustainable Caucasus GeoNode archive. Source: https://download.geofabrik.de/asia/armenia.html.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://download.geofabrik.de/asia/armenia.html",
+        "label": "download.geofabrik.de"
+      }
+    ],
+    "data_attribution": "© OpenStreetMap contributors.",
+    "license_text": "OpenStreetMap data are available under the Open Database License (ODbL). https://www.openstreetmap.org/copyright"
+  },
+  "roads_caucasus_select": {
+    "title": "Caucasus Roads Network 2021",
+    "abstract": "Dataset representing the roads network of Caucasus. The data comes from OpenStreetMap, https://download.geofabrik.de/asia/armenia.html.",
+    "notes": "<ul><li>Theme/title: Caucasus Roads Network 2021.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>OpenStreetMap completeness varies by region and date of extract.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus Roads Network 2021 (2021). Sustainable Caucasus GeoNode archive. Source: https://download.geofabrik.de/asia/armenia.html.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://download.geofabrik.de/asia/armenia.html",
+        "label": "download.geofabrik.de"
+      }
+    ],
+    "data_attribution": "© OpenStreetMap contributors.",
+    "license_text": "OpenStreetMap data are available under the Open Database License (ODbL). https://www.openstreetmap.org/copyright"
+  },
+  "seismic_hazard_475": {
+    "title": "Armenia Probabilistic Seismic Hazard Assessment",
+    "abstract": "Seismic hazard assessment of the area of the Republic of Armenia (RA) at the scale of 1:500,000 was prepared by the Consortium of AIR Worldwide Corporation (USA), GEM Foundation (Italy) and GEORISK Scientific Research CJSC (Armenia) under the Project # 7179350 “Probabilistic Seismic Hazard Assessment for the Republic of Armenia” supported by the World Bank.",
+    "notes": "<ul><li>Theme/title: Armenia Probabilistic Seismic Hazard Assessment.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Raster values encode the thematic variable described in the abstract; check units before analysis.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Probabilistic Seismic Hazard Assessment. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "data_attribution": "AIR Worldwide, GEM Foundation, and GEORISK (World Bank PSHA project for Armenia), where applicable."
+  },
+  "Hydrogeology": {
+    "title": "Armenia Hydrogeology",
+    "abstract": "Dataset showing main aquifer systems in Armenia. It has been digitized from Hydrogeological map originally downloaded from Water Resources Management Agency of the Ministry of Nature Protection of the Republic of Armenia (http://www.wrma.am/6.php).",
+    "notes": "<ul><li>Theme/title: Armenia Hydrogeology.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Hydrogeology. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://www.wrma.am/6.php",
+        "label": "wrma.am"
+      }
+    ]
+  },
+  "arm_catchmets": {
+    "title": "Armenia River Catchment Areas ERICA",
+    "abstract": "Topologically correct system of nested catchment areas of Armenian rivers, coded using ERICA (European Rivers and Catchment)coding system, which was designed for European Environment Agency. It contains all catchment areas of Armenian rivers 5 km long or longer.",
+    "notes": "<ul><li>Theme/title: Armenia River Catchment Areas ERICA.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia River Catchment Areas ERICA. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "arm_forest_area": {
+    "title": "Armenia Forest Areas",
+    "abstract": "Spatial dataset showing distribution of forested territories in Armenia. The dataset is published in the Sustainable Caucasus GeoNode archive for regional mapping and decision support.",
+    "notes": "<ul><li>Theme/title: Armenia Forest Areas.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Forest Areas. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "arm_landuse": {
+    "title": "Armenia Land Use",
+    "abstract": "Prepared in the frame of EU funded \"Program of Prevention, Preparedness and Response to natural and man-made Disasters in the ENPI East Region (PPRDEast)\".",
+    "notes": "<ul><li>Theme/title: Armenia Land Use.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Land Use. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "arm_rivers_erica": {
+    "title": "Armenia River Network System ERICA",
+    "abstract": "Fully connected and topologically correct system of Armenian rivers, coded using ERICA (European Rivers and Catchment)coding system, which was designed for European Environment Agency. It contains all rivers of Armenia 5 km long or longer.",
+    "notes": "<ul><li>Theme/title: Armenia River Network System ERICA.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia River Network System ERICA. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "armenia_landslide": {
+    "title": "Armenia Landslides",
+    "abstract": "Map showing location and shape of landslides on the territory of Armenia. The dataset is published in the Sustainable Caucasus GeoNode archive for regional mapping and decision support.",
+    "notes": "<ul><li>Theme/title: Armenia Landslides.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Landslides. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "armenia_prec": {
+    "title": "Armenia Average Annual Precipitation",
+    "abstract": "Spatial dataset showing average annual precipitation level in Armenia. It has been obtained based on the analysis of direct observations of more than 180 monitoring points. Data of meteorological stations and observation points with short series of measurement had been reduced using cartographic method (for ultra-short series) and ordinary method of ratio.",
+    "notes": "<ul><li>Theme/title: Armenia Average Annual Precipitation.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Average Annual Precipitation. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "avalanches": {
+    "title": "Armenia Avalanche Hazard Level",
+    "abstract": "Digital map showing avalanches hazard level in Armenia. Original data source: Data base of Hydrometeorological Survey of Georgia and Hydrometeorology Institute. Authors: Khaldani L., and Saluqvadze M.",
+    "notes": "<ul><li>Theme/title: Armenia Avalanche Hazard Level.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Avalanche Hazard Level. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "aze_roads": {
+    "title": "Azerbaijan Roads",
+    "abstract": "Azerbaijan roads network from OpenStreetMap (http://download.geofabrik.de/asia.html). The dataset is published in the Sustainable Caucasus GeoNode archive for regional mapping and decision support.",
+    "notes": "<ul><li>Theme/title: Azerbaijan Roads.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>OpenStreetMap completeness varies by region and date of extract.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Azerbaijan Roads. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://download.geofabrik.de/asia.html",
+        "label": "download.geofabrik.de"
+      }
+    ],
+    "data_attribution": "© OpenStreetMap contributors.",
+    "license_text": "OpenStreetMap data are available under the Open Database License (ODbL). https://www.openstreetmap.org/copyright"
+  },
+  "caucasus_pois_clip_culture": {
+    "title": "Caucasus cultural sites 2021",
+    "abstract": "Dataset representing different cultural places in Caucasus. The data comes from OpenStreetMap and the legend comes from categories used in OpenStreetMap, https://download.geofabrik.de/asia/armenia.html.",
+    "notes": "<ul><li>Theme/title: Caucasus cultural sites 2021.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>OpenStreetMap completeness varies by region and date of extract.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus cultural sites 2021 (2021). Sustainable Caucasus GeoNode archive. Source: https://download.geofabrik.de/asia/armenia.html.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "https://download.geofabrik.de/asia/armenia.html",
+        "label": "download.geofabrik.de"
+      }
+    ],
+    "data_attribution": "© OpenStreetMap contributors.",
+    "license_text": "OpenStreetMap data are available under the Open Database License (ODbL). https://www.openstreetmap.org/copyright"
+  },
+  "climat": {
+    "title": "Armenia Climatic Zones",
+    "abstract": "Map of climatic zones of Armenia, prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development Of Geographic Information System of Armenia for Renewable Energy Projects”.",
+    "notes": "<ul><li>Theme/title: Armenia Climatic Zones.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Climatic Zones. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "flooding_duration": {
+    "title": "Armenia Floods Duration",
+    "abstract": "Map showing average duration of spring floods in Armenia. It was prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development Of Geographic Information System of Armenia for Renewable Energy Projects”.",
+    "notes": "<ul><li>Theme/title: Armenia Floods Duration.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Floods Duration. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "flooding_layer": {
+    "title": "Armenia Flooding Layer Thickness in Springtime",
+    "abstract": "Map of spring flooding thickness in Armenia, prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development Of Geographic Information System of Armenia for Renewable Energy Projects”.",
+    "notes": "<ul><li>Theme/title: Armenia Flooding Layer Thickness in Springtime.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Flooding Layer Thickness in Springtime. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "geo_catchment": {
+    "title": "Georgia River Catchment Areas ERICA",
+    "abstract": "Topologically correct nested catchments system of Georgian rivers, coded using ERICA (European Rivers and Catchment) coding system, which was designed for European Environment Agency. It contains catchment areas of all rivers of Georgia 5 km long or longer.",
+    "notes": "<ul><li>Theme/title: Georgia River Catchment Areas ERICA.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Georgia River Catchment Areas ERICA. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "geo_rivers_erica": {
+    "title": "Georgia River Network System ERICA",
+    "abstract": "Fully connected and topologically correct system of Georgian rivers, coded using ERICA (European Rivers and Catchment)coding system, which was designed for European Environment Agency. It contains all rivers of Georgia 5 km long or longer.",
+    "notes": "<ul><li>Theme/title: Georgia River Network System ERICA.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Georgia River Network System ERICA. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "geo_roads": {
+    "title": "Georgia Roads",
+    "abstract": "Georgia roads network from OpenStreetMap (http://download.geofabrik.de/europe.html). The dataset is published in the Sustainable Caucasus GeoNode archive for regional mapping and decision support.",
+    "notes": "<ul><li>Theme/title: Georgia Roads.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>OpenStreetMap completeness varies by region and date of extract.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Georgia Roads. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://download.geofabrik.de/europe.html",
+        "label": "download.geofabrik.de"
+      }
+    ],
+    "data_attribution": "© OpenStreetMap contributors.",
+    "license_text": "OpenStreetMap data are available under the Open Database License (ODbL). https://www.openstreetmap.org/copyright"
+  },
+  "glims_polygons": {
+    "title": "Caucasus Cryosphere",
+    "abstract": "Dataset showing the location of the Caucasus glaciers (as polygons) coming from the glims database (http://glims.colorado.edu/glacierdata/). Data has been cropped to the Caucasus ecoregion extent.",
+    "notes": "<ul><li>Theme/title: Caucasus Cryosphere.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Spatial coverage limited to the Caucasus ecoregion / study area where noted in source metadata.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Caucasus Cryosphere. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://glims.colorado.edu/glacierdata/",
+        "label": "glims.colorado.edu"
+      }
+    ],
+    "data_attribution": "GLIMS glacier database."
+  },
+  "irn_roads": {
+    "title": "Iran Roads",
+    "abstract": "Iran roads network from OpenStreetMap (http://download.geofabrik.de/asia.html). The dataset is published in the Sustainable Caucasus GeoNode archive for regional mapping and decision support.",
+    "notes": "<ul><li>Theme/title: Iran Roads.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>OpenStreetMap completeness varies by region and date of extract.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Iran Roads. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://download.geofabrik.de/asia.html",
+        "label": "download.geofabrik.de"
+      }
+    ],
+    "data_attribution": "© OpenStreetMap contributors.",
+    "license_text": "OpenStreetMap data are available under the Open Database License (ODbL). https://www.openstreetmap.org/copyright"
+  },
+  "l_water_s": {
+    "title": "Armenia Low Water Runoff Layer in Summertime",
+    "abstract": "Spatial dataset showing a thickness of runoff layer. This digital data was prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development of Geographic Information System of Armenia for Renewable Energy Projects”.",
+    "notes": "<ul><li>Theme/title: Armenia Low Water Runoff Layer in Summertime.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Low Water Runoff Layer in Summertime. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "l_water_w": {
+    "title": "Armenia Low Water Runoff Layer in Wintertime",
+    "abstract": "Spatial dataset showing a thickness of runoff layer. This digital data was prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development of Geographic Information System of Armenia for Renewable Energy Projects”.",
+    "notes": "<ul><li>Theme/title: Armenia Low Water Runoff Layer in Wintertime.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Low Water Runoff Layer in Wintertime. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "lakes_and_reservoirs": {
+    "title": "Armenia Lakes and Reservoirs ERICA",
+    "abstract": "The map of lakes and reservoirs, coded using ERICA (European Rivers and Catchment)coding system, which was designed for European Environment Agency.",
+    "notes": "<ul><li>Theme/title: Armenia Lakes and Reservoirs ERICA.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Lakes and Reservoirs ERICA. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "landscape": {
+    "title": "Armenia Landscapes",
+    "abstract": "Landscape map of Armenia at scale 1:750,000. This vector data was produced for SCOPES funded \"Supporting Sustainable Mountain Development in the Caucasus (Sustainable Caucasus)\" project.",
+    "notes": "<ul><li>Theme/title: Armenia Landscapes.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Landscapes. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "max_precipitation": {
+    "title": "Armenia Maximal Daily Precipitation",
+    "abstract": "This map shows maximal daily quantity of precipitations have fallen once for 50 years. It has been obtained based on the analysis of direct observations of more than 180 monitoring points. Data of meteorological stations and observation points with short series of measurement had been reduced using cartographic method (for ultra-short series) and ordinary method of ratio.",
+    "notes": "<ul><li>Theme/title: Armenia Maximal Daily Precipitation.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Maximal Daily Precipitation. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "model_2017": {
+    "title": "Armenia and adjacent territories Active Faults",
+    "abstract": "Active faults map of the Republic of Armenia and adjacent territories at the scale of 1:500,000 was prepared by the GEORISK Scientific Research CJSC (Armenia) under the World Bank supported Project # 7179350 “Probabilistic Seismic Hazard Assessment for the Republic of Armenia”, implemented in Consortium with AIR Worldwide Corporation (USA) and GEM Foundation (Italy).",
+    "notes": "<ul><li>Theme/title: Armenia and adjacent territories Active Faults.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia and adjacent territories Active Faults. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "data_attribution": "AIR Worldwide, GEM Foundation, and GEORISK (World Bank PSHA project for Armenia), where applicable."
+  },
+  "mudflow_arm": {
+    "title": "Armenia Debris and Mudflows",
+    "abstract": "Map showing distribution and hazard level of debris- and mud-flows on the territory of Armenia. Author: R. Ter-Minasyan.",
+    "notes": "<ul><li>Theme/title: Armenia Debris and Mudflows.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Debris and Mudflows. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "pop_1989": {
+    "title": "Georgia Population 1989",
+    "abstract": "GEO Census 1989: population of Georgia by administrative-territorial units. Census data source: GeoStat, General Population Census of Georgia 1989, http://geostat.ge and http://cencus.ge. GIS data source: GeoGraphic, http://geographic.ge.",
+    "notes": "<ul><li>Theme/title: Georgia Population 1989.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Georgia Population 1989 (1989). Sustainable Caucasus GeoNode archive. Source: http://geostat.ge.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://geostat.ge",
+        "label": "geostat.ge"
+      },
+      {
+        "is_download_link": false,
+        "url": "http://cencus.ge",
+        "label": "cencus.ge"
+      },
+      {
+        "is_download_link": false,
+        "url": "http://geographic.ge",
+        "label": "geographic.ge"
+      }
+    ],
+    "data_attribution": "GeoStat (Georgia); GIS: GeoGraphic."
+  },
+  "pop_2002": {
+    "title": "Georgia Population 2002",
+    "abstract": "GEO Census 2002: population of Georgia by administrative-territorial units and sex. Census data source: GeoStat, General Population Census of Georgia 2002, http://geostat.ge and http://cencus.ge. GIS data source: GeoGraphic, http://geographic.ge.",
+    "notes": "<ul><li>Theme/title: Georgia Population 2002.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Georgia Population 2002 (2002). Sustainable Caucasus GeoNode archive. Source: http://geostat.ge.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://geostat.ge",
+        "label": "geostat.ge"
+      },
+      {
+        "is_download_link": false,
+        "url": "http://cencus.ge",
+        "label": "cencus.ge"
+      },
+      {
+        "is_download_link": false,
+        "url": "http://geographic.ge",
+        "label": "geographic.ge"
+      }
+    ],
+    "data_attribution": "GeoStat (Georgia); GIS: GeoGraphic."
+  },
+  "pop_2014": {
+    "title": "Georgia Population 2014",
+    "abstract": "GEO Census 2014: population of Georgia by administrative-territorial units and sex. Census data source: GeoStat, General Population Census of Georgia 2014, http://geostat.ge and http://cencus.ge. GIS data source: GeoGraphic, http://geographic.ge.",
+    "notes": "<ul><li>Theme/title: Georgia Population 2014.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Georgia Population 2014 (2014). Sustainable Caucasus GeoNode archive. Source: http://geostat.ge.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://geostat.ge",
+        "label": "geostat.ge"
+      },
+      {
+        "is_download_link": false,
+        "url": "http://cencus.ge",
+        "label": "cencus.ge"
+      },
+      {
+        "is_download_link": false,
+        "url": "http://geographic.ge",
+        "label": "geographic.ge"
+      }
+    ],
+    "data_attribution": "GeoStat (Georgia); GIS: GeoGraphic."
+  },
+  "rad_dur_apr": {
+    "title": "Armenia Average Solar Radiance Duration in April",
+    "abstract": "Spatial dataset providing information about average monthly duration (in hours) of solar radiance during April. This map has been created using observation data from 22 meteorological stations.",
+    "notes": "<ul><li>Theme/title: Armenia Average Solar Radiance Duration in April.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Average Solar Radiance Duration in April. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "rad_dur_jan": {
+    "title": "Armenia Average Solar Radiance Duration in January",
+    "abstract": "Spatial dataset providing information about average monthly duration (in hours) of solar radiance during January. This map has been created using observation data from 22 meteorological stations.",
+    "notes": "<ul><li>Theme/title: Armenia Average Solar Radiance Duration in January.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Average Solar Radiance Duration in January. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "radiance_duration": {
+    "title": "Armenia Average Annual Solar Radiance Duration",
+    "abstract": "Spatial dataset providing information about average annual solar radiance duration in hours. This map has been created using observation data from 22 meteorological stations.",
+    "notes": "<ul><li>Theme/title: Armenia Average Annual Solar Radiance Duration.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Average Annual Solar Radiance Duration. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "radiation_bal": {
+    "title": "Armenia Radiation Balance",
+    "abstract": "Spatial dataset showing radiation balance in Armenia. Radiation balance of underlying terrain calculated by equation: R=(Q+q)(1-Ao)-E, where R – radiation balance value; Q and q – direct and diffused radiation; Ao - underlying terrain albedo; E – effective-terrestrial radiation.",
+    "notes": "<ul><li>Theme/title: Armenia Radiation Balance.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Radiation Balance. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "seismic_zones": {
+    "title": "Armenia Seismic Zonation",
+    "abstract": "The Seismic Zonation Map of the Territory of the Republic of Armenia at the scale of 1:500,000 was prepared by the Consortium of AIR Worldwide Corporation (USA), GEM Foundation (Italy) and GEORISK Scientific Research CJSC (Armenia) under the Project # 7179350 “Probabilistic Seismic Hazard Assessment for the Republic of Armenia” supported by the World Bank. The area of the RA is divided into 3 zones in the ascending intensity order (I, II and III ) with expected PGA values expressed in fractions of g (gravity) 0.3g, 0.4g, and 0.5g, respectively.",
+    "notes": "<ul><li>Theme/title: Armenia Seismic Zonation.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Seismic Zonation. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "data_attribution": "AIR Worldwide, GEM Foundation, and GEORISK (World Bank PSHA project for Armenia), where applicable."
+  },
+  "soil_arm": {
+    "title": "Armenia Soils",
+    "abstract": "Soils map of Armenia at scale 1:750,000. This vector data was produced for SCOPES funded \"Supporting Sustainable Mountain Development in the Caucasus (Sustainable Caucasus)\" project.",
+    "notes": "<ul><li>Theme/title: Armenia Soils.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Soils. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "solar_radiance_duratin_jul": {
+    "title": "Armenia Average Solar Radiance Duration in July",
+    "abstract": "Spatial dataset providing information about average monthly duration (in hours) of solar radiance during July. This map has been created using observation data from 22 meteorological stations.",
+    "notes": "<ul><li>Theme/title: Armenia Average Solar Radiance Duration in July.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Average Solar Radiance Duration in July. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "solar_radiance_duratin_oct": {
+    "title": "Armenia Average Solar Radiance Duration in October",
+    "abstract": "Spatial dataset providing information about average monthly duration (in hours) of solar radiance during October. This map has been created using observation data from 22 meteorological stations.",
+    "notes": "<ul><li>Theme/title: Armenia Average Solar Radiance Duration in October.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Average Solar Radiance Duration in October. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "solar_radiation": {
+    "title": "Armenia Average Annual Solar Radiation",
+    "abstract": "Spatial dataset showing average annual solar radiation level in Armenia. This digital map was prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development Of Geographic Information System of Armenia for Renewable Energy Projects”.",
+    "notes": "<ul><li>Theme/title: Armenia Average Annual Solar Radiation.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Average Annual Solar Radiation. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "sum_of_average_daily_air_temperatures_above__10c": {
+    "title": "Armenia Sum of Average Daily Air Temperatures Above 10°C",
+    "abstract": "Cumulative sum of average daily air temperatures above 10°C for Armenia. Supports agro-climatic zoning, growing-season analysis, and renewable-energy related assessments within the Sustainable Caucasus climate GIS collection.",
+    "notes": "<ul><li>No GeoNode abstract was available; description inferred from the layer title.</li><li>National coverage: Armenia.</li><li>Values classify cumulative temperature sums relevant to growing-season analysis.</li></ul>",
+    "data_attribution": "Sustainable Caucasus / Armenian climate GIS products.",
+    "citation": "Sum of average daily air temperatures above 10°C — Armenia. Sustainable Caucasus GeoNode archive."
+  },
+  "temperature": {
+    "title": "Armenia Average Annual Temperature",
+    "abstract": "Map showing average annual temperature (in degree centigrade) in Armenia. It is based on observations of more than 90 meteorological stations had ever operated in Armenia since 1885. Data of meteorological stations with short series of observations had been reduced to an 80-year period using the method of difference. This GIS layer was prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development Of Geographic Information System of Armenia for Renewable Energy Projects”.",
+    "notes": "<ul><li>Theme/title: Armenia Average Annual Temperature.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Average Annual Temperature. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "tur_roads": {
+    "title": "Turkey Roads",
+    "abstract": "Turkey roads network from OpenStreetMap (http://download.geofabrik.de/europe.html). The dataset is published in the Sustainable Caucasus GeoNode archive for regional mapping and decision support.",
+    "notes": "<ul><li>Theme/title: Turkey Roads.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>OpenStreetMap completeness varies by region and date of extract.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Turkey Roads. Sustainable Caucasus GeoNode / MapX publication archive.",
+    "source_urls": [
+      {
+        "is_download_link": false,
+        "url": "http://download.geofabrik.de/europe.html",
+        "label": "download.geofabrik.de"
+      }
+    ],
+    "data_attribution": "© OpenStreetMap contributors.",
+    "license_text": "OpenStreetMap data are available under the Open Database License (ODbL). https://www.openstreetmap.org/copyright"
+  },
+  "vegetation_arm": {
+    "title": "Armenia Vegetation",
+    "abstract": "This GIS layer shows a general vegetation types in Armenia. The dataset is published in the Sustainable Caucasus GeoNode archive for regional mapping and decision support.",
+    "notes": "<ul><li>Theme/title: Armenia Vegetation.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia Vegetation. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "wind_resources": {
+    "title": "Armenia and adjacent territories Wind Resources",
+    "abstract": "Annual average wind resource potential for Armenia at a 50 meter height. The dataset is published in the Sustainable Caucasus GeoNode archive for regional mapping and decision support.",
+    "notes": "<ul><li>Theme/title: Armenia and adjacent territories Wind Resources.</li><li>Compiled for the Sustainable Caucasus GeoNode → MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+    "citation": "Armenia and adjacent territories Wind Resources. Sustainable Caucasus GeoNode / MapX publication archive."
+  }
+}

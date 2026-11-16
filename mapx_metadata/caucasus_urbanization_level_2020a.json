@@ -1,0 +1,338 @@
+{
+  "text": {
+    "title": {
+      "en": "Caucasus urbanization level 2020",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Map representing the urbanization level of Caucasus in 2020 per NUTS3. The unit used to represent the urbanization level is the percentages. The data comes from the national offices of statistics of each country in Caucasus : Armenia, Azerbaijan, Georgia, Iran, Russia and Turkey. Data sources : Statistical Committee of the Republic of Armenia, Statistical Committee of the Republic of Azerbaijan, National Statistics Office of Georgia, Statistical Centre of Iran, Federal State Statistics Service of Russia and Turkish Statistical Institute. To download the data please click on the following links : https://www.armstat.am/en/ https://www.stat.gov.az/ https://www.amar.org.ir/english https://data.tuik.gov.tr/ https://www.geostat.ge/en https://eng.rosstat.gov.ru/.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "caucasus_urbanization_level_2020a",
+        "population",
+        "demography",
+        "socioeconomic",
+        "caucasus",
+        "urbanization",
+        "level",
+        "2020"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "6571",
+        "1485"
+      ],
+      "keys_topic": [
+        "society"
+      ]
+    },
+    "attributes": {
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm1_code": {
+        "en": "Admin Level 1 Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm1_name": {
+        "en": "Admin Level 1 Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm2_code": {
+        "en": "Admin Level 2 Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm2_name": {
+        "en": "Admin Level 2 Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "copie_de_s": {
+        "en": "Copied field (source)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Urban_leve": {
+        "en": "Urbanization Level (%)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "attributes_alias": {
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm1_code": {
+        "en": "Admin Level 1 Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm1_name": {
+        "en": "Admin Level 1 Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm2_code": {
+        "en": "Admin Level 2 Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm2_name": {
+        "en": "Admin Level 2 Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "copie_de_s": {
+        "en": "Copied field (source)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Urban_leve": {
+        "en": "Urbanization Level (%)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "notes": {
+      "en": "<ul><li>Theme/title: Caucasus urbanization level 2020.</li><li>Compiled for the Sustainable Caucasus GeoNode -> MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "National statistical offices of Armenia, Azerbaijan, Georgia, Iran, Russia and Turkey; Sustainable Caucasus compilation.",
+    "citation": "Caucasus urbanization level 2020 (2020). Sustainable Caucasus GeoNode archive. Source: https://www.armstat.am/en/."
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "2020-01-01",
+      "modified_at": "2020-01-01"
+    },
+    "range": {
+      "is_timeless": false,
+      "start_at": "2020-01-01",
+      "end_at": "2020-12-31"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:4326",
+      "url": "http://spatialreference.org/ref/epsg/4326/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "https://www.armstat.am/en/"
+    },
+    "source": {
+      "urls": [
+        {
+          "is_download_link": false,
+          "url": "https://www.armstat.am/en/",
+          "label": "armstat.am"
+        },
+        {
+          "is_download_link": false,
+          "url": "https://www.stat.gov.az/",
+          "label": "stat.gov.az"
+        },
+        {
+          "is_download_link": false,
+          "url": "https://www.amar.org.ir/english",
+          "label": "amar.org.ir"
+        },
+        {
+          "is_download_link": false,
+          "url": "https://data.tuik.gov.tr/",
+          "label": "data.tuik.gov.tr"
+        },
+        {
+          "is_download_link": false,
+          "url": "https://www.geostat.ge/en",
+          "label": "geostat.ge"
+        },
+        {
+          "is_download_link": false,
+          "url": "https://eng.rosstat.gov.ru/",
+          "label": "eng.rosstat.gov.ru"
+        }
+      ]
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "Provider terms",
+        "text": "Please refer to the original data provider's terms of use and licensing conditions. See origin links when available."
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

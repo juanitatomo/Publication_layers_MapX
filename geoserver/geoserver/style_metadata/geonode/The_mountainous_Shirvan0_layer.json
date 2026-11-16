@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "The_mountainous_Shirvan0_layer",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "The_mountainous_Shirvan0_layer.sld"
+  }
+}

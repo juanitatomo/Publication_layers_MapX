@@ -1,0 +1,91 @@
+{
+  "geonode_name": "solar_radiation",
+  "mapx_id": "MX-BUGNK-997EE-35S6P",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Sun_radiat",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "solar_radiation.json",
+  "how_to_paste": "1) Set Source attribute = `Sun_radiat`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "115",
+      "label_en": "115 kcal/sq.cm",
+      "color": "#ffffb2",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "120",
+      "label_en": "120 kcal/sq.cm",
+      "color": "#ffeb90",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "125",
+      "label_en": "125 kcal/sq.cm",
+      "color": "#ffd76d",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "130",
+      "label_en": "130 kcal/sq.cm",
+      "color": "#fec055",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "135",
+      "label_en": "135 kcal/sq.cm",
+      "color": "#fea649",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "140",
+      "label_en": "140 kcal/sq.cm",
+      "color": "#fd8d3c",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "145",
+      "label_en": "145 kcal/sq.cm",
+      "color": "#f86c30",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "150",
+      "label_en": "150 kcal/sq.cm",
+      "color": "#f34b25",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "155",
+      "label_en": "155 kcal/sq.cm",
+      "color": "#e62f21",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "160",
+      "label_en": "160 kcal/sq.cm",
+      "color": "#d21723",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "165",
+      "label_en": "165 kcal/sq.cm",
+      "color": "#bd0026",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Sun_radiat', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

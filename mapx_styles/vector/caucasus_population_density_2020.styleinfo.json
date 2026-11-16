@@ -1,0 +1,114 @@
+{
+  "geonode_name": "caucasus_population_density_2020",
+  "mapx_id": "MX-IFK8A-XWA80-CVQCL",
+  "kind": "range",
+  "status": "partial",
+  "source_attribute": "pop_densit",
+  "paste_json_as_categorical": false,
+  "geometry": "polygon",
+  "style_json": "caucasus_population_density_2020.json",
+  "how_to_paste": "RANGE: set Source attribute to `pop_densit`; do NOT rely on categorical JSON values (labels like 1-20 are not field values). Use Auto style / intervals with colors from lookup/styleinfo; see range_min/range_max columns.",
+  "rules": [
+    {
+      "value": "1-20",
+      "label_en": "1-20",
+      "color": "#ffd5d5",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "20-50",
+      "label_en": "20-50",
+      "color": "#ffaaaa",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "50-100",
+      "label_en": "50-100",
+      "color": "#ff8080",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "100-200",
+      "label_en": "100-200",
+      "color": "#ff5555",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "200-500",
+      "label_en": "200-500",
+      "color": "#ff2a2a",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": ">500",
+      "label_en": ">500",
+      "color": "#ff0000",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "No Data",
+      "label_en": "No Data",
+      "color": "#969696",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "range_cuts": [
+    {
+      "label": "1-20",
+      "min": 1.0,
+      "max": 20.0,
+      "color": "#ffd5d5",
+      "attribute": "pop_densit"
+    },
+    {
+      "label": "20-50",
+      "min": 20.0,
+      "max": 50.0,
+      "color": "#ffaaaa",
+      "attribute": "pop_densit"
+    },
+    {
+      "label": "50-100",
+      "min": 50.0,
+      "max": 100.0,
+      "color": "#ff8080",
+      "attribute": "pop_densit"
+    },
+    {
+      "label": "100-200",
+      "min": 100.0,
+      "max": 200.0,
+      "color": "#ff5555",
+      "attribute": "pop_densit"
+    },
+    {
+      "label": "200-500",
+      "min": 200.0,
+      "max": 500.0,
+      "color": "#ff2a2a",
+      "attribute": "pop_densit"
+    },
+    {
+      "label": ">500",
+      "min": 500.0,
+      "max": 999998.0,
+      "color": "#ff0000",
+      "attribute": "pop_densit"
+    },
+    {
+      "label": "No Data",
+      "min": 999999.0,
+      "max": 1000000.0,
+      "color": "#969696",
+      "attribute": "pop_densit"
+    }
+  ],
+  "warning": "Numeric range style from SLD. MapX categorical Values like '1-20' will show as 'all' because they are not attribute values. Set Source attribute to 'pop_densit' and apply interval/Auto style using range_cuts colors."
+}

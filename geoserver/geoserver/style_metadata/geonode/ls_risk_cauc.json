@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "ls_risk_cauc",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "ls_risk_cauc.sld"
+  }
+}

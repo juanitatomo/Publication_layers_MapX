@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "Economic_and_geographical_region0",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "Economic_and_geographical_region0.sld"
+  }
+}

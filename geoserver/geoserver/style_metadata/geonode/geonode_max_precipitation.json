@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "max_precipitation",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.1.0"
+    },
+    "filename": "max_precipitation.sld"
+  }
+}

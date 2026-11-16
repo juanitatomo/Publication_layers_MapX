@@ -1,0 +1,363 @@
+{
+  "text": {
+    "title": {
+      "en": "Caucasus Protected Areas 2021",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Protected areas in the Caucasus based on October 2021 Protected Planet / WDPA data. Features are classified by IUCN management categories and support biodiversity conservation planning, gap analysis, and environmental reporting across the ecoregion.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "protect_areas",
+        "protected areas",
+        "biodiversity",
+        "conservation",
+        "caucasus",
+        "protected",
+        "areas",
+        "2021"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "796",
+        "4612",
+        "1485"
+      ],
+      "keys_topic": [
+        "environment",
+        "biota"
+      ]
+    },
+    "attributes": {
+      "fid_1": {
+        "en": "Feature ID (secondary)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "IUCN_CAT": {
+        "en": "IUCN Management Category",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "GIS_AREA": {
+        "en": "GIS Area",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm1_code": {
+        "en": "Admin Level 1 Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm1_name": {
+        "en": "Admin Level 1 Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm2_code": {
+        "en": "Admin Level 2 Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm2_name": {
+        "en": "Admin Level 2 Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Country": {
+        "en": "Country",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "attributes_alias": {
+      "fid_1": {
+        "en": "Feature ID (secondary)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "IUCN_CAT": {
+        "en": "IUCN Management Category",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "GIS_AREA": {
+        "en": "GIS Area",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm1_code": {
+        "en": "Admin Level 1 Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm1_name": {
+        "en": "Admin Level 1 Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm2_code": {
+        "en": "Admin Level 2 Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm2_name": {
+        "en": "Admin Level 2 Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Country": {
+        "en": "Country",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "notes": {
+      "en": "<ul><li>Source: Protected Planet / WDPA (October 2021).</li><li>Style classification attribute in MapX: IUCN_CAT.</li><li>Boundaries and statuses can change; verify against Protected Planet for formal reporting.</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "UNEP-WCMC and IUCN - World Database on Protected Areas / Protected Planet.",
+    "citation": "UNEP-WCMC and IUCN (2021). Protected Planet / WDPA. https://www.protectedplanet.net/en. Caucasus subset, October 2021."
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "2021-01-01",
+      "modified_at": "2021-01-01"
+    },
+    "range": {
+      "is_timeless": false,
+      "start_at": "2021-01-01",
+      "end_at": "2021-12-31"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:4326",
+      "url": "http://spatialreference.org/ref/epsg/4326/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "https://www.protectedplanet.net/en"
+    },
+    "source": {
+      "urls": [
+        {
+          "is_download_link": false,
+          "url": "https://www.protectedplanet.net/en",
+          "label": "Protected Planet"
+        }
+      ]
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "Provider terms",
+        "text": "Refer to Protected Planet / WDPA terms of use at https://www.protectedplanet.net/en."
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "protected_areas_national_parks_and_strict_nature_reserves_wgs84",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "protected_areas_national_parks_and_strict_nature_reserves_wgs84.sld"
+  }
+}

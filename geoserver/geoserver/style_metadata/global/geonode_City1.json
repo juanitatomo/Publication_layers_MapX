@@ -1,0 +1,10 @@
+{
+  "style": {
+    "name": "geonode_City1",
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "geonode_City1.sld"
+  }
+}

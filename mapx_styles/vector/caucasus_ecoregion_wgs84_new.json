@@ -1,0 +1,65 @@
+{
+  "nulls": [
+    {
+      "value": "",
+      "label_en": "No data",
+      "label_fr": "",
+      "label_es": "",
+      "label_ar": "",
+      "label_ru": "",
+      "label_zh": "",
+      "label_de": "",
+      "label_bn": "",
+      "label_fa": "",
+      "label_ps": "",
+      "color": "#a9a9a9",
+      "opacity": 0.7,
+      "size": 1,
+      "sprite": "none"
+    }
+  ],
+  "rules": [
+    {
+      "value": "Caucasus ecoregion",
+      "label_en": "Caucasus ecoregion",
+      "label_fr": "",
+      "label_es": "",
+      "label_ar": "",
+      "label_ru": "",
+      "label_zh": "",
+      "label_de": "",
+      "label_bn": "",
+      "label_fa": "",
+      "label_ps": "",
+      "color": "#e69800",
+      "opacity": 0.7,
+      "size": 3,
+      "sprite": "none"
+    }
+  ],
+  "zoomConfig": {
+    "zoomMin": 0,
+    "zoomMax": 22,
+    "sizeFactorZoomMax": 0,
+    "sizeFactorZoomMin": 0,
+    "sizeFactorZoomExponent": 1
+  },
+  "reverseLayer": false,
+  "showSymbolLabel": false,
+  "hideNulls": true,
+  "titleLegend": {
+    "en": "caucasus_ecoregion_wgs84_new",
+    "fr": "",
+    "es": "",
+    "ar": "",
+    "ru": "",
+    "zh": "",
+    "de": "",
+    "bn": "",
+    "fa": "",
+    "ps": ""
+  },
+  "custom": {
+    "json": "{\n  \"enable\": false,\n  \"paint\": {},\n  \"layout\": {},\n  \"filter\": [\n    \">\",\n    [\n      \"get\",\n      \"gid\"\n    ],\n    0\n  ],\n  \"minzoom\": 0,\n  \"maxzoom\": 22,\n  \"type\": \"fill\"\n}"
+  }
+}

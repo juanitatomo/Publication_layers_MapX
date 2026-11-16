@@ -1,0 +1,42 @@
+{
+  "geonode_name": "railroads",
+  "mapx_id": "",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "fclass",
+  "paste_json_as_categorical": true,
+  "geometry": "line",
+  "style_json": "railroads.json",
+  "how_to_paste": "1) Set Source attribute = `fclass`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "rail",
+      "label_en": "rail",
+      "color": "#050505",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "tram",
+      "label_en": "tram",
+      "color": "#33a02c",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "subway",
+      "label_en": "subway",
+      "color": "#fa0000",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "funicular",
+      "label_en": "funicular",
+      "color": "#0762fd",
+      "opacity": 1.0,
+      "size": 2
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'fclass', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

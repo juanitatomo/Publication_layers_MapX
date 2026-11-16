@@ -1,0 +1,31 @@
+{
+  "style": {
+    "name": "v_rgi_12_2021july01",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "v_rgi_12_2021july01.sld",
+    "metadata": {
+      "entry": [
+        {
+          "@key": "msEditorType",
+          "$": "textarea"
+        },
+        {
+          "@key": "msStyleJSON",
+          "$": "{\"name\":\"Default Raster\",\"rules\":[{\"name\":\"Opaque Raster\",\"symbolizers\":[{\"kind\":\"Raster\",\"opacity\":1,\"symbolizerId\":\"3babdaf1-6650-11ef-b429-f369087492ee\"}],\"ruleId\":\"3babdaf0-6650-11ef-b429-f369087492ee\"}]}"
+        },
+        {
+          "@key": "msMD5Hash",
+          "$": "410d8fda6361292ba8b5bdc8c8ba01cc"
+        }
+      ]
+    },
+    "dateCreated": "2024-08-29 21:46:27.354 UTC",
+    "dateModified": "2024-08-29 21:47:38.231 UTC"
+  }
+}

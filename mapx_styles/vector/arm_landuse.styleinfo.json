@@ -1,0 +1,70 @@
+{
+  "geonode_name": "arm_landuse",
+  "mapx_id": "MX-9D7AU-R4BAX-AYK4E",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Landuse",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "arm_landuse.json",
+  "how_to_paste": "1) Set Source attribute = `Landuse`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "",
+      "label_en": "Landuse is ''",
+      "color": "#808080",
+      "opacity": 0.7,
+      "size": 7
+    },
+    {
+      "value": "Arable land",
+      "label_en": "Arable land",
+      "color": "#fdad51",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Crops",
+      "label_en": "Crops",
+      "color": "#a06525",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Forest, shrubland",
+      "label_en": "Forest, shrubland",
+      "color": "#217c16",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Grassland",
+      "label_en": "Grassland",
+      "color": "#5dba26",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Lakes, reservoirs",
+      "label_en": "Lakes, reservoirs",
+      "color": "#a5bfdd",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Pastures",
+      "label_en": "Pastures",
+      "color": "#81fb44",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Yerevan city",
+      "label_en": "Yerevan city",
+      "color": "#eb3a09",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Landuse', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

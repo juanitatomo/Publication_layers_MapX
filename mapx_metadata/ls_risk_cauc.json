@@ -1,0 +1,142 @@
+{
+  "text": {
+    "title": {
+      "en": "Caucasus mortality risk due to landslides",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Dataset showing the mortality risks in Caucasus due to landslides . It was originally downloaded from the PREVIEW platform (http://preview.unepgrid.ch) . The layer has then been cropped at the Caucasus ecoregion boundary extent.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "ls_risk_cauc",
+        "natural hazards",
+        "risk",
+        "disaster risk",
+        "caucasus",
+        "mortality",
+        "landslides"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "3664",
+        "4612"
+      ],
+      "keys_topic": [
+        "geoscientificInformation"
+      ]
+    },
+    "attributes": {},
+    "attributes_alias": {},
+    "notes": {
+      "en": "<ul><li>Theme/title: Caucasus mortality risk due to landslides.</li><li>Compiled for the Sustainable Caucasus GeoNode -> MapX publication workflow.</li><li>Spatial coverage limited to the Caucasus ecoregion / study area where noted in source metadata.</li><li>Raster values encode the thematic variable described in the abstract; check units before analysis.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "UNEP/GRID-Geneva PREVIEW.",
+    "citation": "Caucasus mortality risk due to landslides. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "0001-01-01",
+      "modified_at": "0001-01-01"
+    },
+    "range": {
+      "is_timeless": true,
+      "start_at": "0001-01-01",
+      "end_at": "0001-01-01"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:4326",
+      "url": "http://spatialreference.org/ref/epsg/4326/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "http://preview.unepgrid.ch"
+    },
+    "source": {
+      "urls": [
+        {
+          "is_download_link": false,
+          "url": "http://preview.unepgrid.ch",
+          "label": "preview.unepgrid.ch"
+        }
+      ]
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "Provider terms",
+        "text": "Please refer to the original data provider's terms of use and licensing conditions. See origin links when available."
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "geonode_name": "glims_polygons",
+  "mapx_id": "MX-8LOWS-UVROS-Z9EXQ",
+  "kind": "single",
+  "status": "ok",
+  "source_attribute": "",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "glims_polygons.json",
+  "how_to_paste": "Single symbol: paste JSON for color; Source attribute optional (one rule applies to all features)",
+  "rules": [
+    {
+      "value": "Glaciers",
+      "label_en": "Glaciers",
+      "color": "#63f0ee",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "Single-symbol layer; one color for all features."
+}

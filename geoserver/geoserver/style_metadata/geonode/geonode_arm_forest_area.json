@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "arm_forest_area",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "arm_forest_area.sld"
+  }
+}

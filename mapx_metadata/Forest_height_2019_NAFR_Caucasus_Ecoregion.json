@@ -1,0 +1,146 @@
+{
+  "text": {
+    "title": {
+      "en": "Caucasus Ecoregion Forest Canopy Height 2019",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Global 30 m forest canopy height for 2019, subsampled to the Caucasus ecoregion. The product integrates GEDI lidar forest-structure measurements with Landsat analysis-ready time series. Pixel values 0–60 represent canopy height in metres; 101 = water; 102 = snow/ice; 103 = no data.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "Forest_height_2019_NAFR_Caucasus_Ecoregion",
+        "forest",
+        "forest conservation",
+        "forest ecosystems",
+        "caucasus",
+        "ecoregion",
+        "canopy",
+        "height",
+        "2019"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "3406",
+        "2519",
+        "4612"
+      ],
+      "keys_topic": [
+        "environment",
+        "biota"
+      ]
+    },
+    "attributes": {},
+    "attributes_alias": {},
+    "notes": {
+      "en": "<ul><li>Pixel coding: 0-60 m canopy height; 101 water; 102 snow/ice; 103 no data.</li><li>Source: GLAD/UMD GEDI-Landsat canopy height product.</li><li>Use for forest structure, biomass proxies, and habitat connectivity studies.</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "GLAD / University of Maryland - GEDI-Landsat forest canopy height.",
+    "citation": "Potapov et al. Global forest canopy height 2019 (GEDI–Landsat). https://glad.umd.edu/dataset/gedi. Caucasus ecoregion subset."
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "2019-01-01",
+      "modified_at": "2019-01-01"
+    },
+    "range": {
+      "is_timeless": false,
+      "start_at": "2019-01-01",
+      "end_at": "2019-12-31"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:4326",
+      "url": "http://spatialreference.org/ref/epsg/4326/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "https://glad.umd.edu/dataset/gedi"
+    },
+    "source": {
+      "urls": [
+        {
+          "is_download_link": false,
+          "url": "https://glad.umd.edu/dataset/gedi",
+          "label": "GLAD GEDI forest height"
+        }
+      ]
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "Provider terms",
+        "text": "Please refer to the original data provider's terms of use and licensing conditions. See origin links when available."
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "vegetation_arm",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.1.0"
+    },
+    "filename": "vegetation_arm.sld"
+  }
+}

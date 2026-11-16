@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "Regions",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "Regions.sld"
+  }
+}

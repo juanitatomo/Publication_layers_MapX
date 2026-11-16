@@ -1,0 +1,30 @@
+{
+  "style": {
+    "name": "base_sld___2f939850-3d51-11ec-992c-eb6146686bc9",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "base_sld___2f939850-3d51-11ec-992c-eb6146686bc9.sld",
+    "metadata": {
+      "entry": [
+        {
+          "@key": "msEditorType",
+          "$": "visual"
+        },
+        {
+          "@key": "msStyleJSON",
+          "$": "{\"name\":\"Base SLD\",\"rules\":[{\"ruleId\":\"aa16e750-f0b4-11ec-9196-a33a86d8db09\",\"kind\":\"Raster\",\"opacity\":1,\"classification\":[{\"color\":\"#333333\",\"opacity\":1,\"label\":\"-30\",\"quantity\":-30},{\"color\":\"#626262\",\"opacity\":1,\"label\":\"569\",\"quantity\":569},{\"color\":\"#919191\",\"opacity\":1,\"label\":\"1416.6\",\"quantity\":1416.6},{\"color\":\"#bfbfbf\",\"opacity\":1,\"label\":\"2263.375\",\"quantity\":2263.375},{\"color\":\"#eeeeee\",\"opacity\":1,\"label\":\"3849\",\"quantity\":3849}],\"intervals\":5,\"method\":\"jenks\",\"reverse\":false,\"continuous\":true,\"colorMapType\":\"ramp\",\"symbolizerKind\":\"Raster\",\"ramp\":\"gray\",\"contrastEnhancement\":{}}]}"
+        },
+        {
+          "@key": "msMD5Hash",
+          "$": "72e91a63da795ce6328f395a9889210c"
+        }
+      ]
+    },
+    "dateModified": "2022-06-20 16:20:00.690 UTC"
+  }
+}

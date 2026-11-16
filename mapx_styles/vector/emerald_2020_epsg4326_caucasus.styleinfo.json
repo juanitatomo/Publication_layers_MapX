@@ -1,0 +1,35 @@
+{
+  "geonode_name": "emerald_2020_epsg4326_caucasus",
+  "mapx_id": "",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Status",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "emerald_2020_epsg4326_caucasus.json",
+  "how_to_paste": "1) Set Source attribute = `Status`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "Candidate",
+      "label_en": "Candidate",
+      "color": "#f5d38a",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Proposed",
+      "label_en": "Proposed",
+      "color": "#ffc1ff",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Adopted",
+      "label_en": "Adopted",
+      "color": "#78de9e",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Status', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

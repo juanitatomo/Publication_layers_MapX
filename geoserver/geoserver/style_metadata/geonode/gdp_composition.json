@@ -1,0 +1,15 @@
+{
+  "style": {
+    "name": "gdp_composition",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.1.0"
+    },
+    "filename": "gdp_composition.sld",
+    "dateCreated": "2024-08-29 20:27:06.806 UTC",
+    "dateModified": "2024-08-29 20:27:08.940 UTC"
+  }
+}

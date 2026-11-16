@@ -1,0 +1,61 @@
+@mode 'Flat';
+@styleTitle 'Azerbaijan Roads';
+@styleAbstract '';
+
+[fclass in (
+  'motorway',
+  'trunk'
+)],
+[fclass in (
+  'motorway_link',
+  'trunk_link'
+)][@sd < 750k] {
+  stroke: #333333;
+  stroke-width: 1;
+  stroke-linejoin: round;
+  z-index: 0;
+  [@sd < 5M] {
+  	stroke: #333333, #f2f2f2;
+    stroke-width: 6, 2;
+    stroke-linejoin: round, round;
+    z-index: 0, 1;
+  };
+}
+
+[fclass = 'primary'][@sd < 10M] {
+  stroke: #333333;
+  stroke-width: 0.5;
+  stroke-linejoin: round;
+  z-index: 0;
+  [@sd < 5M] {
+  	stroke: #333333, #f2f2f2;
+  	stroke-width: 3, 1;
+  	stroke-linejoin: round, round;
+  	z-index: 0, 1;
+  };
+}
+
+[fclass = 'secondary'][@sd < 2M] {
+  stroke: #333333, #f2f2f2;
+  stroke-width: 3, 1;
+  stroke-linejoin: round, round;
+  z-index: 0, 1;
+}
+
+[fclass = 'tertiary'][@sd < 750k] {
+  stroke: #333333, #f2f2f2;
+  stroke-width: 1, 0.5;
+  stroke-linejoin: round, round;
+  z-index: 0, 1;
+}
+
+[fclass <> 'tertiary']
+[fclass <> 'secondary']
+[fclass <> 'tertiary']
+[fclass <> 'motorway']
+[fclass <> 'trunk']
+[fclass <> 'motorway_link']
+[fclass <> 'trunk_link'][@sd < 50k] {
+	stroke: #aeaeae;
+  stroke-width: 0.5;
+}

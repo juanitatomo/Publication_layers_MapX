@@ -1,0 +1,703 @@
+{
+  "text": {
+    "title": {
+      "en": "Caucasus Glaciers (RGI 6.0)",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Glacier outlines for the Caucasus region from the Randolph Glacier Inventory (RGI) version 6.0. Outlines were produced by digitising ASTER imagery and provide a regional inventory of glacier extent for cryosphere monitoring, hydrological assessment, climate-impact studies, and conservation planning.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "caucasus_glaciers",
+        "Randolph Glacier Inventory",
+        "RGI 6.0",
+        "glaciers",
+        "cryosphere",
+        "ASTER",
+        "glacier inventory",
+        "caucasus"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "2924",
+        "4612"
+      ],
+      "keys_topic": [
+        "inlandWaters",
+        "geoscientificInformation"
+      ]
+    },
+    "attributes": {
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "RGIId": {
+        "en": "RGI Identifier",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "GLIMSId": {
+        "en": "GLIMS Identifier",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "BgnDate": {
+        "en": "Survey Start Date",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "EndDate": {
+        "en": "Survey End Date",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "CenLon": {
+        "en": "Centroid Longitude",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "CenLat": {
+        "en": "Centroid Latitude",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "O1Region": {
+        "en": "RGI First-Order Region",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "O2Region": {
+        "en": "RGI Second-Order Region",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Area": {
+        "en": "Glacier Area (km2)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Zmin": {
+        "en": "Minimum Elevation (m)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Zmax": {
+        "en": "Maximum Elevation (m)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Zmed": {
+        "en": "Median Elevation (m)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Slope": {
+        "en": "Mean Slope (deg)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Aspect": {
+        "en": "Aspect (deg)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Lmax": {
+        "en": "Maximum Length (m)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Status": {
+        "en": "Status",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Connect": {
+        "en": "Connectivity Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Form": {
+        "en": "Glacier Form",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "TermType": {
+        "en": "Terminus Type",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Surging": {
+        "en": "Surging Status",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Linkages": {
+        "en": "Linkages",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Name": {
+        "en": "Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "attributes_alias": {
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "RGIId": {
+        "en": "RGI Identifier",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "GLIMSId": {
+        "en": "GLIMS Identifier",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "BgnDate": {
+        "en": "Survey Start Date",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "EndDate": {
+        "en": "Survey End Date",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "CenLon": {
+        "en": "Centroid Longitude",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "CenLat": {
+        "en": "Centroid Latitude",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "O1Region": {
+        "en": "RGI First-Order Region",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "O2Region": {
+        "en": "RGI Second-Order Region",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Area": {
+        "en": "Glacier Area (km2)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Zmin": {
+        "en": "Minimum Elevation (m)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Zmax": {
+        "en": "Maximum Elevation (m)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Zmed": {
+        "en": "Median Elevation (m)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Slope": {
+        "en": "Mean Slope (deg)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Aspect": {
+        "en": "Aspect (deg)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Lmax": {
+        "en": "Maximum Length (m)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Status": {
+        "en": "Status",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Connect": {
+        "en": "Connectivity Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Form": {
+        "en": "Glacier Form",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "TermType": {
+        "en": "Terminus Type",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Surging": {
+        "en": "Surging Status",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Linkages": {
+        "en": "Linkages",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Name": {
+        "en": "Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "notes": {
+      "en": "<ul><li>Source product: Randolph Glacier Inventory (RGI) 6.0; outlines digitised from ASTER imagery.</li><li>Attribute schema follows RGI conventions (RGIId, GLIMSId, Area in km2, elevation statistics, etc.).</li><li>Survey dates (BgnDate-EndDate) can vary by glacier; interpret temporal coverage carefully.</li><li>Caucasus subset compiled in the Sustainable Caucasus archive; not a substitute for the latest national glacier inventories.</li><li>Compare with GLIMS glacier polygons where multi-source validation is required.</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "RGI Consortium (2017). Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 6. NSIDC / GLIMS.",
+    "citation": "RGI Consortium (2017). Randolph Glacier Inventory 6.0. https://www.glims.org/RGI/. Caucasus subset, Sustainable Caucasus GeoNode archive."
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "2017-01-01",
+      "modified_at": "2017-01-01"
+    },
+    "range": {
+      "is_timeless": false,
+      "start_at": "2000-01-01",
+      "end_at": "2017-12-31"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:4326",
+      "url": "http://spatialreference.org/ref/epsg/4326/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "https://www.glims.org/RGI/"
+    },
+    "source": {
+      "urls": [
+        {
+          "is_download_link": false,
+          "url": "https://www.glims.org/RGI/",
+          "label": "Randolph Glacier Inventory (GLIMS/RGI)"
+        },
+        {
+          "is_download_link": false,
+          "url": "https://nsidc.org/data/nsidc-0770",
+          "label": "NSIDC RGI documentation"
+        }
+      ]
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "Provider terms",
+        "text": "Use and citation of RGI data should follow GLIMS/RGI guidance at https://www.glims.org/RGI/ and the associated NSIDC dataset documentation."
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

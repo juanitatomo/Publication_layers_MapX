@@ -1,0 +1,114 @@
+{
+  "geonode_name": "fires_2020",
+  "mapx_id": "",
+  "kind": "range",
+  "status": "partial",
+  "source_attribute": "nbr_fires",
+  "paste_json_as_categorical": false,
+  "geometry": "polygon",
+  "style_json": "fires_2020.json",
+  "how_to_paste": "RANGE: set Source attribute to `nbr_fires`; do NOT rely on categorical JSON values (labels like 1-20 are not field values). Use Auto style / intervals with colors from lookup/styleinfo; see range_min/range_max columns.",
+  "rules": [
+    {
+      "value": "0",
+      "label_en": "0",
+      "color": "#ffffff",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "1 - 10",
+      "label_en": "1 - 10",
+      "color": "#fed6c4",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "10 - 50",
+      "label_en": "10 - 50",
+      "color": "#fca487",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "50 - 100",
+      "label_en": "50 - 100",
+      "color": "#fc7050",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "100 - 250",
+      "label_en": "100 - 250",
+      "color": "#eb362a",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "250 - 500",
+      "label_en": "250 - 500",
+      "color": "#ba1419",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "> 500",
+      "label_en": "> 500",
+      "color": "#67000d",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "range_cuts": [
+    {
+      "label": "0",
+      "min": 0.0,
+      "max": 0.1,
+      "color": "#ffffff",
+      "attribute": "nbr_fires"
+    },
+    {
+      "label": "1 - 10",
+      "min": 1.0,
+      "max": 10.0,
+      "color": "#fed6c4",
+      "attribute": "nbr_fires"
+    },
+    {
+      "label": "10 - 50",
+      "min": 10.0,
+      "max": 50.0,
+      "color": "#fca487",
+      "attribute": "nbr_fires"
+    },
+    {
+      "label": "50 - 100",
+      "min": 50.0,
+      "max": 100.0,
+      "color": "#fc7050",
+      "attribute": "nbr_fires"
+    },
+    {
+      "label": "100 - 250",
+      "min": 100.0,
+      "max": 250.0,
+      "color": "#eb362a",
+      "attribute": "nbr_fires"
+    },
+    {
+      "label": "250 - 500",
+      "min": 250.0,
+      "max": 500.0,
+      "color": "#ba1419",
+      "attribute": "nbr_fires"
+    },
+    {
+      "label": "> 500",
+      "min": 500.0,
+      "max": 1000.0,
+      "color": "#67000d",
+      "attribute": "nbr_fires"
+    }
+  ],
+  "warning": "Numeric range style from SLD. MapX categorical Values like '1-20' will show as 'all' because they are not attribute values. Set Source attribute to 'nbr_fires' and apply interval/Auto style using range_cuts colors."
+}

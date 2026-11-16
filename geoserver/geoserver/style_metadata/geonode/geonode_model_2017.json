@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "model_2017",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.1.0"
+    },
+    "filename": "model_2017.sld"
+  }
+}

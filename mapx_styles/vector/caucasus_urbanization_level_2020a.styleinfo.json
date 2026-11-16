@@ -1,0 +1,100 @@
+{
+  "geonode_name": "caucasus_urbanization_level_2020a",
+  "mapx_id": "MX-I3TF7-TG7IV-D3JOP",
+  "kind": "range",
+  "status": "partial",
+  "source_attribute": "Urban_leve",
+  "paste_json_as_categorical": false,
+  "geometry": "polygon",
+  "style_json": "caucasus_urbanization_level_2020a.json",
+  "how_to_paste": "RANGE: set Source attribute to `Urban_leve`; do NOT rely on categorical JSON values (labels like 1-20 are not field values). Use Auto style / intervals with colors from lookup/styleinfo; see range_min/range_max columns.",
+  "rules": [
+    {
+      "value": "0 - 20",
+      "label_en": "0 - 20",
+      "color": "#d7ecd5",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "20 - 40",
+      "label_en": "20 - 40",
+      "color": "#aed9ab",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "40 - 60",
+      "label_en": "40 - 60",
+      "color": "#85c680",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "60 - 80",
+      "label_en": "60 - 80",
+      "color": "#5cb356",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "80 - 100",
+      "label_en": "80 - 100",
+      "color": "#33a02c",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "No Data",
+      "label_en": "No Data",
+      "color": "#969696",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "range_cuts": [
+    {
+      "label": "0 - 20",
+      "min": 0.0,
+      "max": 20.0,
+      "color": "#d7ecd5",
+      "attribute": "Urban_leve"
+    },
+    {
+      "label": "20 - 40",
+      "min": 20.0,
+      "max": 40.0,
+      "color": "#aed9ab",
+      "attribute": "Urban_leve"
+    },
+    {
+      "label": "40 - 60",
+      "min": 40.0,
+      "max": 60.0,
+      "color": "#85c680",
+      "attribute": "Urban_leve"
+    },
+    {
+      "label": "60 - 80",
+      "min": 60.0,
+      "max": 80.0,
+      "color": "#5cb356",
+      "attribute": "Urban_leve"
+    },
+    {
+      "label": "80 - 100",
+      "min": 80.0,
+      "max": 100.0,
+      "color": "#33a02c",
+      "attribute": "Urban_leve"
+    },
+    {
+      "label": "No Data",
+      "min": 999998.0,
+      "max": 999999.0,
+      "color": "#969696",
+      "attribute": "Urban_leve"
+    }
+  ],
+  "warning": "Numeric range style from SLD. MapX categorical Values like '1-20' will show as 'all' because they are not attribute values. Set Source attribute to 'Urban_leve' and apply interval/Auto style using range_cuts colors."
+}

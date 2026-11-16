@@ -1,0 +1,119 @@
+{
+  "geonode_name": "vegetation_arm",
+  "mapx_id": "MX-3HXSF-G84XP-Y6MMF",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "ZoneID",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "vegetation_arm.json",
+  "how_to_paste": "1) Set Source attribute = `ZoneID`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "1",
+      "label_en": "Alpine medows and dense turf formations",
+      "color": "#00e707",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "2",
+      "label_en": "Beech, oak and hornbeam forests",
+      "color": "#229e00",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "3",
+      "label_en": "Cereal and motley grass steppe with tragacanth",
+      "color": "#ceec7c",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "4",
+      "label_en": "Coniferous and deciduous sparse trees",
+      "color": "#197300",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "5",
+      "label_en": "Forests  of eastern oak",
+      "color": "#29ca17",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "6",
+      "label_en": "Grassland steppe",
+      "color": "#bae642",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "7",
+      "label_en": "Halophilous deserts (halophytic and others)",
+      "color": "#eff577",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "8",
+      "label_en": "Lakes",
+      "color": "#3a93f8",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "10",
+      "label_en": "Lower alpine medows",
+      "color": "#94ec67",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "11",
+      "label_en": "Mixed oak and hornbeam forests",
+      "color": "#5cad78",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "12",
+      "label_en": "Psammophilous deserts",
+      "color": "#e5d50b",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "13",
+      "label_en": "Vegetation of exposed soils",
+      "color": "#94aba8",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "14",
+      "label_en": "Water-marsh vegetation",
+      "color": "#88d3b6",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "15",
+      "label_en": "Wormwood semi-deserts (sweet wormwood)",
+      "color": "#e7da7f",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "16",
+      "label_en": "Xerophilous bushes and grasses",
+      "color": "#c7d061",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'ZoneID', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

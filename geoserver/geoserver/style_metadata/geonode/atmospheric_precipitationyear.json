@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "atmospheric_precipitationyear",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "atmospheric_precipitationyear.sld"
+  }
+}

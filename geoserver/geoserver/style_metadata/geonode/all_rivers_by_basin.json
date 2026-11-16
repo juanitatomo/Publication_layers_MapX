@@ -1,0 +1,15 @@
+{
+  "style": {
+    "name": "all_rivers_by_basin",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.1.0"
+    },
+    "filename": "all_rivers_by_basin.sld",
+    "dateCreated": "2024-08-29 21:26:57.927 UTC",
+    "dateModified": "2024-08-29 21:27:00.73 UTC"
+  }
+}

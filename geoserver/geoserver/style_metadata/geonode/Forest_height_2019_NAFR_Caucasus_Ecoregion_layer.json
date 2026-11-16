@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "Forest_height_2019_NAFR_Caucasus_Ecoregion_layer",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "Forest_height_2019_NAFR_Caucasus_Ecoregion_layer.sld"
+  }
+}

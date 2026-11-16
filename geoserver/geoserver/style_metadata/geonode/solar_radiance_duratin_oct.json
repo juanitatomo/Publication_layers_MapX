@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "solar_radiance_duratin_oct",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.1.0"
+    },
+    "filename": "solar_radiance_duratin_oct.sld"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "geonode_name": "radiance_duration",
+  "mapx_id": "MX-VN451-KUBBX-P4SO1",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "VALUE",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "radiance_duration.json",
+  "how_to_paste": "1) Set Source attribute = `VALUE`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "1800",
+      "label_en": "1800 hours",
+      "color": "#ffffd4",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "2000",
+      "label_en": "2000 hours",
+      "color": "#ffe6a5",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "2200",
+      "label_en": "2200 hours",
+      "color": "#fec46c",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "2400",
+      "label_en": "2400 hours",
+      "color": "#fe9929",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "2600",
+      "label_en": "2600 hours",
+      "color": "#e67217",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "2800",
+      "label_en": "2800 hours",
+      "color": "#c4500a",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "3000",
+      "label_en": "3000 hours",
+      "color": "#993404",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'VALUE', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

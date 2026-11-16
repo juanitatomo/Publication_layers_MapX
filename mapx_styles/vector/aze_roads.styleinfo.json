@@ -1,0 +1,13 @@
+{
+  "geonode_name": "aze_roads",
+  "mapx_id": "MX-TXFHX-0VKLR-HW8PH",
+  "kind": "css_skip",
+  "status": "css_skip",
+  "source_attribute": "",
+  "paste_json_as_categorical": false,
+  "geometry": "",
+  "style_json": null,
+  "how_to_paste": "GeoCSS — style manually in MapX; no JSON paste",
+  "rules": [],
+  "warning": "GeoCSS source — no MapX JSON generated."
+}

@@ -1,0 +1,114 @@
+{
+  "geonode_name": "caucasus_annual_growth_pop_2020a",
+  "mapx_id": "MX-WSYAW-HWXV1-TGULV",
+  "kind": "range",
+  "status": "partial",
+  "source_attribute": "Growth_pop",
+  "paste_json_as_categorical": false,
+  "geometry": "polygon",
+  "style_json": "caucasus_annual_growth_pop_2020a.json",
+  "how_to_paste": "RANGE: set Source attribute to `Growth_pop`; do NOT rely on categorical JSON values (labels like 1-20 are not field values). Use Auto style / intervals with colors from lookup/styleinfo; see range_min/range_max columns.",
+  "rules": [
+    {
+      "value": "No Data",
+      "label_en": "No Data",
+      "color": "#969696",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Fast growth",
+      "label_en": "Fast growth",
+      "color": "#b90013",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Moderate growth",
+      "label_en": "Moderate growth",
+      "color": "#ff5555",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Slow growth",
+      "label_en": "Slow growth",
+      "color": "#fb9a99",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Slow decrease",
+      "label_en": "Slow decrease",
+      "color": "#b0e2fd",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Moderate decrease",
+      "label_en": "Moderate decrease",
+      "color": "#05a3ec",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Fast decrease",
+      "label_en": "Fast decrease",
+      "color": "#470bd1",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "range_cuts": [
+    {
+      "label": "No Data",
+      "min": 999999.0,
+      "max": 999999.0,
+      "color": "#969696",
+      "attribute": "Growth_pop"
+    },
+    {
+      "label": "Fast growth",
+      "min": 1.0,
+      "max": 100.0,
+      "color": "#b90013",
+      "attribute": "Growth_pop"
+    },
+    {
+      "label": "Moderate growth",
+      "min": 0.5,
+      "max": 0.99,
+      "color": "#ff5555",
+      "attribute": "Growth_pop"
+    },
+    {
+      "label": "Slow growth",
+      "min": 0.0,
+      "max": 0.5,
+      "color": "#fb9a99",
+      "attribute": "Growth_pop"
+    },
+    {
+      "label": "Slow decrease",
+      "min": -0.5,
+      "max": -1e-05,
+      "color": "#b0e2fd",
+      "attribute": "Growth_pop"
+    },
+    {
+      "label": "Moderate decrease",
+      "min": -1.0,
+      "max": -0.5,
+      "color": "#05a3ec",
+      "attribute": "Growth_pop"
+    },
+    {
+      "label": "Fast decrease",
+      "min": -100.0,
+      "max": -1.0,
+      "color": "#470bd1",
+      "attribute": "Growth_pop"
+    }
+  ],
+  "warning": "Numeric range style from SLD. MapX categorical Values like '1-20' will show as 'all' because they are not attribute values. Set Source attribute to 'Growth_pop' and apply interval/Auto style using range_cuts colors."
+}

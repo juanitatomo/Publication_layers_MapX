@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "Shaki_Zagatala_ekonom_regions",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "Shaki_Zagatala_ekonom_regions.sld"
+  }
+}

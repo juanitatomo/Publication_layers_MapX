@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "k3_elu_lf",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "k3_elu_lf.sld"
+  }
+}

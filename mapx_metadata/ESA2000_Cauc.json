@@ -1,0 +1,144 @@
+{
+  "text": {
+    "title": {
+      "en": "Caucasus Land Cover 2000",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Land-cover classification for the Caucasus ecoregion for year 2000, derived from the ESA Climate Change Initiative Land Cover product and cropped to the Caucasus ecoregion boundary. Supports land-system change analysis, habitat assessment, and environmental reporting.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "ESA2000_Cauc",
+        "land cover",
+        "land use",
+        "remote sensing",
+        "caucasus",
+        "land",
+        "cover",
+        "2000"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "4665",
+        "4612"
+      ],
+      "keys_topic": [
+        "environment",
+        "imageryBaseMapsEarthCover"
+      ]
+    },
+    "attributes": {},
+    "attributes_alias": {},
+    "notes": {
+      "en": "<ul><li>Source: ESA CCI Land Cover; cropped to the Caucasus ecoregion.</li><li>Raster classes follow the ESA CCI land-cover legend; consult the Product User Guide for class definitions.</li><li>Compare carefully with ESA2005/ESA2010 products when analysing change.</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "European Space Agency (ESA) Climate Change Initiative - Land Cover.",
+    "citation": "ESA CCI Land Cover (2000). Cropped to the Caucasus ecoregion. https://www.esa-landcover-cci.org"
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "2000-01-01",
+      "modified_at": "2000-01-01"
+    },
+    "range": {
+      "is_timeless": false,
+      "start_at": "2000-01-01",
+      "end_at": "2000-12-31"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:4326",
+      "url": "http://spatialreference.org/ref/epsg/4326/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "https://www.esa-landcover-cci.org"
+    },
+    "source": {
+      "urls": [
+        {
+          "is_download_link": false,
+          "url": "https://www.esa-landcover-cci.org",
+          "label": "ESA CCI Land Cover"
+        }
+      ]
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "Provider terms",
+        "text": "Refer to ESA CCI Land Cover terms of use at https://www.esa-landcover-cci.org."
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

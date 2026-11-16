@@ -1,0 +1,471 @@
+geonode_name,mapx_id,kind,source_attribute,rule_order,value,label_en,color,opacity,size,range_min,range_max,paste_json_as_categorical
+IFL_2000_Caucasus,MX-2T4V3-O67CO-QLMIJ,single,,1,Intact forests 2000,Intact forests 2000,#466a37,0.7,1,,,yes
+IFL_2013_Caucasus,MX-5SFYP-XH8T7-IS5PH,single,,1,Intact forests 2013,Intact forests 2013,#ffaa00,0.7,2,,,yes
+IFL_difference_2000_2013_Caucasus,MX-WI2WN-R4NMJ-AGJ45,single,,1,Intact forests difference 2000-2013,Intact forests difference 2000-2013,#e31a1c,0.7,1,,,yes
+UNESCO_WHC_sites_Caucasus_geonode,MX-N72T7-WFW9D-W9AZ3,single,,1,UNESCO sites,UNESCO sites,#ff0000,0.7,25,,,yes
+caucasus_annual_growth_pop_2020a,MX-WSYAW-HWXV1-TGULV,range,Growth_pop,1,No Data,No Data,#969696,0.7,1,999999.0,999999.0,no
+caucasus_annual_growth_pop_2020a,MX-WSYAW-HWXV1-TGULV,range,Growth_pop,2,Fast growth,Fast growth,#b90013,0.7,1,1.0,100.0,no
+caucasus_annual_growth_pop_2020a,MX-WSYAW-HWXV1-TGULV,range,Growth_pop,3,Moderate growth,Moderate growth,#ff5555,0.7,1,0.5,0.99,no
+caucasus_annual_growth_pop_2020a,MX-WSYAW-HWXV1-TGULV,range,Growth_pop,4,Slow growth,Slow growth,#fb9a99,0.7,1,0.0,0.5,no
+caucasus_annual_growth_pop_2020a,MX-WSYAW-HWXV1-TGULV,range,Growth_pop,5,Slow decrease,Slow decrease,#b0e2fd,0.7,1,-0.5,-1e-05,no
+caucasus_annual_growth_pop_2020a,MX-WSYAW-HWXV1-TGULV,range,Growth_pop,6,Moderate decrease,Moderate decrease,#05a3ec,0.7,1,-1.0,-0.5,no
+caucasus_annual_growth_pop_2020a,MX-WSYAW-HWXV1-TGULV,range,Growth_pop,7,Fast decrease,Fast decrease,#470bd1,0.7,1,-100.0,-1.0,no
+caucasus_glaciers,MX-RP7QR-TXY1S-MTJY5,single,,1,Single symbol,Single symbol,#bae9ff,0.7,1,,,yes
+caucasus_population_density_2020,MX-IFK8A-XWA80-CVQCL,range,pop_densit,1,1-20,1-20,#ffd5d5,0.7,1,1.0,20.0,no
+caucasus_population_density_2020,MX-IFK8A-XWA80-CVQCL,range,pop_densit,2,20-50,20-50,#ffaaaa,0.7,1,20.0,50.0,no
+caucasus_population_density_2020,MX-IFK8A-XWA80-CVQCL,range,pop_densit,3,50-100,50-100,#ff8080,0.7,1,50.0,100.0,no
+caucasus_population_density_2020,MX-IFK8A-XWA80-CVQCL,range,pop_densit,4,100-200,100-200,#ff5555,0.7,1,100.0,200.0,no
+caucasus_population_density_2020,MX-IFK8A-XWA80-CVQCL,range,pop_densit,5,200-500,200-500,#ff2a2a,0.7,1,200.0,500.0,no
+caucasus_population_density_2020,MX-IFK8A-XWA80-CVQCL,range,pop_densit,6,>500,>500,#ff0000,0.7,1,500.0,999998.0,no
+caucasus_population_density_2020,MX-IFK8A-XWA80-CVQCL,range,pop_densit,7,No Data,No Data,#969696,0.7,1,999999.0,1000000.0,no
+caucasus_urbanization_level_2020a,MX-I3TF7-TG7IV-D3JOP,range,Urban_leve,1,0 - 20,0 - 20,#d7ecd5,0.7,1,0.0,20.0,no
+caucasus_urbanization_level_2020a,MX-I3TF7-TG7IV-D3JOP,range,Urban_leve,2,20 - 40,20 - 40,#aed9ab,0.7,1,20.0,40.0,no
+caucasus_urbanization_level_2020a,MX-I3TF7-TG7IV-D3JOP,range,Urban_leve,3,40 - 60,40 - 60,#85c680,0.7,1,40.0,60.0,no
+caucasus_urbanization_level_2020a,MX-I3TF7-TG7IV-D3JOP,range,Urban_leve,4,60 - 80,60 - 80,#5cb356,0.7,1,60.0,80.0,no
+caucasus_urbanization_level_2020a,MX-I3TF7-TG7IV-D3JOP,range,Urban_leve,5,80 - 100,80 - 100,#33a02c,0.7,1,80.0,100.0,no
+caucasus_urbanization_level_2020a,MX-I3TF7-TG7IV-D3JOP,range,Urban_leve,6,No Data,No Data,#969696,0.7,1,999998.0,999999.0,no
+hydroshed_main_rivers_Caucasus,MX-OXNYS-316UW-MBRFV,single,,1,Rivers,Rivers,#33aaff,1.0,3,,,yes
+mountains_delimitations_caucasus_clip0,MX-6Q1EB-QPMLL-8RCIG,single,,1,red polygon,red polygon,#ff3300,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,1,Agri Dagi,Agri Dagi,#7732cc,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,2,Alborz  Mountains,Alborz  Mountains,#e9dd31,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,3,Allahu Ekber  Daglari,Allahu Ekber  Daglari,#bce487,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,4,Bingöl Daglari,Bingöl Daglari,#ca408e,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,5,Cosan  Daglari,Cosan  Daglari,#1bb3d9,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,6,Doganli  Daglari,Doganli  Daglari,#40e25e,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,7,Gavur Daglari  Black Sea,Gavur Daglari  Black Sea,#4dcc84,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,8,Greater Caucasus,Greater Caucasus,#e388d3,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,9,Hama Dag,Hama Dag,#b2cd3a,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,10,Iri Dagh,Iri Dagh,#419fec,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,11,Ispiriz  Daglari,Ispiriz  Daglari,#765ae5,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,12,Kargapazari  Daglari,Kargapazari  Daglari,#a859cc,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,13,Kesis Daglari,Kesis Daglari,#83c962,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,14,Küh-e  Mishab,Küh-e  Mishab,#83c962,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,15,Küh-e Bozqush,Küh-e Bozqush,#6e94ec,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,16,Küh-e haye  Sabalan,Küh-e haye  Sabalan,#d7a436,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,17,Kuzey Anadolu Daglari /  Pontus Mountains,Kuzey Anadolu Daglari /  Pontus Mountains,#cf7a39,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,18,Lesser Caucasus,Lesser Caucasus,#8aed83,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,19,Mescit Daglari,Mescit Daglari,#de81e4,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,20,Qareh Dagh,Qareh Dagh,#d94c56,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,21,Talyshskiye Gory,Talyshskiye Gory,#7ddeda,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,22,Tendürük Dagi,Tendürük Dagi,#5057cf,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,23,Yalnizcam  Daglari,Yalnizcam  Daglari,#51f0c1,0.7,1,,,yes
+mountains_delimitations_caucasus_etiquettes,MX-PADE2-E123N-3RLNM,categorical,Name,24,Class,Class,#808080,0.7,7,,,yes
+protect_areas,MX-GYL5V-SWOEC-ZN4TT,categorical,IUCN_CAT,1,Ia,Strict Nature Reserve (Ia),#10e830,0.7,1,,,yes
+protect_areas,MX-GYL5V-SWOEC-ZN4TT,categorical,IUCN_CAT,2,Ib,Wilderness Area (Ib),#1f78b4,0.7,1,,,yes
+protect_areas,MX-GYL5V-SWOEC-ZN4TT,categorical,IUCN_CAT,3,II,National Park (II),#1a990e,0.7,1,,,yes
+protect_areas,MX-GYL5V-SWOEC-ZN4TT,categorical,IUCN_CAT,4,III,Natural Monument or Feature (III),#fad900,0.7,1,,,yes
+protect_areas,MX-GYL5V-SWOEC-ZN4TT,categorical,IUCN_CAT,5,IV,Habitat/Species Management Area (IV),#f69e23,0.7,1,,,yes
+protect_areas,MX-GYL5V-SWOEC-ZN4TT,categorical,IUCN_CAT,6,V,Protected Landscape/ Seascape (V),#e285e6,0.7,1,,,yes
+protect_areas,MX-GYL5V-SWOEC-ZN4TT,categorical,IUCN_CAT,7,VI,Protected area with sustainable use of natural resources (VI),#18e2f0,0.7,1,,,yes
+protect_areas,MX-GYL5V-SWOEC-ZN4TT,categorical,IUCN_CAT,8,Not Applicable,Not Applicable,#000000,0.7,1,,,yes
+protect_areas,MX-GYL5V-SWOEC-ZN4TT,categorical,IUCN_CAT,9,Not Reported,Not Reported,#a09e9f,0.7,1,,,yes
+total_population_2019_NUTS2,MX-B1OKT-D494O-HNO25,range,NUTS2_Popu,1,No Data,No Data,#969595,0.7,1,-999999.0,0.0,no
+total_population_2019_NUTS2,MX-B1OKT-D494O-HNO25,range,NUTS2_Popu,2,< 100'000,< 100'000,#ffe1d3,0.7,1,0.0,100000.0,no
+total_population_2019_NUTS2,MX-B1OKT-D494O-HNO25,range,NUTS2_Popu,3,100'000 - 250'000,100'000 - 250'000,#fdbea5,0.7,1,100000.0,250000.0,no
+total_population_2019_NUTS2,MX-B1OKT-D494O-HNO25,range,NUTS2_Popu,4,250'000 - 500'000,250'000 - 500'000,#fc9777,0.7,1,250000.0,500000.0,no
+total_population_2019_NUTS2,MX-B1OKT-D494O-HNO25,range,NUTS2_Popu,5,500'000 - 1'000'000,500'000 - 1'000'000,#fc7050,0.7,1,500000.0,1000000.0,no
+total_population_2019_NUTS2,MX-B1OKT-D494O-HNO25,range,NUTS2_Popu,6,1'000'000 - 2'000'000,1'000'000 - 2'000'000,#f24431,0.7,1,1000000.0,2000000.0,no
+total_population_2019_NUTS2,MX-B1OKT-D494O-HNO25,range,NUTS2_Popu,7,2'000'000 - 5'000'000,2'000'000 - 5'000'000,#d42020,0.7,1,2000000.0,5000000.0,no
+total_population_2019_NUTS2,MX-B1OKT-D494O-HNO25,range,NUTS2_Popu,8,> 5'000'000,> 5'000'000,#ad1016,0.7,1,5000000.0,10000000.0,no
+Caucasus_Ecocorridors_WGS84,,single,,1,Ecocorridors,Ecocorridors,#1e8822,0.14,1,,,yes
+Priority_Conservation_Areas_WGS84,,single,,1,Priority conservation areas,Priority conservation areas,#9ed7c2,0.7,1,,,yes
+WDPA_Caucasus,,single,,1,Protected areas,Protected areas,#008888,0.7,1,,,yes
+caucasus_ecoregion_forest_cover,,categorical,Class_Name,1,Deciduous Forest,Deciduous Forest,#6bc26c,0.7,1,,,yes
+caucasus_ecoregion_forest_cover,,categorical,Class_Name,2,Evergreen Forest,Evergreen Forest,#729c6a,0.7,1,,,yes
+caucasus_ecoregion_land_cover,,categorical,Class_Name,1,Deciduous Forest,Deciduous Forest,#6bc26c,0.7,1,,,yes
+caucasus_ecoregion_land_cover,,categorical,Class_Name,2,Evergreen Forest,Evergreen Forest,#729c6a,0.7,1,,,yes
+caucasus_ecoregion_land_cover,,categorical,Class_Name,3,Shrub/Scrub,Shrub/Scrub,#ccd17d,0.7,1,,,yes
+caucasus_ecoregion_land_cover,,categorical,Class_Name,4,Grassland,Grassland,#d3eda6,0.7,1,,,yes
+caucasus_ecoregion_land_cover,,categorical,Class_Name,5,Barren / Minimal Vegetation,Barren / Minimal Vegetation,#f0e9c9,0.7,1,,,yes
+caucasus_ecoregion_land_cover,,categorical,Class_Name,6,"Agriculture, General","Agriculture, General",#a7d9bd,0.7,1,,,yes
+caucasus_ecoregion_land_cover,,categorical,Class_Name,7,"Agriculture, Paddy","Agriculture, Paddy",#839ec7,0.7,1,,,yes
+caucasus_ecoregion_land_cover,,categorical,Class_Name,8,Wetland,Wetland,#6e72ba,0.7,1,,,yes
+caucasus_ecoregion_land_cover,,categorical,Class_Name,9,Ice / Snow,Ice / Snow,#f5ffff,0.7,1,,,yes
+caucasus_ecoregion_land_cover,,categorical,Class_Name,10,"Urban, High Density","Urban, High Density",#6e4046,0.7,1,,,yes
+caucasus_ecoregion_land_cover,,categorical,Class_Name,11,"Urban, Medium to Low Density","Urban, Medium to Low Density",#bd8088,0.7,1,,,yes
+caucasus_ecoregion_land_cover,,categorical,Class_Name,12,Water,Water,#808080,0.7,1,,,yes
+caucasus_ecoregion_wgs84_new,,single,,1,Caucasus ecoregion,Caucasus ecoregion,#e69800,0.7,3,,,yes
+emerald_2020_epsg4326_caucasus,,categorical,Status,1,Candidate,Candidate,#f5d38a,0.7,1,,,yes
+emerald_2020_epsg4326_caucasus,,categorical,Status,2,Proposed,Proposed,#ffc1ff,0.7,1,,,yes
+emerald_2020_epsg4326_caucasus,,categorical,Status,3,Adopted,Adopted,#78de9e,0.7,1,,,yes
+fires_2020,,range,nbr_fires,1,0,0,#ffffff,0.7,1,0.0,0.1,no
+fires_2020,,range,nbr_fires,2,1 - 10,1 - 10,#fed6c4,0.7,1,1.0,10.0,no
+fires_2020,,range,nbr_fires,3,10 - 50,10 - 50,#fca487,0.7,1,10.0,50.0,no
+fires_2020,,range,nbr_fires,4,50 - 100,50 - 100,#fc7050,0.7,1,50.0,100.0,no
+fires_2020,,range,nbr_fires,5,100 - 250,100 - 250,#eb362a,0.7,1,100.0,250.0,no
+fires_2020,,range,nbr_fires,6,250 - 500,250 - 500,#ba1419,0.7,1,250.0,500.0,no
+fires_2020,,range,nbr_fires,7,> 500,> 500,#67000d,0.7,1,500.0,1000.0,no
+leopard_distribution_area_wgs84,,single,,1,Leopard distribution area,Leopard distribution area,#cd8966,0.7,1,,,yes
+railroads,,categorical,fclass,1,rail,rail,#050505,1.0,2,,,yes
+railroads,,categorical,fclass,2,tram,tram,#33a02c,1.0,2,,,yes
+railroads,,categorical,fclass,3,subway,subway,#fa0000,1.0,2,,,yes
+railroads,,categorical,fclass,4,funicular,funicular,#0762fd,1.0,2,,,yes
+roads_caucasus_select,,categorical,fclass,1,motorway,motorway,#fb6100,1.0,3,,,yes
+roads_caucasus_select,,categorical,fclass,2,trunk,trunk,#c93f04,1.0,1,,,yes
+roads_caucasus_select,,categorical,fclass,3,primary,primary,#020000,1.0,2,,,yes
+roads_caucasus_select,,categorical,fclass,4,secondary,secondary,#646464,1.0,2,,,yes
+Hydrogeology,MX-5G2XB-OYVPQ-JOP1P,categorical,Aquifer,1,"Terrigenous, lightly cemented interrupted rocks: alternation of clays, sandstones and conglomerates","Terrigenous, lightly cemented interrupted rocks: alternation of clays, sandstones and conglomerates",#f4f147,0.7,1,,,yes
+Hydrogeology,MX-5G2XB-OYVPQ-JOP1P,categorical,Aquifer,2,"Terrigenous loose clastic, lake-river and continental sediments: boulders, pebbles, sand, sandy loam, clay alternating with andesite-basalt streams and nappes in intermountain basins","Terrigenous loose clastic, lake-river and continental sediments: boulders, pebbles, sand, sandy loam, clay alternating with andesite-basalt streams and nappes in intermountain basins",#edc7ea,0.7,1,,,yes
+Hydrogeology,MX-5G2XB-OYVPQ-JOP1P,categorical,Aquifer,3,"Mainly in carbonate rocks, in some places alternated with terrigenous formations: limestones, marls, dolomites, quartzites, limy sandstones, tuffs and conglomerates","Mainly in carbonate rocks, in some places alternated with terrigenous formations: limestones, marls, dolomites, quartzites, limy sandstones, tuffs and conglomerates",#b289df,0.7,1,,,yes
+Hydrogeology,MX-5G2XB-OYVPQ-JOP1P,categorical,Aquifer,4,"Mainly in volcanogenic-sedimentary rocks: tuff-sandstones, tuff-gravelites, tuff-conglomerates and tuffites, in some places alternated with limestone and clay shales","Mainly in volcanogenic-sedimentary rocks: tuff-sandstones, tuff-gravelites, tuff-conglomerates and tuffites, in some places alternated with limestone and clay shales",#dfd5a6,0.7,1,,,yes
+Hydrogeology,MX-5G2XB-OYVPQ-JOP1P,categorical,Aquifer,5,"In volcanic lavas: basalts, andesite-basalts,andesites, andesite-dacites, dacites","In volcanic lavas: basalts, andesite-basalts,andesites, andesite-dacites, dacites",#aec588,0.7,1,,,yes
+Hydrogeology,MX-5G2XB-OYVPQ-JOP1P,categorical,Aquifer,6,"In pyroclastic variations of lavas: ash-pumice tuffs, tuff-lavas, riolites, obsidians, slags, pumices and volcanic sands","In pyroclastic variations of lavas: ash-pumice tuffs, tuff-lavas, riolites, obsidians, slags, pumices and volcanic sands",#bccf11,0.7,1,,,yes
+Hydrogeology,MX-5G2XB-OYVPQ-JOP1P,categorical,Aquifer,7,"Mainly in volcanogenic rocks: porphyrities, diabases, keratophyries and their pyroclasts","Mainly in volcanogenic rocks: porphyrities, diabases, keratophyries and their pyroclasts",#f48000,0.7,1,,,yes
+Hydrogeology,MX-5G2XB-OYVPQ-JOP1P,categorical,Aquifer,8,In metamorphic shales,In metamorphic shales,#eeb378,0.7,1,,,yes
+Hydrogeology,MX-5G2XB-OYVPQ-JOP1P,categorical,Aquifer,9,"In intrusive rocks of acid, basic and ultrabasic composition","In intrusive rocks of acid, basic and ultrabasic composition",#ed3cdf,0.7,1,,,yes
+Hydrogeology,MX-5G2XB-OYVPQ-JOP1P,categorical,Aquifer,10,Main lakes and reservoirs,Main lakes and reservoirs,#5fb1f4,0.7,1,,,yes
+arm_catchmets,MX-YIYW9-4M65O-NECSF,single,,1,Class,Class,#880088,0.7,1,,,yes
+arm_forest_area,MX-APENA-FRKKE-0DSRK,single,,1,Forest areas,Forest areas,#0a6400,0.7,1,,,yes
+arm_landuse,MX-9D7AU-R4BAX-AYK4E,categorical,Landuse,1,,Landuse is '',#808080,0.7,7,,,yes
+arm_landuse,MX-9D7AU-R4BAX-AYK4E,categorical,Landuse,2,Arable land,Arable land,#fdad51,0.7,1,,,yes
+arm_landuse,MX-9D7AU-R4BAX-AYK4E,categorical,Landuse,3,Crops,Crops,#a06525,0.7,1,,,yes
+arm_landuse,MX-9D7AU-R4BAX-AYK4E,categorical,Landuse,4,"Forest, shrubland","Forest, shrubland",#217c16,0.7,1,,,yes
+arm_landuse,MX-9D7AU-R4BAX-AYK4E,categorical,Landuse,5,Grassland,Grassland,#5dba26,0.7,1,,,yes
+arm_landuse,MX-9D7AU-R4BAX-AYK4E,categorical,Landuse,6,"Lakes, reservoirs","Lakes, reservoirs",#a5bfdd,0.7,1,,,yes
+arm_landuse,MX-9D7AU-R4BAX-AYK4E,categorical,Landuse,7,Pastures,Pastures,#81fb44,0.7,1,,,yes
+arm_landuse,MX-9D7AU-R4BAX-AYK4E,categorical,Landuse,8,Yerevan city,Yerevan city,#eb3a09,0.7,1,,,yes
+arm_rivers_erica,MX-GS1Q4-Q0NNA-L7H2W,single,,1,Rivers,Rivers,#000088,1.0,2,,,yes
+armenia_landslide,MX-MGIN7-EK3KI-AE9GE,single,,1,Class,Class,#891900,0.7,1,,,yes
+armenia_prec,MX-4FZRH-PUX6Q-DR30D,categorical,Precipitat,1,200,200 mm/year,#8bc5ff,0.7,1,,,yes
+armenia_prec,MX-4FZRH-PUX6Q-DR30D,categorical,Precipitat,2,300,300 mm/year,#7ab2eb,0.7,1,,,yes
+armenia_prec,MX-4FZRH-PUX6Q-DR30D,categorical,Precipitat,3,400,400 mm/year,#6a9ed6,0.7,1,,,yes
+armenia_prec,MX-4FZRH-PUX6Q-DR30D,categorical,Precipitat,4,500,500 mm/year,#598bc1,0.7,1,,,yes
+armenia_prec,MX-4FZRH-PUX6Q-DR30D,categorical,Precipitat,5,600,600 mm/year,#4977ad,0.7,1,,,yes
+armenia_prec,MX-4FZRH-PUX6Q-DR30D,categorical,Precipitat,6,700,700 mm/year,#386498,0.7,1,,,yes
+armenia_prec,MX-4FZRH-PUX6Q-DR30D,categorical,Precipitat,7,800,800 mm/year,#275083,0.7,1,,,yes
+armenia_prec,MX-4FZRH-PUX6Q-DR30D,categorical,Precipitat,8,900,900 mm/year,#173d6f,0.7,1,,,yes
+armenia_prec,MX-4FZRH-PUX6Q-DR30D,categorical,Precipitat,9,1000,1000 mm/year,#06295a,0.7,1,,,yes
+avalanches,MX-B7JUB-S4MR7-737DY,categorical,DangerLvl,1,Strong,High,#713b98,0.7,1,,,yes
+avalanches,MX-B7JUB-S4MR7-737DY,categorical,DangerLvl,2,Temperate,Middle,#4886a5,0.7,1,,,yes
+avalanches,MX-B7JUB-S4MR7-737DY,categorical,DangerLvl,3,Weak,Low,#9beee2,0.7,1,,,yes
+caucasus_pois_clip_culture,MX-YAE4P-E1XUK-R8PHH,categorical,fclass,1,archaeological,archaeological,#54b04a,0.7,9,,,yes
+caucasus_pois_clip_culture,MX-YAE4P-E1XUK-R8PHH,categorical,fclass,2,artwork,artwork,#ac5b31,0.7,7,,,yes
+caucasus_pois_clip_culture,MX-YAE4P-E1XUK-R8PHH,categorical,fclass,3,castle,castle,#487bb6,0.7,7,,,yes
+caucasus_pois_clip_culture,MX-YAE4P-E1XUK-R8PHH,categorical,fclass,4,memorial,memorial,#faff39,0.7,7,,,yes
+caucasus_pois_clip_culture,MX-YAE4P-E1XUK-R8PHH,categorical,fclass,5,monument,monument,#85420a,0.7,9,,,yes
+caucasus_pois_clip_culture,MX-YAE4P-E1XUK-R8PHH,categorical,fclass,6,museum,museum,#000000,0.7,7,,,yes
+caucasus_pois_clip_culture,MX-YAE4P-E1XUK-R8PHH,categorical,fclass,7,ruins,ruins,#ffffff,0.7,7,,,yes
+climat,MX-5OWCY-066WV-QKN1U,categorical,Descriptio,1,"Arid continental, with dry warm summersand moderate cold winters","Arid continental, with dry warm summersand moderate cold winters",#d7191c,0.7,1,,,yes
+climat,MX-5OWCY-066WV-QKN1U,categorical,Descriptio,2,"Arid subtropical, with hot summers and calm winters","Arid subtropical, with hot summers and calm winters",#e75437,0.7,1,,,yes
+climat,MX-5OWCY-066WV-QKN1U,categorical,Descriptio,3,"Arid, continental, with hot summers and cold winters","Arid, continental, with hot summers and cold winters",#f69053,0.7,1,,,yes
+climat,MX-5OWCY-066WV-QKN1U,categorical,Descriptio,4,"Moderate, relatively dry warm summers and cold winters","Moderate, relatively dry warm summers and cold winters",#febe4e,0.7,1,,,yes
+climat,MX-5OWCY-066WV-QKN1U,categorical,Descriptio,5,"Moderate, relativly humid during all seasons","Moderate, relativly humid during all seasons",#ffdf29,0.7,1,,,yes
+climat,MX-5OWCY-066WV-QKN1U,categorical,Descriptio,6,"Moderate, warm arid summers and moderate cold winters","Moderate, warm arid summers and moderate cold winters",#ffff05,0.7,1,,,yes
+climat,MX-5OWCY-066WV-QKN1U,categorical,Descriptio,7,"Moderate, with short cool summers and cold winters","Moderate, with short cool summers and cold winters",#dcf02d,0.7,1,,,yes
+climat,MX-5OWCY-066WV-QKN1U,categorical,Descriptio,8,"Moderate, with warm summers, relatively humid calm winters","Moderate, with warm summers, relatively humid calm winters",#b8e156,0.7,1,,,yes
+climat,MX-5OWCY-066WV-QKN1U,categorical,Descriptio,9,Mountain tundra climate,Mountain tundra climate,#8acc62,0.7,1,,,yes
+climat,MX-5OWCY-066WV-QKN1U,categorical,Descriptio,10,Warm summers and relatively calm winters,Warm summers and relatively calm winters,#52b151,0.7,1,,,yes
+climat,MX-5OWCY-066WV-QKN1U,categorical,Descriptio,11,,Descriptio is '',#808080,0.7,7,,,yes
+flooding_duration,MX-KIV7B-P30BH-DITAI,categorical,Dur_days,1,10,10 days,#feebe2,0.7,1,,,yes
+flooding_duration,MX-KIV7B-P30BH-DITAI,categorical,Dur_days,2,20,20 days,#fdd0ce,0.7,1,,,yes
+flooding_duration,MX-KIV7B-P30BH-DITAI,categorical,Dur_days,3,30,30 days,#fbb4b9,0.7,1,,,yes
+flooding_duration,MX-KIV7B-P30BH-DITAI,categorical,Dur_days,4,40,40 days,#f98ead,0.7,1,,,yes
+flooding_duration,MX-KIV7B-P30BH-DITAI,categorical,Dur_days,5,50,50 days,#f768a1,0.7,1,,,yes
+flooding_duration,MX-KIV7B-P30BH-DITAI,categorical,Dur_days,6,60,60 days,#de4196,0.7,1,,,yes
+flooding_duration,MX-KIV7B-P30BH-DITAI,categorical,Dur_days,7,70,70 days,#c51b8a,0.7,1,,,yes
+flooding_duration,MX-KIV7B-P30BH-DITAI,categorical,Dur_days,8,80,80 days,#a00e81,0.7,1,,,yes
+flooding_duration,MX-KIV7B-P30BH-DITAI,categorical,Dur_days,9,90,90 days,#7a0177,0.7,1,,,yes
+flooding_layer,MX-0OMN2-GIPLD-02NRJ,categorical,Thick_mm,1,50,50 mm,#97ebec,0.7,1,,,yes
+flooding_layer,MX-0OMN2-GIPLD-02NRJ,categorical,Thick_mm,2,100,100 mm,#8ce9c8,0.7,1,,,yes
+flooding_layer,MX-0OMN2-GIPLD-02NRJ,categorical,Thick_mm,3,200,200 mm,#82e7a4,0.7,1,,,yes
+flooding_layer,MX-0OMN2-GIPLD-02NRJ,categorical,Thick_mm,4,300,300 mm,#77e480,0.7,1,,,yes
+flooding_layer,MX-0OMN2-GIPLD-02NRJ,categorical,Thick_mm,5,400,400 mm,#58c96f,0.7,1,,,yes
+flooding_layer,MX-0OMN2-GIPLD-02NRJ,categorical,Thick_mm,6,500,500 mm,#39ae5d,0.7,1,,,yes
+flooding_layer,MX-0OMN2-GIPLD-02NRJ,categorical,Thick_mm,7,600,600 mm,#22934a,0.7,1,,,yes
+flooding_layer,MX-0OMN2-GIPLD-02NRJ,categorical,Thick_mm,8,700,700 mm,#117737,0.7,1,,,yes
+flooding_layer,MX-0OMN2-GIPLD-02NRJ,categorical,Thick_mm,9,800,800 mm,#005b24,0.7,1,,,yes
+geo_catchment,MX-VML4K-SOP5O-GW1NG,single,,1,Class,Class,#880000,0.7,1,,,yes
+geo_rivers_erica,MX-GR9IW-1P6GY-0MFQ5,single,,1,Rivers,Rivers,#0606ae,1.0,2,,,yes
+glims_polygons,MX-8LOWS-UVROS-Z9EXQ,single,,1,Glaciers,Glaciers,#63f0ee,0.7,1,,,yes
+l_water_s,MX-R502I-0LBHZ-ENBD2,categorical,NUMERICUSE,1,1,Lake Sevan,#9a94d9,0.7,1,,,yes
+l_water_s,MX-R502I-0LBHZ-ENBD2,categorical,NUMERICUSE,2,25,<25 mm,#b5eafa,0.7,1,,,yes
+l_water_s,MX-R502I-0LBHZ-ENBD2,categorical,NUMERICUSE,3,50,50  mm,#b2dbf4,0.7,1,,,yes
+l_water_s,MX-R502I-0LBHZ-ENBD2,categorical,NUMERICUSE,4,100,100  mm,#a9ceee,0.7,1,,,yes
+l_water_s,MX-R502I-0LBHZ-ENBD2,categorical,NUMERICUSE,5,150,150  mm,#7bbfe4,0.7,1,,,yes
+l_water_s,MX-R502I-0LBHZ-ENBD2,categorical,NUMERICUSE,6,200,200  mm,#54acdc,0.7,1,,,yes
+l_water_s,MX-R502I-0LBHZ-ENBD2,categorical,NUMERICUSE,7,250,250  mm,#379ad3,0.7,1,,,yes
+l_water_s,MX-R502I-0LBHZ-ENBD2,categorical,NUMERICUSE,8,300,300  mm,#2f8ec8,0.7,1,,,yes
+l_water_s,MX-R502I-0LBHZ-ENBD2,categorical,NUMERICUSE,9,350,350  mm,#1c78bc,0.7,1,,,yes
+l_water_s,MX-R502I-0LBHZ-ENBD2,categorical,NUMERICUSE,10,400,400  mm,#0d5fa6,0.7,1,,,yes
+l_water_s,MX-R502I-0LBHZ-ENBD2,categorical,NUMERICUSE,11,450,450  mm,#064483,0.7,1,,,yes
+l_water_s,MX-R502I-0LBHZ-ENBD2,categorical,NUMERICUSE,12,500,>450  mm,#00306b,0.7,1,,,yes
+l_water_w,MX-J53H0-191FR-LIW7U,categorical,NUMERICUSE,1,25,<25 mm,#b7fbff,0.7,1,,,yes
+l_water_w,MX-J53H0-191FR-LIW7U,categorical,NUMERICUSE,2,50,50  mm,#b3e3f8,0.7,1,,,yes
+l_water_w,MX-J53H0-191FR-LIW7U,categorical,NUMERICUSE,3,100,100  mm,#afd3f0,0.7,1,,,yes
+l_water_w,MX-J53H0-191FR-LIW7U,categorical,NUMERICUSE,4,150,150  mm,#75bee3,0.7,1,,,yes
+l_water_w,MX-J53H0-191FR-LIW7U,categorical,NUMERICUSE,5,200,200  mm,#42a2d8,0.7,1,,,yes
+l_water_w,MX-J53H0-191FR-LIW7U,categorical,NUMERICUSE,6,250,250  mm,#2f8fc9,0.7,1,,,yes
+l_water_w,MX-J53H0-191FR-LIW7U,categorical,NUMERICUSE,7,300,300  mm,#1773b9,0.7,1,,,yes
+l_water_w,MX-J53H0-191FR-LIW7U,categorical,NUMERICUSE,8,350,350  mm,#084e8f,0.7,1,,,yes
+l_water_w,MX-J53H0-191FR-LIW7U,categorical,NUMERICUSE,9,400,<350  mm,#00306b,0.7,1,,,yes
+l_water_w,MX-J53H0-191FR-LIW7U,categorical,NUMERICUSE,10,1,Lake Sevan,#9a94d9,0.7,1,,,yes
+lakes_and_reservoirs,MX-ZZ9UT-1CWX4-7D58C,single,,1,Class,Class,#000088,0.7,1,,,yes
+landscape,MX-IVFCA-B7HZ3-KA2VZ,categorical,Tipe,1,High mountain alpine,High mountain alpine,#8ddcca,0.7,1,,,yes
+landscape,MX-IVFCA-B7HZ3-KA2VZ,categorical,Tipe,2,High mountain subalpine,High mountain subalpine,#74cf8f,0.7,1,,,yes
+landscape,MX-IVFCA-B7HZ3-KA2VZ,categorical,Tipe,3,High-altitude snow-cowered,High-altitude snow-cowered,#33becd,0.7,1,,,yes
+landscape,MX-IVFCA-B7HZ3-KA2VZ,categorical,Tipe,4,Low and middle mountain forest shelter belt,Low and middle mountain forest shelter belt,#217c16,0.7,1,,,yes
+landscape,MX-IVFCA-B7HZ3-KA2VZ,categorical,Tipe,5,Low and middle mountain steppe,Low and middle mountain steppe,#5dba26,0.7,1,,,yes
+landscape,MX-IVFCA-B7HZ3-KA2VZ,categorical,Tipe,6,"Low mountain, dry steppe","Low mountain, dry steppe",#f3ae0e,0.7,1,,,yes
+landscape,MX-IVFCA-B7HZ3-KA2VZ,categorical,Tipe,7,Middle mountain meadow steppe,Middle mountain meadow steppe,#85fb4a,0.7,1,,,yes
+landscape,MX-IVFCA-B7HZ3-KA2VZ,categorical,Tipe,8,Middle mountain steppe,Middle mountain steppe,#ecad6d,0.7,1,,,yes
+landscape,MX-IVFCA-B7HZ3-KA2VZ,categorical,Tipe,9,Mountain-valley semidesert,Mountain-valley semidesert,#f3f60e,0.7,1,,,yes
+landscape,MX-IVFCA-B7HZ3-KA2VZ,categorical,Tipe,10,Submountain semidesert,Submountain semidesert,#c1b43d,0.7,1,,,yes
+landscape,MX-IVFCA-B7HZ3-KA2VZ,categorical,Tipe,11,,Tipe is '',#808080,0.7,7,,,yes
+max_precipitation,MX-90P7W-VANI6-R6BA4,categorical,Precip_mm,1,40,40 mm,#edf8fb,0.7,1,,,yes
+max_precipitation,MX-90P7W-VANI6-R6BA4,categorical,Precip_mm,2,45,45 mm,#d4e5f1,0.7,1,,,yes
+max_precipitation,MX-90P7W-VANI6-R6BA4,categorical,Precip_mm,3,50,50 mm,#bad2e6,0.7,1,,,yes
+max_precipitation,MX-90P7W-VANI6-R6BA4,categorical,Precip_mm,4,55,55 mm,#a6bbda,0.7,1,,,yes
+max_precipitation,MX-90P7W-VANI6-R6BA4,categorical,Precip_mm,5,60,60 mm,#95a2cd,0.7,1,,,yes
+max_precipitation,MX-90P7W-VANI6-R6BA4,categorical,Precip_mm,6,65,65 mm,#8b88bf,0.7,1,,,yes
+max_precipitation,MX-90P7W-VANI6-R6BA4,categorical,Precip_mm,7,70,70 mm,#896bb2,0.7,1,,,yes
+max_precipitation,MX-90P7W-VANI6-R6BA4,categorical,Precip_mm,8,75,75 mm,#874ea2,0.7,1,,,yes
+max_precipitation,MX-90P7W-VANI6-R6BA4,categorical,Precip_mm,9,80,80 mm,#842e8f,0.7,1,,,yes
+max_precipitation,MX-90P7W-VANI6-R6BA4,categorical,Precip_mm,10,85,85 mm,#810f7c,0.7,1,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,1,AhF1,AhF1,#dd56b7,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,2,AhF2,AhF2,#5db5d0,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,3,AhF3,AhF3,#931ed1,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,4,AhF4,AhF4,#41c6cd,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,5,ChF1,ChF1,#d8b666,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,6,ChF2,ChF2,#e261aa,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,7,ChF3,ChF3,#e05b7d,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,8,DebF,DebF,#14e16d,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,9,GF1,GF1,#3d7ece,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,10,GF2,GF2,#c0d45c,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,11,GF3,GF3,#b2e14c,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,12,GF4,GF4,#4cd645,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,13,GF5,GF5,#4745e4,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,14,GirF,GirF,#cc34d1,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,15,GSF1,GSF1,#9a75e5,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,16,GSF2,GSF2,#51d461,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,17,GSF3,GSF3,#d0814f,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,18,IgF1,IgF1,#ca6f68,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,19,IgF2,IgF2,#cfd07e,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,20,IgF3,IgF3,#efae63,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,21,IgF4,IgF4,#97cb78,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,22,JaF,JaF,#c965e2,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,23,NMF,NMF,#a96de8,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,24,NTF,NTF,#d21863,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,25,PSSF1,PSSF1,#37d761,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,26,PSSF2,PSSF2,#90d57e,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,27,PSSF3,PSSF3,#697bf0,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,28,PSSF4,PSSF4,#47cda9,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,29,PSSF5,PSSF5,#d02cbd,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,30,PSSF6,PSSF6,#3a68d3,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,31,PSSF7,PSSF7,#a8ec5f,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,32,PSSF8,PSSF8,#d4ba27,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,33,PSSF9,PSSF9,#ee0e24,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,34,SaF,SaF,#62ddd1,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,35,SF,SF,#69baec,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,36,TshF,TshF,#cf7f69,1.0,2,,,yes
+model_2017,MX-U8FNZ-EXD46-B2SNO,categorical,NAME_TB,37,YeF,YeF,#6cdcad,1.0,2,,,yes
+mudflow_arm,MX-QH4CS-M8A7A-WCAS1,categorical,risk,1,1,High,#b61417,0.7,1,,,yes
+mudflow_arm,MX-QH4CS-M8A7A-WCAS1,categorical,risk,2,2,Middle,#fe9b19,0.7,1,,,yes
+mudflow_arm,MX-QH4CS-M8A7A-WCAS1,categorical,risk,3,3,Low,#e6a085,0.7,1,,,yes
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,1,0 - 100,0 - 100,#f0f0f0,0.0,1,0.0,100.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,2,101 - 200,101 - 200,#f0f0f0,0.0,2,100.0,200.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,3,201 - 500,201 - 500,#f0f0f0,0.0,3,200.0,500.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,4,501 - 1000,501 - 1000,#f0f0f0,0.0,4,500.0,1000.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,5,1001 - 2000,1001 - 2000,#f0f0f0,0.0,5,1000.0,2000.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,6,2001 - 2500,2001 - 2500,#f0f0f0,0.0,6,2000.0,2500.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,7,2501 - 3500,2501 - 3500,#f0f0f0,0.0,7,2500.0,3500.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,8,3501 - 5000,3501 - 5000,#f0f0f0,0.0,8,3500.0,5000.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,9,5001 - 7500,5001 - 7500,#f0f0f0,0.0,9,5000.0,7500.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,10,7501 - 10000,7501 - 10000,#f0f0f0,0.0,10,7500.0,10000.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,11,10001 - 20000,10001 - 20000,#f0f0f0,0.0,11,10000.0,20000.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,12,20001 - 35000,20001 - 35000,#f0f0f0,0.0,12,20000.0,35000.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,13,35001 - 70000,35001 - 70000,#f0f0f0,0.0,13,35000.0,70000.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,14,70001 - 230000,70001 - 230000,#f0f0f0,0.0,14,70000.0,230000.0,no
+pop_1989,MX-6XOT2-5SBOF-BC6B4,range,POP_1989,15,230001 - 1250000,230001 - 1250000,#f0f0f0,0.0,15,230000.0,1250000.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,1,0 - 100,0 - 100,#f0f0f0,0.0,1,0.0,100.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,2,101 - 200,101 - 200,#f0f0f0,0.0,2,100.0,200.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,3,201 - 500,201 - 500,#f0f0f0,0.0,3,200.0,500.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,4,501 - 1000,501 - 1000,#f0f0f0,0.0,4,500.0,1000.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,5,1001 - 2000,1001 - 2000,#f0f0f0,0.0,5,1000.0,2000.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,6,2001 - 2500,2001 - 2500,#f0f0f0,0.0,6,2000.0,2500.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,7,2501 - 3500,2501 - 3500,#f0f0f0,0.0,7,2500.0,3500.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,8,3501 - 5000,3501 - 5000,#f0f0f0,0.0,8,3500.0,5000.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,9,5001 - 7500,5001 - 7500,#f0f0f0,0.0,9,5000.0,7500.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,10,7501 - 10000,7501 - 10000,#f0f0f0,0.0,10,7500.0,10000.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,11,10001 - 20000,10001 - 20000,#f0f0f0,0.0,11,10000.0,20000.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,12,20001 - 35000,20001 - 35000,#f0f0f0,0.0,12,20000.0,35000.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,13,35001 - 70000,35001 - 70000,#f0f0f0,0.0,13,35000.0,70000.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,14,70001 - 230000,70001 - 230000,#f0f0f0,0.0,14,70000.0,230000.0,no
+pop_2002,MX-SAJ8L-LB7VW-9KYR6,range,POP_2002,15,230001 - 1250000,230001 - 1250000,#f0f0f0,0.0,15,230000.0,1250000.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,1,0 - 100,0 - 100,#f0f0f0,0.0,1,0.0,100.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,2,101 - 200,101 - 200,#f0f0f0,0.0,2,100.0,200.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,3,201 - 500,201 - 500,#f0f0f0,0.0,3,200.0,500.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,4,501 - 1000,501 - 1000,#f0f0f0,0.0,4,500.0,1000.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,5,1001 - 2000,1001 - 2000,#f0f0f0,0.0,5,1000.0,2000.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,6,2001 - 2500,2001 - 2500,#f0f0f0,0.0,6,2000.0,2500.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,7,2501 - 3500,2501 - 3500,#f0f0f0,0.0,7,2500.0,3500.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,8,3501 - 5000,3501 - 5000,#f0f0f0,0.0,8,3500.0,5000.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,9,5001 - 7500,5001 - 7500,#f0f0f0,0.0,9,5000.0,7500.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,10,7501 - 10000,7501 - 10000,#f0f0f0,0.0,10,7500.0,10000.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,11,10001 - 20000,10001 - 20000,#f0f0f0,0.0,11,10000.0,20000.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,12,20001 - 35000,20001 - 35000,#f0f0f0,0.0,12,20000.0,35000.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,13,35001 - 70000,35001 - 70000,#f0f0f0,0.0,13,35000.0,70000.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,14,70001 - 230000,70001 - 230000,#f0f0f0,0.0,14,70000.0,230000.0,no
+pop_2014,MX-DLA27-36KXS-YA1R0,range,POP_2014,15,230001 - 1250000,230001 - 1250000,#f0f0f0,0.0,15,230000.0,1250000.0,no
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,1,60,60 h0urs,#ffff49,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,2,80,80 hours,#fff44d,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,3,100,100 hours,#ffe951,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,4,120,120 hours,#ffdd56,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,5,140,140 hours,#ffd25a,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,6,160,160 hours,#fec558,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,7,180,180 hours,#feb751,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,8,200,200 hours,#fea94a,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,9,220,220 hours,#fe9b43,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,10,240,240 hours,#fd8d3c,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,11,260,260 hours,#fb7b35,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,12,280,280 hours,#f8682f,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,13,300,300 hours,#f55629,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,14,310,310 hours,#f24423,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,15,320,320 hours,#e63420,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,16,340,340 hours,#d22721,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,17,360,360 hours,#be1a21,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,18,380,380 hours,#a90d22,0.7,1,,,yes
+rad_dur_apr,MX-8DC3W-Q74NS-4LA7O,categorical,VALUE,19,400,400 hours,#950023,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,1,60,60 hours,#ffff49,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,2,80,80 hours,#fff44d,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,3,100,100 hours,#ffe951,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,4,120,120 hours,#ffdd56,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,5,140,140 hours,#ffd25a,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,6,160,160 hours,#fec558,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,7,180,180 hours,#feb751,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,8,200,200 hours,#fea94a,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,9,220,220 hours,#fe9b43,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,10,240,240 hours,#fd8d3c,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,11,260,260 hours,#fb7b35,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,12,280,280 hours,#f8682f,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,13,300,300 hours,#f55629,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,14,310,310 hours,#f24423,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,15,320,320 hours,#e63420,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,16,340,340 hours,#d22721,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,17,360,360 hours,#be1a21,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,18,380,380 hours,#a90d22,0.7,1,,,yes
+rad_dur_jan,MX-QADA7-ZALP5-69X48,categorical,VALUE,19,400,400 hours,#950023,0.7,1,,,yes
+radiance_duration,MX-VN451-KUBBX-P4SO1,categorical,VALUE,1,1800,1800 hours,#ffffd4,0.7,1,,,yes
+radiance_duration,MX-VN451-KUBBX-P4SO1,categorical,VALUE,2,2000,2000 hours,#ffe6a5,0.7,1,,,yes
+radiance_duration,MX-VN451-KUBBX-P4SO1,categorical,VALUE,3,2200,2200 hours,#fec46c,0.7,1,,,yes
+radiance_duration,MX-VN451-KUBBX-P4SO1,categorical,VALUE,4,2400,2400 hours,#fe9929,0.7,1,,,yes
+radiance_duration,MX-VN451-KUBBX-P4SO1,categorical,VALUE,5,2600,2600 hours,#e67217,0.7,1,,,yes
+radiance_duration,MX-VN451-KUBBX-P4SO1,categorical,VALUE,6,2800,2800 hours,#c4500a,0.7,1,,,yes
+radiance_duration,MX-VN451-KUBBX-P4SO1,categorical,VALUE,7,3000,3000 hours,#993404,0.7,1,,,yes
+radiation_bal,MX-CXVIY-XQRQM-IMKAJ,categorical,VALUE,1,40,40 kcal/sq.cm,#fddede,0.7,1,,,yes
+radiation_bal,MX-CXVIY-XQRQM-IMKAJ,categorical,VALUE,2,45,45 kcal/sq.cm,#fdb7b9,0.7,1,,,yes
+radiation_bal,MX-CXVIY-XQRQM-IMKAJ,categorical,VALUE,3,50,50 kcal/sq.cm,#fd9793,0.7,1,,,yes
+radiation_bal,MX-CXVIY-XQRQM-IMKAJ,categorical,VALUE,4,55,55 kcal/sq.cm,#fd906c,0.7,1,,,yes
+radiation_bal,MX-CXVIY-XQRQM-IMKAJ,categorical,VALUE,5,60,60 kcal/sq.cm,#f57a4e,0.7,1,,,yes
+radiation_bal,MX-CXVIY-XQRQM-IMKAJ,categorical,VALUE,6,65,65 kcal/sq.cm,#e75338,0.7,1,,,yes
+radiation_bal,MX-CXVIY-XQRQM-IMKAJ,categorical,VALUE,7,70,70 kcal/sq.cm,#cf2a1d,0.7,1,,,yes
+seismic_zones,MX-FR6Q4-8CQHZ-S2OOW,categorical,Zone,1,I,I,#f4dc70,0.7,1,,,yes
+seismic_zones,MX-FR6Q4-8CQHZ-S2OOW,categorical,Zone,2,II,II,#fdbb60,0.7,1,,,yes
+seismic_zones,MX-FR6Q4-8CQHZ-S2OOW,categorical,Zone,3,III,III,#d8020a,0.7,1,,,yes
+seismic_zones,MX-FR6Q4-8CQHZ-S2OOW,categorical,Zone,4,Class,Class,#808080,0.7,7,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,1,Alluvial-meadow saline lands and alkali soils,Alluvial-meadow saline lands and alkali soils,#9ddcda,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,2,Alluvial-meadow soils irrigated also in the past,Alluvial-meadow soils irrigated also in the past,#2fc9dd,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,3,Alpine mountaine-medow turf-peat soils,Alpine mountaine-medow turf-peat soils,#85b70f,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,4,Brown mountainous-forest soils of dry firests and bushes,Brown mountainous-forest soils of dry firests and bushes,#b98746,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,5,Brown mountainous-forest soils of moderately humid forests,Brown mountainous-forest soils of moderately humid forests,#d6a15c,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,6,Desalinated here and there fat mountainous black soils of humid steppe,Desalinated here and there fat mountainous black soils of humid steppe,#75552c,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,7,Gray mountainous here and there gypsiferous & saline soils,Gray mountainous here and there gypsiferous & saline soils,#979797,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,8,Gypsiferous and here and there saline colored soils,Gypsiferous and here and there saline colored soils,#d1dbdd,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,9,Lake Sevan's outcropped bottomlands,Lake Sevan's outcropped bottomlands,#2863da,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,10,Meadow saline lands and alkali soils,Meadow saline lands and alkali soils,#bedd74,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,11,Meadow-marshy soils,Meadow-marshy soils,#0fbf6a,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,12,Mountain-fulvous soils of dry steppes,Mountain-fulvous soils of dry steppes,#dbb3bc,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,13,Mountainous carbonated and typical black soils with weakly developed black soils of moderately humid steppes,Mountainous carbonated and typical black soils with weakly developed black soils of moderately humid steppes,#eecec1,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,14,Mountainous-forest steppe soils,Mountainous-forest steppe soils,#677288,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,15,Non-developed soils of snow-closed zone,Non-developed soils of snow-closed zone,#edec8d,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,16,Subalpian mountain-medow black soil-like,Subalpian mountain-medow black soil-like,#565b0c,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,17,Subalpian mountain-medow brown soils,Subalpian mountain-medow brown soils,#8f5a21,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,18,Watered and irrigated also in the past cultivated gray mountainous soils,Watered and irrigated also in the past cultivated gray mountainous soils,#388ef0,0.7,1,,,yes
+soil_arm,MX-NFENW-8CZFR-W0MHC,categorical,Descriptio,19,,Descriptio is '',#808080,0.7,7,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,1,60,60 h0urs,#ffff49,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,2,80,80 hours,#fff44d,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,3,100,100 hours,#ffe951,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,4,120,120 hours,#ffdd56,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,5,140,140 hours,#ffd25a,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,6,160,160 hours,#fec558,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,7,180,180 hours,#feb751,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,8,200,200 hours,#fea94a,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,9,220,220 hours,#fe9b43,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,10,240,240 hours,#fd8d3c,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,11,260,260 hours,#fb7b35,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,12,280,280 hours,#f8682f,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,13,300,300 hours,#f55629,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,14,310,310 hours,#f24423,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,15,320,320 hours,#e63420,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,16,340,340 hours,#d22721,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,17,360,360 hours,#be1a21,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,18,380,380 hours,#a90d22,0.7,1,,,yes
+solar_radiance_duratin_jul,MX-B4SPE-RY2G7-5B99I,categorical,VALUE,19,400,400 hours,#950023,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,1,60,60 h0urs,#ffff49,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,2,80,80 hours,#fff44d,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,3,100,100 hours,#ffe951,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,4,120,120 hours,#ffdd56,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,5,140,140 hours,#ffd25a,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,6,160,160 hours,#fec558,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,7,180,180 hours,#feb751,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,8,200,200 hours,#fea94a,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,9,220,220 hours,#fe9b43,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,10,240,240 hours,#fd8d3c,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,11,260,260 hours,#fb7b35,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,12,280,280 hours,#f8682f,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,13,300,300 hours,#f55629,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,14,310,310 hours,#f24423,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,15,320,320 hours,#e63420,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,16,340,340 hours,#d22721,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,17,360,360 hours,#be1a21,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,18,380,380 hours,#a90d22,0.7,1,,,yes
+solar_radiance_duratin_oct,MX-UJ61V-8M8H3-8LHJ4,categorical,VALUE,19,400,400 hours,#950023,0.7,1,,,yes
+solar_radiation,MX-BUGNK-997EE-35S6P,categorical,Sun_radiat,1,115,115 kcal/sq.cm,#ffffb2,0.7,1,,,yes
+solar_radiation,MX-BUGNK-997EE-35S6P,categorical,Sun_radiat,2,120,120 kcal/sq.cm,#ffeb90,0.7,1,,,yes
+solar_radiation,MX-BUGNK-997EE-35S6P,categorical,Sun_radiat,3,125,125 kcal/sq.cm,#ffd76d,0.7,1,,,yes
+solar_radiation,MX-BUGNK-997EE-35S6P,categorical,Sun_radiat,4,130,130 kcal/sq.cm,#fec055,0.7,1,,,yes
+solar_radiation,MX-BUGNK-997EE-35S6P,categorical,Sun_radiat,5,135,135 kcal/sq.cm,#fea649,0.7,1,,,yes
+solar_radiation,MX-BUGNK-997EE-35S6P,categorical,Sun_radiat,6,140,140 kcal/sq.cm,#fd8d3c,0.7,1,,,yes
+solar_radiation,MX-BUGNK-997EE-35S6P,categorical,Sun_radiat,7,145,145 kcal/sq.cm,#f86c30,0.7,1,,,yes
+solar_radiation,MX-BUGNK-997EE-35S6P,categorical,Sun_radiat,8,150,150 kcal/sq.cm,#f34b25,0.7,1,,,yes
+solar_radiation,MX-BUGNK-997EE-35S6P,categorical,Sun_radiat,9,155,155 kcal/sq.cm,#e62f21,0.7,1,,,yes
+solar_radiation,MX-BUGNK-997EE-35S6P,categorical,Sun_radiat,10,160,160 kcal/sq.cm,#d21723,0.7,1,,,yes
+solar_radiation,MX-BUGNK-997EE-35S6P,categorical,Sun_radiat,11,165,165 kcal/sq.cm,#bd0026,0.7,1,,,yes
+sum_of_average_daily_air_temperatures_above__10c,MX-XNKR0-70YKR-88U5Y,categorical,Sum_of_ave,1,<800,<800,#f79797,0.7,1,,,yes
+sum_of_average_daily_air_temperatures_above__10c,MX-XNKR0-70YKR-88U5Y,categorical,Sum_of_ave,2,800-2000,800-2000,#f16d6d,0.7,1,,,yes
+sum_of_average_daily_air_temperatures_above__10c,MX-XNKR0-70YKR-88U5Y,categorical,Sum_of_ave,3,2000-3000,2000-3000,#e75858,0.7,1,,,yes
+sum_of_average_daily_air_temperatures_above__10c,MX-XNKR0-70YKR-88U5Y,categorical,Sum_of_ave,4,3000-3800,3000-3800,#d83838,0.7,1,,,yes
+sum_of_average_daily_air_temperatures_above__10c,MX-XNKR0-70YKR-88U5Y,categorical,Sum_of_ave,5,3800-4500,3800-4500,#bc1818,0.7,1,,,yes
+sum_of_average_daily_air_temperatures_above__10c,MX-XNKR0-70YKR-88U5Y,categorical,Sum_of_ave,6,>4500,>4500,#990505,0.7,1,,,yes
+temperature,MX-EYTJU-LD4SP-THMCJ,categorical,Temperatur,1,-5,-5[°C],#fff5f0,0.7,1,,,yes
+temperature,MX-EYTJU-LD4SP-THMCJ,categorical,Temperatur,2,-3,-3[°C],#ffe5d9,0.7,1,,,yes
+temperature,MX-EYTJU-LD4SP-THMCJ,categorical,Temperatur,3,-1,-1[°C],#fdccb8,0.7,1,,,yes
+temperature,MX-EYTJU-LD4SP-THMCJ,categorical,Temperatur,4,1,1[°C],#fcaf93,0.7,1,,,yes
+temperature,MX-EYTJU-LD4SP-THMCJ,categorical,Temperatur,5,3,3[°C],#fc8f6f,0.7,1,,,yes
+temperature,MX-EYTJU-LD4SP-THMCJ,categorical,Temperatur,6,5,5[°C],#fc7050,0.7,1,,,yes
+temperature,MX-EYTJU-LD4SP-THMCJ,categorical,Temperatur,7,7,7[°C],#f44d37,0.7,1,,,yes
+temperature,MX-EYTJU-LD4SP-THMCJ,categorical,Temperatur,8,9,9[°C],#e22d26,0.7,1,,,yes
+temperature,MX-EYTJU-LD4SP-THMCJ,categorical,Temperatur,9,11,11[°C],#c5161b,0.7,1,,,yes
+temperature,MX-EYTJU-LD4SP-THMCJ,categorical,Temperatur,10,13,13[°C],#a50f15,0.7,1,,,yes
+temperature,MX-EYTJU-LD4SP-THMCJ,categorical,Temperatur,11,15,15[°C],#67000d,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,1,1,Alpine medows and dense turf formations,#00e707,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,2,2,"Beech, oak and hornbeam forests",#229e00,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,3,3,Cereal and motley grass steppe with tragacanth,#ceec7c,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,4,4,Coniferous and deciduous sparse trees,#197300,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,5,5,Forests  of eastern oak,#29ca17,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,6,6,Grassland steppe,#bae642,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,7,7,Halophilous deserts (halophytic and others),#eff577,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,8,8,Lakes,#3a93f8,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,9,10,Lower alpine medows,#94ec67,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,10,11,Mixed oak and hornbeam forests,#5cad78,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,11,12,Psammophilous deserts,#e5d50b,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,12,13,Vegetation of exposed soils,#94aba8,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,13,14,Water-marsh vegetation,#88d3b6,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,14,15,Wormwood semi-deserts (sweet wormwood),#e7da7f,0.7,1,,,yes
+vegetation_arm,MX-3HXSF-G84XP-Y6MMF,categorical,ZoneID,15,16,Xerophilous bushes and grasses,#c7d061,0.7,1,,,yes
+wind_resources,MX-DKBCJ-8ZISL-VG1TN,categorical,Wind_Speed,1,0 - 6.0,0 - 6.0 m/sec,#ffffff,0.0,1,,,yes
+wind_resources,MX-DKBCJ-8ZISL-VG1TN,categorical,Wind_Speed,2,6.0 - 6.8,6.0 - 6.8 m/sec,#feaf77,0.7,1,,,yes
+wind_resources,MX-DKBCJ-8ZISL-VG1TN,categorical,Wind_Speed,3,7.5 - 8.1,7.5 - 8.1 m/sec,#f1605d,0.7,1,,,yes
+wind_resources,MX-DKBCJ-8ZISL-VG1TN,categorical,Wind_Speed,4,8.1 - 8.6,8.1 - 8.6 m/sec,#b63679,0.7,1,,,yes
+wind_resources,MX-DKBCJ-8ZISL-VG1TN,categorical,Wind_Speed,5,8.6 - 9.5,8.6 - 9.5 m/sec,#721f81,0.7,1,,,yes
+wind_resources,MX-DKBCJ-8ZISL-VG1TN,categorical,Wind_Speed,6,>9.5,>9.5 m/sec,#2d115f,0.7,1,,,yes
+wind_resources,MX-DKBCJ-8ZISL-VG1TN,categorical,Wind_Speed,7,,Wind_Speed is '',#808080,0.7,7,,,yes

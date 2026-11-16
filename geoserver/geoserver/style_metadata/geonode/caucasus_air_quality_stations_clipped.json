@@ -1,0 +1,15 @@
+{
+  "style": {
+    "name": "caucasus_air_quality_stations_clipped",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.1.0"
+    },
+    "filename": "caucasus_air_quality_stations_clipped.sld",
+    "dateCreated": "2024-08-29 21:14:49.913 UTC",
+    "dateModified": "2024-08-29 21:14:52.129 UTC"
+  }
+}

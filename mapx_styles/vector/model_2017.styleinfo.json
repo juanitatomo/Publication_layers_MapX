@@ -1,0 +1,273 @@
+{
+  "geonode_name": "model_2017",
+  "mapx_id": "MX-U8FNZ-EXD46-B2SNO",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "NAME_TB",
+  "paste_json_as_categorical": true,
+  "geometry": "line",
+  "style_json": "model_2017.json",
+  "how_to_paste": "1) Set Source attribute = `NAME_TB`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "AhF1",
+      "label_en": "AhF1",
+      "color": "#dd56b7",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "AhF2",
+      "label_en": "AhF2",
+      "color": "#5db5d0",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "AhF3",
+      "label_en": "AhF3",
+      "color": "#931ed1",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "AhF4",
+      "label_en": "AhF4",
+      "color": "#41c6cd",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "ChF1",
+      "label_en": "ChF1",
+      "color": "#d8b666",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "ChF2",
+      "label_en": "ChF2",
+      "color": "#e261aa",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "ChF3",
+      "label_en": "ChF3",
+      "color": "#e05b7d",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "DebF",
+      "label_en": "DebF",
+      "color": "#14e16d",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "GF1",
+      "label_en": "GF1",
+      "color": "#3d7ece",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "GF2",
+      "label_en": "GF2",
+      "color": "#c0d45c",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "GF3",
+      "label_en": "GF3",
+      "color": "#b2e14c",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "GF4",
+      "label_en": "GF4",
+      "color": "#4cd645",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "GF5",
+      "label_en": "GF5",
+      "color": "#4745e4",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "GirF",
+      "label_en": "GirF",
+      "color": "#cc34d1",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "GSF1",
+      "label_en": "GSF1",
+      "color": "#9a75e5",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "GSF2",
+      "label_en": "GSF2",
+      "color": "#51d461",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "GSF3",
+      "label_en": "GSF3",
+      "color": "#d0814f",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "IgF1",
+      "label_en": "IgF1",
+      "color": "#ca6f68",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "IgF2",
+      "label_en": "IgF2",
+      "color": "#cfd07e",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "IgF3",
+      "label_en": "IgF3",
+      "color": "#efae63",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "IgF4",
+      "label_en": "IgF4",
+      "color": "#97cb78",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "JaF",
+      "label_en": "JaF",
+      "color": "#c965e2",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "NMF",
+      "label_en": "NMF",
+      "color": "#a96de8",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "NTF",
+      "label_en": "NTF",
+      "color": "#d21863",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "PSSF1",
+      "label_en": "PSSF1",
+      "color": "#37d761",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "PSSF2",
+      "label_en": "PSSF2",
+      "color": "#90d57e",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "PSSF3",
+      "label_en": "PSSF3",
+      "color": "#697bf0",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "PSSF4",
+      "label_en": "PSSF4",
+      "color": "#47cda9",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "PSSF5",
+      "label_en": "PSSF5",
+      "color": "#d02cbd",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "PSSF6",
+      "label_en": "PSSF6",
+      "color": "#3a68d3",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "PSSF7",
+      "label_en": "PSSF7",
+      "color": "#a8ec5f",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "PSSF8",
+      "label_en": "PSSF8",
+      "color": "#d4ba27",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "PSSF9",
+      "label_en": "PSSF9",
+      "color": "#ee0e24",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "SaF",
+      "label_en": "SaF",
+      "color": "#62ddd1",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "SF",
+      "label_en": "SF",
+      "color": "#69baec",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "TshF",
+      "label_en": "TshF",
+      "color": "#cf7f69",
+      "opacity": 1.0,
+      "size": 2
+    },
+    {
+      "value": "YeF",
+      "label_en": "YeF",
+      "color": "#6cdcad",
+      "opacity": 1.0,
+      "size": 2
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'NAME_TB', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

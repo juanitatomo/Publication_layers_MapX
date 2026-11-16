@@ -1,0 +1,84 @@
+{
+  "geonode_name": "max_precipitation",
+  "mapx_id": "MX-90P7W-VANI6-R6BA4",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Precip_mm",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "max_precipitation.json",
+  "how_to_paste": "1) Set Source attribute = `Precip_mm`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "40",
+      "label_en": "40 mm",
+      "color": "#edf8fb",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "45",
+      "label_en": "45 mm",
+      "color": "#d4e5f1",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "50",
+      "label_en": "50 mm",
+      "color": "#bad2e6",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "55",
+      "label_en": "55 mm",
+      "color": "#a6bbda",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "60",
+      "label_en": "60 mm",
+      "color": "#95a2cd",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "65",
+      "label_en": "65 mm",
+      "color": "#8b88bf",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "70",
+      "label_en": "70 mm",
+      "color": "#896bb2",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "75",
+      "label_en": "75 mm",
+      "color": "#874ea2",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "80",
+      "label_en": "80 mm",
+      "color": "#842e8f",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "85",
+      "label_en": "85 mm",
+      "color": "#810f7c",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Precip_mm', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

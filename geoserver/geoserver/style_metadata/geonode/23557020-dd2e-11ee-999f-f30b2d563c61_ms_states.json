@@ -1,0 +1,39 @@
+{
+  "style": {
+    "name": "23557020-dd2e-11ee-999f-f30b2d563c61_ms_states",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "23557020-dd2e-11ee-999f-f30b2d563c61_ms_states.sld",
+    "metadata": {
+      "entry": [
+        {
+          "@key": "msEditorType",
+          "$": "visual"
+        },
+        {
+          "@key": "gnDatasetPk",
+          "$": "1180"
+        },
+        {
+          "@key": "msStyleJSON",
+          "$": "{\"name\":\"Default Polygon\",\"rules\":[{\"ruleId\":\"2c7b3d20-dca6-11ee-917f-719ad9d55a6f\",\"kind\":\"Classification\",\"color\":\"#dddddd\",\"fillOpacity\":1,\"outlineColor\":\"#777777\",\"outlineWidth\":1,\"msClassificationType\":\"both\",\"msClampToGround\":true,\"classification\":[{\"title\":\" >= 1.0 AND <6.4444\",\"color\":\"#f7fcfd\",\"type\":\"Polygon\",\"min\":1,\"max\":6.4444},{\"title\":\" >= 6.4444 AND <11.8889\",\"color\":\"#e0ecf4\",\"type\":\"Polygon\",\"min\":6.4444,\"max\":11.8889},{\"title\":\" >= 11.8889 AND <17.3333\",\"color\":\"#bfd3e6\",\"type\":\"Polygon\",\"min\":11.8889,\"max\":17.3333},{\"title\":\" >= 17.3333 AND <22.7778\",\"color\":\"#9ebcda\",\"type\":\"Polygon\",\"min\":17.3333,\"max\":22.7778},{\"title\":\" >= 22.7778 AND <28.2222\",\"color\":\"#8c96c6\",\"type\":\"Polygon\",\"min\":22.7778,\"max\":28.2222},{\"title\":\" >= 28.2222 AND <33.6667\",\"color\":\"#8c6bb1\",\"type\":\"Polygon\",\"min\":28.2222,\"max\":33.6667},{\"title\":\" >= 33.6667 AND <39.1111\",\"color\":\"#88419d\",\"type\":\"Polygon\",\"min\":33.6667,\"max\":39.1111},{\"title\":\" >= 39.1111 AND <44.5556\",\"color\":\"#810f7c\",\"type\":\"Polygon\",\"min\":39.1111,\"max\":44.5556},{\"title\":\" >= 44.5556 AND <=50.0\",\"color\":\"#4d004b\",\"type\":\"Polygon\",\"min\":44.5556,\"max\":50}],\"intervals\":9,\"method\":\"equalInterval\",\"ramp\":\"bupu\",\"reverse\":false,\"symbolizerKind\":\"Fill\",\"attribute\":\"ogc_fid\"}]}"
+        },
+        {
+          "@key": "msMD5Hash",
+          "$": "477444dac5011d2381e6b41a87e579d6"
+        },
+        {
+          "@key": "title",
+          "$": "states"
+        }
+      ]
+    },
+    "dateCreated": "2024-03-08 09:27:49.67 UTC",
+    "dateModified": "2024-03-08 09:28:02.729 UTC"
+  }
+}

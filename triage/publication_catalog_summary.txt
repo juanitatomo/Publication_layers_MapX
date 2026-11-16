@@ -1,0 +1,99 @@
+MapX publication catalog: P1 + existing views
+Unique datasets: 79
+  both:       18
+  p1_only:    18
+  script_only:43
+Publish yes:  79
+Publish no:   0
+Skipped MapX views: 4
+
+Skipped:
+  MX-7UKB7-SEHW5-Z7HN9  Caucasus landcover 2010  (test_or_duplicate_or_broken_wms)
+  MX-VO1UM-OO4GR-SW9VZ  Test Caucasus  (test_or_duplicate_or_broken_wms)
+  MX-8Z88D-P09HB-07Y4C  Caucasus Cultural Places 2021  (test_or_duplicate_or_broken_wms)
+  MX-YWU5S-ND8K2-BK04Z  test  (test_or_duplicate_or_broken_wms)
+
+=== both ===
+  [R] ESA2000_Cauc  |  MX-B786K-6DKU7-LVNOT  |  ok  |  sustainable_caucasus_archive\rasters\geonode_importer\tmp6682973757159128818\ESA2000_Cauc.tif  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_ESA2000_Cauc.sld
+  [R] ESA2005_Cauc  |  MX-I4VTO-9X4S1-VQQPE  |  wrong_layer  |  sustainable_caucasus_archive\rasters\geonode_importer\tmp4184135837943550819\ESA2005_Cauc.tif  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_ESA2005_Cauc.sld
+  [R] ESA2010_Cauc  |  MX-2FANI-UZZD6-QHA6V  |  wrong_layer  |  sustainable_caucasus_archive\rasters\geonode_importer\tmp5829399476221404509\ESA2010_Cauc.tif  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_ESA2010_Cauc.sld
+  [R] Forest_height_2019_NAFR_Caucasus_Ecoregion  |  MX-CC6W4-30V1Q-5UOYS  |  ok  |  sustainable_caucasus_archive\rasters\geoserver\Forest_height_2019_NAFR_Caucasus_Ecoregion\Forest_height_2019_NAFR_Caucasus_Ecoregion.geotiff  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_Forest_height_2019_NAFR_Caucasus_Ecoregion.sld
+  [R] GHS_2015  |  MX-9OX9Z-M1DWO-FQ6DN  |  ok  |  sustainable_caucasus_archive\rasters\geonode_importer\tmp5842988287151057960\GHS_2015.tif  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_GHS_2015.sld
+  [V] IFL_2000_Caucasus  |  MX-2T4V3-O67CO-QLMIJ  |  ok  |  sustainable_caucasus_archive\database\gpkg\IFL_2000_Caucasus.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_IFL_2000_Caucasus.sld
+  [V] IFL_2013_Caucasus  |  MX-5SFYP-XH8T7-IS5PH  |  ok  |  sustainable_caucasus_archive\database\gpkg\IFL_2013_Caucasus.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_IFL_2013_Caucasus.sld
+  [V] IFL_difference_2000_2013_Caucasus  |  MX-WI2WN-R4NMJ-AGJ45  |  ok  |  sustainable_caucasus_archive\database\gpkg\IFL_difference_2000_2013_Caucasus.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_IFL_difference_2000_2013_Caucasus.sld
+  [V] UNESCO_WHC_sites_Caucasus_geonode  |  MX-N72T7-WFW9D-W9AZ3  |  ok  |  sustainable_caucasus_archive\database\gpkg\UNESCO_WHC_sites_Caucasus_geonode.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_UNESCO_WHC_sites_Caucasus_geonode.sld
+  [V] caucasus_annual_growth_pop_2020a  |  MX-WSYAW-HWXV1-TGULV  |  ok  |  sustainable_caucasus_archive\database\gpkg\caucasus_annual_growth_pop_2020a.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_caucasus_annual_growth_pop_2020a.sld
+  [V] caucasus_glaciers  |  MX-RP7QR-TXY1S-MTJY5  |  ok  |  sustainable_caucasus_archive\database\gpkg\caucasus_glaciers.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_caucasus_glaciers.sld
+  [V] caucasus_population_density_2020  |  MX-IFK8A-XWA80-CVQCL  |  ok  |  sustainable_caucasus_archive\database\gpkg\caucasus_population_density_2020.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_caucasus_population_density_2020.sld
+  [V] caucasus_urbanization_level_2020a  |  MX-I3TF7-TG7IV-D3JOP  |  ok  |  sustainable_caucasus_archive\database\gpkg\caucasus_urbanization_level_2020a.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_caucasus_urbanization_level_2020a.sld
+  [V] hydroshed_main_rivers_Caucasus  |  MX-OXNYS-316UW-MBRFV  |  ok  |  sustainable_caucasus_archive\database\gpkg\hydroshed_main_rivers_Caucasus.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_hydroshed_main_rivers_Caucasus.sld
+  [V] mountains_delimitations_caucasus_clip0  |  MX-6Q1EB-QPMLL-8RCIG  |  ok  |  sustainable_caucasus_archive\database\gpkg\mountains_delimitations_caucasus_clip0.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_mountains_delimitations_caucasus_clip0.sld
+  [V] mountains_delimitations_caucasus_etiquettes  |  MX-PADE2-E123N-3RLNM  |  ok  |  sustainable_caucasus_archive\database\gpkg\mountains_delimitations_caucasus_etiquettes.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_mountains_delimitations_caucasus_etiquettes.sld
+  [V] protect_areas  |  MX-GYL5V-SWOEC-ZN4TT  |  ok  |  sustainable_caucasus_archive\database\gpkg\protect_areas.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_protect_areas.sld
+  [V] total_population_2019_NUTS2  |  MX-B1OKT-D494O-HNO25  |  ok  |  sustainable_caucasus_archive\database\gpkg\total_population_2019_NUTS2.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_total_population_2019_NUTS2.sld
+
+=== p1_only ===
+  [R] elevation_caucasus  |  (new)  |  new  |  sustainable_caucasus_archive\rasters\geonode_importer\tmp8189966123792810504\elevation_caucasus.tif  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_base_sld___2f939850-3d51-11ec-992c-eb6146686bc9.sld
+  [R] gmba_thermal  |  (new)  |  new  |  sustainable_caucasus_archive\rasters\geoserver\gmba_thermal\gmba_thermal.geotiff  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_gmba_thermal.sld
+  [R] k1_kapos  |  (new)  |  new  |  sustainable_caucasus_archive\rasters\geoserver\k1_kapos\k1_kapos.geotiff  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_k1_kapos.sld
+  [R] k1k2k3_matrix  |  (new)  |  new  |  sustainable_caucasus_archive\rasters\geoserver\k1k2k3_matrix\k1k2k3_matrix.geotiff  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_k1k2k3_matrix.sld
+  [R] k2_gmba_thermal  |  (new)  |  new  |  sustainable_caucasus_archive\rasters\geoserver\k2_gmba_thermal\k2_gmba_thermal.geotiff  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_k2_gmba_thermal.sld
+  [R] k3_elu_lf  |  (new)  |  new  |  sustainable_caucasus_archive\rasters\geoserver\k3_elu_lf\k3_elu_lf.geotiff  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_k3_elu_lf.sld
+  [R] ls_risk_cauc  |  (new)  |  new  |  sustainable_caucasus_archive\rasters\geonode_importer\tmp6601272676805775000\ls_risk_cauc.tif  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_ls_risk_cauc.sld
+  [V] Caucasus_Ecocorridors_WGS84  |  (new)  |  new  |  sustainable_caucasus_archive\database\gpkg\Caucasus_Ecocorridors_WGS84.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_Caucasus_Ecocorridors_WGS84.sld
+  [V] Priority_Conservation_Areas_WGS84  |  (new)  |  new  |  sustainable_caucasus_archive\database\gpkg\Priority_Conservation_Areas_WGS84.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_Priority_Conservation_Areas_WGS84.sld
+  [V] WDPA_Caucasus  |  (new)  |  new  |  sustainable_caucasus_archive\database\gpkg\WDPA_Caucasus.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_WDPA_Caucasus.sld
+  [V] caucasus_ecoregion_forest_cover  |  (new)  |  new  |  sustainable_caucasus_archive\database\gpkg\caucasus_ecoregion_forest_cover.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_caucasus_ecoregion_forest_cover.sld
+  [V] caucasus_ecoregion_land_cover  |  (new)  |  new  |  sustainable_caucasus_archive\database\gpkg\caucasus_ecoregion_land_cover.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_caucasus_ecoregion_land_cover.sld
+  [V] caucasus_ecoregion_wgs84_new  |  (new)  |  new  |  sustainable_caucasus_archive\database\gpkg\caucasus_ecoregion_wgs84_new.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_caucasus_ecoregion_wgs84_new.sld
+  [V] emerald_2020_epsg4326_caucasus  |  (new)  |  new  |  sustainable_caucasus_archive\database\gpkg\emerald_2020_epsg4326_caucasus.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_emerald_2020_epsg4326_caucasus.sld
+  [V] fires_2020  |  (new)  |  new  |  sustainable_caucasus_archive\database\gpkg\fires_2020.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_fires_2020.sld
+  [V] leopard_distribution_area_wgs84  |  (new)  |  new  |  sustainable_caucasus_archive\database\gpkg\leopard_distribution_area_wgs84.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_leopard_distribution_area_wgs84.sld
+  [V] railroads  |  (new)  |  new  |  sustainable_caucasus_archive\database\gpkg\railroads.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_railroads.sld
+  [V] roads_caucasus_select  |  (new)  |  new  |  sustainable_caucasus_archive\database\gpkg\roads_caucasus_select.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_roads_caucasus_select.sld
+
+=== script_only ===
+  [R] seismic_hazard_475  |  MX-5H28K-P9XKH-W5KAE  |  ok  |  sustainable_caucasus_archive\rasters\geoserver\seismic_hazard_475\seismic_hazard_475.geotiff  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_seismic_hazard_475.sld
+  [V] Hydrogeology  |  MX-5G2XB-OYVPQ-JOP1P  |  ok  |  sustainable_caucasus_archive\database\gpkg\Hydrogeology.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_Hydrogeology.sld
+  [V] arm_catchmets  |  MX-YIYW9-4M65O-NECSF  |  ok  |  sustainable_caucasus_archive\database\gpkg\arm_catchmets.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_arm_catchmets.sld
+  [V] arm_forest_area  |  MX-APENA-FRKKE-0DSRK  |  ok  |  sustainable_caucasus_archive\database\gpkg\arm_forest_area.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_arm_forest_area.sld
+  [V] arm_landuse  |  MX-9D7AU-R4BAX-AYK4E  |  ok  |  sustainable_caucasus_archive\database\gpkg\arm_landuse.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_arm_landuse.sld
+  [V] arm_rivers_erica  |  MX-GS1Q4-Q0NNA-L7H2W  |  ok  |  sustainable_caucasus_archive\database\gpkg\arm_rivers_erica.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_arm_rivers_erica.sld
+  [V] armenia_landslide  |  MX-MGIN7-EK3KI-AE9GE  |  ok  |  sustainable_caucasus_archive\database\gpkg\armenia_landslide.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_armenia_landslide.sld
+  [V] armenia_prec  |  MX-4FZRH-PUX6Q-DR30D  |  ok  |  sustainable_caucasus_archive\database\gpkg\armenia_prec.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_armenia_prec.sld
+  [V] avalanches  |  MX-B7JUB-S4MR7-737DY  |  ok  |  sustainable_caucasus_archive\database\gpkg\avalanches.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_avalanches.sld
+  [V] aze_roads  |  MX-TXFHX-0VKLR-HW8PH  |  ok  |  sustainable_caucasus_archive\database\gpkg\aze_roads.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_azerbaijan_roads___33e89ff0-e9b0-11e9-9fb6-03117fcc4879.css
+  [V] caucasus_pois_clip_culture  |  MX-YAE4P-E1XUK-R8PHH  |  ok  |  sustainable_caucasus_archive\database\gpkg\caucasus_pois_clip_culture.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_caucasus_pois_clip_culture.sld
+  [V] climat  |  MX-5OWCY-066WV-QKN1U  |  ok  |  sustainable_caucasus_archive\database\gpkg\climat.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_climat.sld
+  [V] flooding_duration  |  MX-KIV7B-P30BH-DITAI  |  ok  |  sustainable_caucasus_archive\database\gpkg\flooding_duration.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_flooding_duration.sld
+  [V] flooding_layer  |  MX-0OMN2-GIPLD-02NRJ  |  ok  |  sustainable_caucasus_archive\database\gpkg\flooding_layer.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_flooding_layer.sld
+  [V] geo_catchment  |  MX-VML4K-SOP5O-GW1NG  |  ok  |  sustainable_caucasus_archive\database\gpkg\geo_catchment.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_geo_catchment.sld
+  [V] geo_rivers_erica  |  MX-GR9IW-1P6GY-0MFQ5  |  ok  |  sustainable_caucasus_archive\database\gpkg\geo_rivers_erica.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_geo_rivers_erica.sld
+  [V] geo_roads  |  MX-PDWPR-GPVJ7-XXVPT  |  ok  |  sustainable_caucasus_archive\database\gpkg\geo_roads.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_georgia_roads___429d0cf0-e9b2-11e9-82f3-93a179a25b6e.css
+  [V] glims_polygons  |  MX-8LOWS-UVROS-Z9EXQ  |  ok  |  sustainable_caucasus_archive\database\gpkg\glims_polygons.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_glims_polygons.sld
+  [V] irn_roads  |  MX-9KABH-TGAYP-YG05F  |  ok  |  sustainable_caucasus_archive\database\gpkg\irn_roads.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_iran_roads___8e2a2d10-e9b2-11e9-b151-b5c8cda737ee.css
+  [V] l_water_s  |  MX-R502I-0LBHZ-ENBD2  |  ok  |  sustainable_caucasus_archive\database\gpkg\l_water_s.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_l_water_s.sld
+  [V] l_water_w  |  MX-J53H0-191FR-LIW7U  |  ok  |  sustainable_caucasus_archive\database\gpkg\l_water_w.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_l_water_w.sld
+  [V] lakes_and_reservoirs  |  MX-ZZ9UT-1CWX4-7D58C  |  ok  |  sustainable_caucasus_archive\database\gpkg\lakes_and_reservoirs.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_lakes_and_reservoirs.sld
+  [V] landscape  |  MX-IVFCA-B7HZ3-KA2VZ  |  ok  |  sustainable_caucasus_archive\database\gpkg\landscape.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_landscape.sld
+  [V] max_precipitation  |  MX-90P7W-VANI6-R6BA4  |  ok  |  sustainable_caucasus_archive\database\gpkg\max_precipitation.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_max_precipitation.sld
+  [V] model_2017  |  MX-U8FNZ-EXD46-B2SNO  |  ok  |  sustainable_caucasus_archive\database\gpkg\model_2017.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_model_2017.sld
+  [V] mudflow_arm  |  MX-QH4CS-M8A7A-WCAS1  |  ok  |  sustainable_caucasus_archive\database\gpkg\mudflow_arm.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_mudflow_arm.sld
+  [V] pop_1989  |  MX-6XOT2-5SBOF-BC6B4  |  ok  |  sustainable_caucasus_archive\database\gpkg\pop_1989.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_pop_1989.sld
+  [V] pop_2002  |  MX-SAJ8L-LB7VW-9KYR6  |  ok  |  sustainable_caucasus_archive\database\gpkg\pop_2002.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_pop_2002.sld
+  [V] pop_2014  |  MX-DLA27-36KXS-YA1R0  |  ok  |  sustainable_caucasus_archive\database\gpkg\pop_2014.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_pop_2014.sld
+  [V] rad_dur_apr  |  MX-8DC3W-Q74NS-4LA7O  |  ok  |  sustainable_caucasus_archive\database\gpkg\rad_dur_apr.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_rad_dur_apr.sld
+  [V] rad_dur_jan  |  MX-QADA7-ZALP5-69X48  |  empty  |  sustainable_caucasus_archive\database\gpkg\rad_dur_jan.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_rad_dur_jan.sld
+  [V] radiance_duration  |  MX-VN451-KUBBX-P4SO1  |  ok  |  sustainable_caucasus_archive\database\gpkg\radiance_duration.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_radiance_duration.sld
+  [V] radiation_bal  |  MX-CXVIY-XQRQM-IMKAJ  |  ok  |  sustainable_caucasus_archive\database\gpkg\radiation_bal.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_radiation_bal.sld
+  [V] seismic_zones  |  MX-FR6Q4-8CQHZ-S2OOW  |  ok  |  sustainable_caucasus_archive\database\gpkg\seismic_zones.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_seismic_zones.sld
+  [V] soil_arm  |  MX-NFENW-8CZFR-W0MHC  |  ok  |  sustainable_caucasus_archive\database\gpkg\soil_arm.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_soil_arm.sld
+  [V] solar_radiance_duratin_jul  |  MX-B4SPE-RY2G7-5B99I  |  ok  |  sustainable_caucasus_archive\database\gpkg\solar_radiance_duratin_jul.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_solar_radiance_duratin_jul.sld
+  [V] solar_radiance_duratin_oct  |  MX-UJ61V-8M8H3-8LHJ4  |  ok  |  sustainable_caucasus_archive\database\gpkg\solar_radiance_duratin_oct.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_solar_radiance_duratin_oct.sld
+  [V] solar_radiation  |  MX-BUGNK-997EE-35S6P  |  ok  |  sustainable_caucasus_archive\database\gpkg\solar_radiation.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_solar_radiation.sld
+  [V] sum_of_average_daily_air_temperatures_above__10c  |  MX-XNKR0-70YKR-88U5Y  |  ok  |  sustainable_caucasus_archive\database\gpkg\sum_of_average_daily_air_temperatures_above__10c.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_sum_of_average_daily_air_temperatures_above__10c.sld
+  [V] temperature  |  MX-EYTJU-LD4SP-THMCJ  |  ok  |  sustainable_caucasus_archive\database\gpkg\temperature.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_temperature.sld
+  [V] tur_roads  |  MX-Q1X1D-AKJRB-FK0YD  |  ok  |  sustainable_caucasus_archive\database\gpkg\tur_roads.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_turkey_roads___83e324f0-e9b3-11e9-b5db-85afee8d7a4e.css
+  [V] vegetation_arm  |  MX-3HXSF-G84XP-Y6MMF  |  ok  |  sustainable_caucasus_archive\database\gpkg\vegetation_arm.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_vegetation_arm.sld
+  [V] wind_resources  |  MX-DKBCJ-8ZISL-VG1TN  |  ok  |  sustainable_caucasus_archive\database\gpkg\wind_resources.gpkg  |  sustainable_caucasus_archive\geoserver\geoserver\styles\geonode\geonode_wind_resources.sld

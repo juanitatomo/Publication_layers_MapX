@@ -1,0 +1,6 @@
+@styleTitle '${styleTitle}';
+@styleAbstract '${styleAbstract}';
+
+* {
+    fill: #ddd;
+}

@@ -1,0 +1,15 @@
+{
+  "style": {
+    "name": "geonode_K2_v2",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "geonode_K2_v2.sld",
+    "dateCreated": "2022-07-08 16:00:12.403 UTC",
+    "dateModified": "2022-07-08 16:05:02.144 UTC"
+  }
+}

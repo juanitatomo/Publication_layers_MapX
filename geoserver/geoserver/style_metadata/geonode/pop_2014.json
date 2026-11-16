@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "pop_2014",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "pop_2014.sld"
+  }
+}

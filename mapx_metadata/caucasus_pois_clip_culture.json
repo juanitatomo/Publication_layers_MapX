@@ -1,0 +1,336 @@
+{
+  "text": {
+    "title": {
+      "en": "Caucasus cultural sites 2021",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Dataset representing different cultural places in Caucasus. The data comes from OpenStreetMap and the legend comes from categories used in OpenStreetMap, https://download.geofabrik.de/asia/armenia.html.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "caucasus_pois_clip_culture",
+        "culture",
+        "heritage",
+        "tourism",
+        "caucasus",
+        "cultural",
+        "sites",
+        "2021"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "1485"
+      ],
+      "keys_topic": [
+        "society"
+      ]
+    },
+    "attributes": {
+      "fid_1": {
+        "en": "Feature ID (secondary)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "osm_id": {
+        "en": "OpenStreetMap ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "code": {
+        "en": "Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "fclass": {
+        "en": "Feature Class",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "name": {
+        "en": "Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "layer": {
+        "en": "Layer",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "path": {
+        "en": "Source Path",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "attributes_alias": {
+      "fid_1": {
+        "en": "Feature ID (secondary)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "osm_id": {
+        "en": "OpenStreetMap ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "code": {
+        "en": "Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "fclass": {
+        "en": "Feature Class",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "name": {
+        "en": "Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "layer": {
+        "en": "Layer",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "path": {
+        "en": "Source Path",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "notes": {
+      "en": "<ul><li>Theme/title: Caucasus cultural sites 2021.</li><li>Compiled for the Sustainable Caucasus GeoNode -> MapX publication workflow.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>OpenStreetMap completeness varies by region and date of extract.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "© OpenStreetMap contributors.",
+    "citation": "Caucasus cultural sites 2021 (2021). Sustainable Caucasus GeoNode archive. Source: https://download.geofabrik.de/asia/armenia.html."
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "2021-01-01",
+      "modified_at": "2021-01-01"
+    },
+    "range": {
+      "is_timeless": false,
+      "start_at": "2021-01-01",
+      "end_at": "2021-12-31"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:4326",
+      "url": "http://spatialreference.org/ref/epsg/4326/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "https://download.geofabrik.de/asia/armenia.html"
+    },
+    "source": {
+      "urls": [
+        {
+          "is_download_link": false,
+          "url": "https://download.geofabrik.de/asia/armenia.html",
+          "label": "download.geofabrik.de"
+        }
+      ]
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "Provider terms",
+        "text": "OpenStreetMap data are available under the Open Database License (ODbL). https://www.openstreetmap.org/copyright"
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

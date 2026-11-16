@@ -1,0 +1,21 @@
+{
+  "geonode_name": "hydroshed_main_rivers_Caucasus",
+  "mapx_id": "MX-OXNYS-316UW-MBRFV",
+  "kind": "single",
+  "status": "ok",
+  "source_attribute": "",
+  "paste_json_as_categorical": true,
+  "geometry": "line",
+  "style_json": "hydroshed_main_rivers_Caucasus.json",
+  "how_to_paste": "Single symbol: paste JSON for color; Source attribute optional (one rule applies to all features)",
+  "rules": [
+    {
+      "value": "Rivers",
+      "label_en": "Rivers",
+      "color": "#33aaff",
+      "opacity": 1.0,
+      "size": 3
+    }
+  ],
+  "warning": "Single-symbol layer; one color for all features."
+}

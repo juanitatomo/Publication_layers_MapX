@@ -1,0 +1,84 @@
+{
+  "geonode_name": "l_water_w",
+  "mapx_id": "MX-J53H0-191FR-LIW7U",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "NUMERICUSE",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "l_water_w.json",
+  "how_to_paste": "1) Set Source attribute = `NUMERICUSE`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "25",
+      "label_en": "<25 mm",
+      "color": "#b7fbff",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "50",
+      "label_en": "50  mm",
+      "color": "#b3e3f8",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "100",
+      "label_en": "100  mm",
+      "color": "#afd3f0",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "150",
+      "label_en": "150  mm",
+      "color": "#75bee3",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "200",
+      "label_en": "200  mm",
+      "color": "#42a2d8",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "250",
+      "label_en": "250  mm",
+      "color": "#2f8fc9",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "300",
+      "label_en": "300  mm",
+      "color": "#1773b9",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "350",
+      "label_en": "350  mm",
+      "color": "#084e8f",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "400",
+      "label_en": "<350  mm",
+      "color": "#00306b",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "1",
+      "label_en": "Lake Sevan",
+      "color": "#9a94d9",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'NUMERICUSE', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

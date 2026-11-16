@@ -1,0 +1,21 @@
+{
+  "geonode_name": "WDPA_Caucasus",
+  "mapx_id": "",
+  "kind": "single",
+  "status": "ok",
+  "source_attribute": "",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "WDPA_Caucasus.json",
+  "how_to_paste": "Single symbol: paste JSON for color; Source attribute optional (one rule applies to all features)",
+  "rules": [
+    {
+      "value": "Protected areas",
+      "label_en": "Protected areas",
+      "color": "#008888",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "Single-symbol layer; one color for all features."
+}

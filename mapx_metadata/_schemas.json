@@ -1,0 +1,2684 @@
+{
+  "ESA2000_Cauc": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "ESA2005_Cauc": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "ESA2010_Cauc": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "Forest_height_2019_NAFR_Caucasus_Ecoregion": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "GHS_2015": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "IFL_2000_Caucasus": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "IFL_ID",
+        "type": "TEXT(16)"
+      },
+      {
+        "name": "AREA_HA",
+        "type": "INTEGER"
+      }
+    ],
+    "kind": "vector",
+    "table": "IFL_2000_Caucasus",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\IFL_2000_Caucasus.gpkg"
+  },
+  "IFL_2013_Caucasus": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "IFL_ID",
+        "type": "TEXT(16)"
+      },
+      {
+        "name": "AREA_HA",
+        "type": "INTEGER"
+      }
+    ],
+    "kind": "vector",
+    "table": "IFL_2013_Caucasus",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\IFL_2013_Caucasus.gpkg"
+  },
+  "IFL_difference_2000_2013_Caucasus": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "IFL_ID",
+        "type": "TEXT(16)"
+      },
+      {
+        "name": "AREA_HA",
+        "type": "INTEGER"
+      },
+      {
+        "name": "ifl_id_2",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "area_ha_2",
+        "type": "INTEGER"
+      }
+    ],
+    "kind": "vector",
+    "table": "IFL_difference_2000_2013_Caucasus",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\IFL_difference_2000_2013_Caucasus.gpkg"
+  },
+  "UNESCO_WHC_sites_Caucasus_geonode": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "unique_num",
+        "type": "INTEGER"
+      },
+      {
+        "name": "name_en",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "name_fr",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "longitude",
+        "type": "REAL"
+      },
+      {
+        "name": "latitude",
+        "type": "REAL"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "ISO3_CODE",
+        "type": "TEXT(3)"
+      },
+      {
+        "name": "STATUS",
+        "type": "TEXT(37)"
+      },
+      {
+        "name": "CAPITAL",
+        "type": "TEXT(22)"
+      },
+      {
+        "name": "Terr_ID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Terr_Name",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Color_Code",
+        "type": "TEXT(3)"
+      },
+      {
+        "name": "Shape_Leng",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Le_1",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Area",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "UNESCO_WHC_sites_Caucasus_geonode",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\UNESCO_WHC_sites_Caucasus_geonode.gpkg"
+  },
+  "caucasus_annual_growth_pop_2020a": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Adm1_code",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm1_name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm2_code",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm2_name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "copie_de_s",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "Growth_pop",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "caucasus_annual_growth_pop_2020a",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\caucasus_annual_growth_pop_2020a.gpkg"
+  },
+  "caucasus_glaciers": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "RGIId",
+        "type": "TEXT(14)"
+      },
+      {
+        "name": "GLIMSId",
+        "type": "TEXT(14)"
+      },
+      {
+        "name": "BgnDate",
+        "type": "TEXT(8)"
+      },
+      {
+        "name": "EndDate",
+        "type": "TEXT(8)"
+      },
+      {
+        "name": "CenLon",
+        "type": "REAL"
+      },
+      {
+        "name": "CenLat",
+        "type": "REAL"
+      },
+      {
+        "name": "O1Region",
+        "type": "TEXT(2)"
+      },
+      {
+        "name": "O2Region",
+        "type": "TEXT(2)"
+      },
+      {
+        "name": "Area",
+        "type": "REAL"
+      },
+      {
+        "name": "Zmin",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Zmax",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Zmed",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Slope",
+        "type": "REAL"
+      },
+      {
+        "name": "Aspect",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Lmax",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Status",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Connect",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Form",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "TermType",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Surging",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Linkages",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Name",
+        "type": "TEXT(48)"
+      }
+    ],
+    "kind": "vector",
+    "table": "caucasus_glaciers",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\caucasus_glaciers.gpkg"
+  },
+  "caucasus_population_density_2020": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Adm1_code",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm1_name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm2_code",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm2_name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "copie_de_s",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "pop_densit",
+        "type": "REAL"
+      },
+      {
+        "name": "copie_de_2",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "caucasus_population_density_2020",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\caucasus_population_density_2020.gpkg"
+  },
+  "caucasus_urbanization_level_2020a": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Adm1_code",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm1_name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm2_code",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm2_name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "copie_de_s",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "Urban_leve",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "caucasus_urbanization_level_2020a",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\caucasus_urbanization_level_2020a.gpkg"
+  },
+  "hydroshed_main_rivers_Caucasus": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "ARCID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "UP_CELLS",
+        "type": "INTEGER"
+      }
+    ],
+    "kind": "vector",
+    "table": "hydroshed_main_rivers_Caucasus",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\hydroshed_main_rivers_Caucasus.gpkg"
+  },
+  "mountains_delimitations_caucasus_clip0": {
+    "fields": [
+      {
+        "name": "fid_1",
+        "type": "INTEGER"
+      },
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Name",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Country",
+        "type": "TEXT(250)"
+      },
+      {
+        "name": "area_m2",
+        "type": "REAL"
+      },
+      {
+        "name": "area_km2",
+        "type": "INTEGER"
+      },
+      {
+        "name": "area_km2_1",
+        "type": "REAL"
+      },
+      {
+        "name": "etiquetteX",
+        "type": "REAL"
+      },
+      {
+        "name": "auxiliary_",
+        "type": "REAL"
+      },
+      {
+        "name": "auxiliar_1",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "mountains_delimitations_caucasus_clip0",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\mountains_delimitations_caucasus_clip0.gpkg"
+  },
+  "mountains_delimitations_caucasus_etiquettes": {
+    "fields": [
+      {
+        "name": "fid_1",
+        "type": "INTEGER"
+      },
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Name",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Country",
+        "type": "TEXT(250)"
+      },
+      {
+        "name": "area_m2",
+        "type": "REAL"
+      },
+      {
+        "name": "area_km2",
+        "type": "INTEGER"
+      },
+      {
+        "name": "area_km2_1",
+        "type": "REAL"
+      },
+      {
+        "name": "etiquetteX",
+        "type": "REAL"
+      },
+      {
+        "name": "auxiliary_",
+        "type": "REAL"
+      },
+      {
+        "name": "auxiliar_1",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "mountains_delimitations_caucasus_etiquettes",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\mountains_delimitations_caucasus_etiquettes.gpkg"
+  },
+  "protect_areas": {
+    "fields": [
+      {
+        "name": "fid_1",
+        "type": "INTEGER"
+      },
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "IUCN_CAT",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "GIS_AREA",
+        "type": "REAL"
+      },
+      {
+        "name": "Adm1_code",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm1_name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm2_code",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm2_name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Country",
+        "type": "TEXT(80)"
+      }
+    ],
+    "kind": "vector",
+    "table": "protect_areas",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\protect_areas.gpkg"
+  },
+  "total_population_2019_NUTS2": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Adm1_code",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm1_name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm2_code",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm2_name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "layer",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "path",
+        "type": "TEXT(200)"
+      },
+      {
+        "name": "elev_avg",
+        "type": "REAL"
+      },
+      {
+        "name": "elev_min",
+        "type": "REAL"
+      },
+      {
+        "name": "elev_max",
+        "type": "REAL"
+      },
+      {
+        "name": "NUTS2_Popu",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "total_population_2019_NUTS2",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\total_population_2019_NUTS2.gpkg"
+  },
+  "elevation_caucasus": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "gmba_thermal": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "k1_kapos": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "k1k2k3_matrix": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "k2_gmba_thermal": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "k3_elu_lf": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "ls_risk_cauc": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "Caucasus_Ecocorridors_WGS84": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID_1",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "INTEGER"
+      },
+      {
+        "name": "NN",
+        "type": "REAL"
+      },
+      {
+        "name": "NAME",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "COUNTRY",
+        "type": "TEXT(60)"
+      },
+      {
+        "name": "BIOMES",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Hectares",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "caucasus_ecocorridors_wgs84",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\Caucasus_Ecocorridors_WGS84.gpkg"
+  },
+  "Priority_Conservation_Areas_WGS84": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID_1",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "INTEGER"
+      },
+      {
+        "name": "NAMEPRIORI",
+        "type": "TEXT(30)"
+      },
+      {
+        "name": "COUNTRY",
+        "type": "TEXT(60)"
+      },
+      {
+        "name": "CATEGORIES",
+        "type": "TEXT(150)"
+      },
+      {
+        "name": "AREAOFSITE",
+        "type": "REAL"
+      },
+      {
+        "name": "MAINBIOM",
+        "type": "TEXT(254)"
+      }
+    ],
+    "kind": "vector",
+    "table": "priority_conservation_areas_wgs84",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\Priority_Conservation_Areas_WGS84.gpkg"
+  },
+  "WDPA_Caucasus": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "WDPAID",
+        "type": "REAL"
+      },
+      {
+        "name": "WDPA_PID",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "PA_DEF",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "NAME",
+        "type": "TEXT(218)"
+      },
+      {
+        "name": "ORIG_NAME",
+        "type": "TEXT(218)"
+      },
+      {
+        "name": "DESIG",
+        "type": "TEXT(93)"
+      },
+      {
+        "name": "DESIG_ENG",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "DESIG_TYPE",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "IUCN_CAT",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "INT_CRIT",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "MARINE",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "REP_M_AREA",
+        "type": "REAL"
+      },
+      {
+        "name": "GIS_M_AREA",
+        "type": "REAL"
+      },
+      {
+        "name": "REP_AREA",
+        "type": "REAL"
+      },
+      {
+        "name": "GIS_AREA",
+        "type": "REAL"
+      },
+      {
+        "name": "NO_TAKE",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "NO_TK_AREA",
+        "type": "REAL"
+      },
+      {
+        "name": "STATUS",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "STATUS_YR",
+        "type": "INTEGER"
+      },
+      {
+        "name": "GOV_TYPE",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "OWN_TYPE",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "MANG_AUTH",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "MANG_PLAN",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "VERIF",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "METADATAID",
+        "type": "INTEGER"
+      },
+      {
+        "name": "SUB_LOC",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "PARENT_ISO",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "ISO3",
+        "type": "TEXT(80)"
+      }
+    ],
+    "kind": "vector",
+    "table": "wdpa_caucasus",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\WDPA_Caucasus.gpkg"
+  },
+  "caucasus_ecoregion_forest_cover": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "ID",
+        "type": "INTEGER"
+      },
+      {
+        "name": "GRIDCODE",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Class_Name",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "DN",
+        "type": "MEDIUMINT"
+      }
+    ],
+    "kind": "vector",
+    "table": "caucasus_ecoregion_forest_cover",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\caucasus_ecoregion_forest_cover.gpkg"
+  },
+  "caucasus_ecoregion_land_cover": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "ID",
+        "type": "INTEGER"
+      },
+      {
+        "name": "GRIDCODE",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Class_Name",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "DN",
+        "type": "MEDIUMINT"
+      }
+    ],
+    "kind": "vector",
+    "table": "caucasus_ecoregion_land_cover",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\caucasus_ecoregion_land_cover.gpkg"
+  },
+  "caucasus_ecoregion_wgs84_new": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "INTEGER"
+      },
+      {
+        "name": "AREA",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "caucasus_ecoregion_wgs84_new",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\caucasus_ecoregion_wgs84_new.gpkg"
+  },
+  "emerald_2020_epsg4326_caucasus": {
+    "fields": [
+      {
+        "name": "ogc_fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "sitecode",
+        "type": "TEXT"
+      },
+      {
+        "name": "sitename",
+        "type": "TEXT"
+      },
+      {
+        "name": "release_da",
+        "type": "DATE"
+      },
+      {
+        "name": "ms",
+        "type": "TEXT"
+      },
+      {
+        "name": "sitetype",
+        "type": "TEXT"
+      },
+      {
+        "name": "inspire_id",
+        "type": "TEXT"
+      },
+      {
+        "name": "adm1_code",
+        "type": "TEXT"
+      },
+      {
+        "name": "adm1_name",
+        "type": "TEXT"
+      },
+      {
+        "name": "adm2_code",
+        "type": "TEXT"
+      },
+      {
+        "name": "adm2_name",
+        "type": "TEXT"
+      },
+      {
+        "name": "status",
+        "type": "TEXT"
+      }
+    ],
+    "kind": "vector",
+    "table": "emerald_2020_epsg4326_caucasus",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\emerald_2020_epsg4326_caucasus.gpkg"
+  },
+  "fires_2020": {
+    "fields": [
+      {
+        "name": "fid_1",
+        "type": "INTEGER"
+      },
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Adm1_code",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm1_name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm2_code",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Adm2_name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Country",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "nbr_fires",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "fires_2020",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\fires_2020.gpkg"
+  },
+  "leopard_distribution_area_wgs84": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID_1",
+        "type": "INTEGER"
+      },
+      {
+        "name": "NAME",
+        "type": "TEXT(50)"
+      }
+    ],
+    "kind": "vector",
+    "table": "leopard_distribution_area_wgs84",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\leopard_distribution_area_wgs84.gpkg"
+  },
+  "railroads": {
+    "fields": [
+      {
+        "name": "fid_1",
+        "type": "INTEGER"
+      },
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "osm_id",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "code",
+        "type": "INTEGER"
+      },
+      {
+        "name": "fclass",
+        "type": "TEXT(28)"
+      },
+      {
+        "name": "name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "layer",
+        "type": "INTEGER"
+      },
+      {
+        "name": "bridge",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "tunnel",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "path",
+        "type": "TEXT(200)"
+      }
+    ],
+    "kind": "vector",
+    "table": "railroads",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\railroads.gpkg"
+  },
+  "roads_caucasus_select": {
+    "fields": [
+      {
+        "name": "fid_1",
+        "type": "INTEGER"
+      },
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "osm_id",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "code",
+        "type": "INTEGER"
+      },
+      {
+        "name": "fclass",
+        "type": "TEXT(28)"
+      },
+      {
+        "name": "name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "ref",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "oneway",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "maxspeed",
+        "type": "INTEGER"
+      },
+      {
+        "name": "layer",
+        "type": "INTEGER"
+      },
+      {
+        "name": "bridge",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "tunnel",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "path",
+        "type": "TEXT(200)"
+      }
+    ],
+    "kind": "vector",
+    "table": "roads_caucasus_select",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\roads_caucasus_select.gpkg"
+  },
+  "seismic_hazard_475": {
+    "fields": [],
+    "kind": "raster"
+  },
+  "Hydrogeology": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Area",
+        "type": "REAL"
+      },
+      {
+        "name": "Aquifer",
+        "type": "TEXT(200)"
+      }
+    ],
+    "kind": "vector",
+    "table": "Hydrogeology",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\Hydrogeology.gpkg"
+  },
+  "arm_catchmets": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "WOC",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "Shape_Leng",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Le_1",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Area",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "arm_catchmets",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\arm_catchmets.gpkg"
+  },
+  "arm_forest_area": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "WOODS",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "Shape_Leng",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Le_1",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Area",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "arm_forest_area",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\arm_forest_area.gpkg"
+  },
+  "arm_landuse": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Id",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Landuse",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "Shape_Leng",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Area",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "arm_landuse",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\arm_landuse.gpkg"
+  },
+  "arm_rivers_erica": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Name",
+        "type": "TEXT(25)"
+      },
+      {
+        "name": "Type",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "Region",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "Basin",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "R_Basin",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "L_I",
+        "type": "TEXT(5)"
+      },
+      {
+        "name": "L_II",
+        "type": "TEXT(5)"
+      },
+      {
+        "name": "L_III",
+        "type": "TEXT(5)"
+      },
+      {
+        "name": "L_IV",
+        "type": "TEXT(5)"
+      },
+      {
+        "name": "L_V",
+        "type": "TEXT(5)"
+      },
+      {
+        "name": "L_VI",
+        "type": "TEXT(5)"
+      },
+      {
+        "name": "L_VII",
+        "type": "TEXT(5)"
+      },
+      {
+        "name": "WOC",
+        "type": "TEXT(30)"
+      },
+      {
+        "name": "Shape_Leng",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "arm_rivers_erica",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\arm_rivers_erica.gpkg"
+  },
+  "armenia_landslide": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "UTM_X",
+        "type": "REAL"
+      },
+      {
+        "name": "UTM_Y",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "armenia_landslide",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\armenia_landslide.gpkg"
+  },
+  "armenia_prec": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Area",
+        "type": "REAL"
+      },
+      {
+        "name": "Precipitat",
+        "type": "REAL"
+      },
+      {
+        "name": "Unit",
+        "type": "TEXT(20)"
+      }
+    ],
+    "kind": "vector",
+    "table": "armenia_prec",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\armenia_prec.gpkg"
+  },
+  "avalanches": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Area",
+        "type": "REAL"
+      },
+      {
+        "name": "Perimeter",
+        "type": "REAL"
+      },
+      {
+        "name": "DangerLvl",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "Zone",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Densty",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "Reccurence",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Volume",
+        "type": "TEXT(50)"
+      }
+    ],
+    "kind": "vector",
+    "table": "avalanches",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\avalanches.gpkg"
+  },
+  "aze_roads": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "osm_id",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "code",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "fclass",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "ref",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "oneway",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "maxspeed",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "layer",
+        "type": "INTEGER"
+      },
+      {
+        "name": "bridge",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "tunnel",
+        "type": "TEXT(1)"
+      }
+    ],
+    "kind": "vector",
+    "table": "aze_roads",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\aze_roads.gpkg"
+  },
+  "caucasus_pois_clip_culture": {
+    "fields": [
+      {
+        "name": "fid_1",
+        "type": "INTEGER"
+      },
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "osm_id",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "code",
+        "type": "INTEGER"
+      },
+      {
+        "name": "fclass",
+        "type": "TEXT(28)"
+      },
+      {
+        "name": "name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "layer",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "path",
+        "type": "TEXT(200)"
+      }
+    ],
+    "kind": "vector",
+    "table": "caucasus_pois_clip_culture",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\caucasus_pois_clip_culture.gpkg"
+  },
+  "climat": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "ID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Descriptio",
+        "type": "TEXT(70)"
+      },
+      {
+        "name": "Shape_Leng",
+        "type": "REAL"
+      },
+      {
+        "name": "Desc_Arm",
+        "type": "TEXT(250)"
+      },
+      {
+        "name": "Shape_Le_1",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Area",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "climat",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\climat.gpkg"
+  },
+  "flooding_duration": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Dur_days",
+        "type": "MEDIUMINT"
+      }
+    ],
+    "kind": "vector",
+    "table": "flooding_duration",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\flooding_duration.gpkg"
+  },
+  "flooding_layer": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Thick_mm",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Layer_mm",
+        "type": "TEXT(10)"
+      }
+    ],
+    "kind": "vector",
+    "table": "flooding_layer",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\flooding_layer.gpkg"
+  },
+  "geo_catchment": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID_1",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Name",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Code",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "RCode",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Sea",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "WOT",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "M_Border",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "R_Basin",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_1",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_2",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_3",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_4",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_5",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_6",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_7",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Shape_Leng",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Area",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "geo_catchment",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\geo_catchment.gpkg"
+  },
+  "geo_rivers_erica": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Name",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Code",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "RCode",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Shape_Leng",
+        "type": "REAL"
+      },
+      {
+        "name": "Sea",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "WOT",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "M_Border",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "R_Basin",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_1",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_2",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_3",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_4",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_5",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_6",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "L_7",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Shape_Le_1",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "geo_rivers_erica",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\geo_rivers_erica.gpkg"
+  },
+  "geo_roads": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "osm_id",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "code",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "fclass",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "ref",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "oneway",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "maxspeed",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "layer",
+        "type": "INTEGER"
+      },
+      {
+        "name": "bridge",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "tunnel",
+        "type": "TEXT(1)"
+      }
+    ],
+    "kind": "vector",
+    "table": "geo_roads",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\geo_roads.gpkg"
+  },
+  "glims_polygons": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "line_type",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "anlys_id",
+        "type": "INTEGER"
+      },
+      {
+        "name": "glac_id",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "anlys_time",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "area",
+        "type": "REAL"
+      },
+      {
+        "name": "db_area",
+        "type": "REAL"
+      },
+      {
+        "name": "width",
+        "type": "REAL"
+      },
+      {
+        "name": "length",
+        "type": "REAL"
+      },
+      {
+        "name": "primeclass",
+        "type": "INTEGER"
+      },
+      {
+        "name": "min_elev",
+        "type": "INTEGER"
+      },
+      {
+        "name": "mean_elev",
+        "type": "INTEGER"
+      },
+      {
+        "name": "max_elev",
+        "type": "INTEGER"
+      },
+      {
+        "name": "src_date",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "rec_status",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "glac_name",
+        "type": "TEXT(38)"
+      },
+      {
+        "name": "wgms_id",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "local_id",
+        "type": "TEXT(23)"
+      },
+      {
+        "name": "glac_stat",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "subm_id",
+        "type": "INTEGER"
+      },
+      {
+        "name": "release_dt",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "proc_desc",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "rc_id",
+        "type": "INTEGER"
+      },
+      {
+        "name": "geog_area",
+        "type": "TEXT(57)"
+      },
+      {
+        "name": "chief_affl",
+        "type": "TEXT(46)"
+      },
+      {
+        "name": "parent_id",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "submitters",
+        "type": "TEXT(80)"
+      },
+      {
+        "name": "analysts",
+        "type": "TEXT(80)"
+      }
+    ],
+    "kind": "vector",
+    "table": "glims_polygons",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\glims_polygons.gpkg"
+  },
+  "irn_roads": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "osm_id",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "code",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "fclass",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "ref",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "oneway",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "maxspeed",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "layer",
+        "type": "INTEGER"
+      },
+      {
+        "name": "bridge",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "tunnel",
+        "type": "TEXT(1)"
+      }
+    ],
+    "kind": "vector",
+    "table": "irn_roads",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\irn_roads.gpkg"
+  },
+  "l_water_s": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "NUMERICUSE",
+        "type": "REAL"
+      },
+      {
+        "name": "Value",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "Unit",
+        "type": "TEXT(5)"
+      }
+    ],
+    "kind": "vector",
+    "table": "l_water_s",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\l_water_s.gpkg"
+  },
+  "l_water_w": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "NUMERICUSE",
+        "type": "REAL"
+      },
+      {
+        "name": "Value",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "Unit",
+        "type": "TEXT(10)"
+      }
+    ],
+    "kind": "vector",
+    "table": "l_water_w",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\l_water_w.gpkg"
+  },
+  "lakes_and_reservoirs": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Name_eng",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Latitude",
+        "type": "REAL"
+      },
+      {
+        "name": "Longitude",
+        "type": "REAL"
+      },
+      {
+        "name": "BMO",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Shape_Leng",
+        "type": "REAL"
+      },
+      {
+        "name": "CAcode",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "RScode",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "Marz_ID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Region_ID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Shape_Area",
+        "type": "REAL"
+      },
+      {
+        "name": "LKcode",
+        "type": "TEXT(20)"
+      }
+    ],
+    "kind": "vector",
+    "table": "lakes_and_reservoirs",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\lakes_and_reservoirs.gpkg"
+  },
+  "landscape": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "ID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Tipe",
+        "type": "TEXT(60)"
+      },
+      {
+        "name": "Altitude",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "Shape_Leng",
+        "type": "REAL"
+      },
+      {
+        "name": "Tip_Arm",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Shape_Le_1",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Area",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "landscape",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\landscape.gpkg"
+  },
+  "max_precipitation": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Precip_mm",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Year",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Location",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "Std_Value",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "max_precipitation",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\max_precipitation.gpkg"
+  },
+  "model_2017": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "NAME_TB",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "F_LENGH",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Mmax",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "model_2017",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\model_2017.gpkg"
+  },
+  "mudflow_arm": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "code",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "area",
+        "type": "REAL"
+      },
+      {
+        "name": "risk",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Shape_Area",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "mudflow_arm",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\mudflow_arm.gpkg"
+  },
+  "pop_1989": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "SETTL_GEO",
+        "type": "TEXT(19)"
+      },
+      {
+        "name": "SETTL_ENG",
+        "type": "TEXT(24)"
+      },
+      {
+        "name": "POP_1989",
+        "type": "REAL"
+      },
+      {
+        "name": "POP_2002",
+        "type": "REAL"
+      },
+      {
+        "name": "POPM2002",
+        "type": "INTEGER"
+      },
+      {
+        "name": "POPW2002",
+        "type": "INTEGER"
+      },
+      {
+        "name": "POP_2014",
+        "type": "REAL"
+      },
+      {
+        "name": "POPM2014",
+        "type": "REAL"
+      },
+      {
+        "name": "POPW2014",
+        "type": "REAL"
+      },
+      {
+        "name": "ADM_STAT",
+        "type": "REAL"
+      },
+      {
+        "name": "MUN_GEO",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "MUN_ENG",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "REG_GEO",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "REG_ENG",
+        "type": "TEXT(254)"
+      }
+    ],
+    "kind": "vector",
+    "table": "pop_1989",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\pop_1989.gpkg"
+  },
+  "pop_2002": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "SETTL_GEO",
+        "type": "TEXT(19)"
+      },
+      {
+        "name": "SETTL_ENG",
+        "type": "TEXT(24)"
+      },
+      {
+        "name": "POP_2002",
+        "type": "REAL"
+      },
+      {
+        "name": "POPM2002",
+        "type": "INTEGER"
+      },
+      {
+        "name": "POPW2002",
+        "type": "INTEGER"
+      },
+      {
+        "name": "MUN_GEO",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "MUN_ENG",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "REG_GEO",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "REG_ENG",
+        "type": "TEXT(254)"
+      }
+    ],
+    "kind": "vector",
+    "table": "pop_2002",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\pop_2002.gpkg"
+  },
+  "pop_2014": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "SETTL_GEO",
+        "type": "TEXT(19)"
+      },
+      {
+        "name": "SETTL_ENG",
+        "type": "TEXT(24)"
+      },
+      {
+        "name": "POP_2014",
+        "type": "REAL"
+      },
+      {
+        "name": "POPM2014",
+        "type": "REAL"
+      },
+      {
+        "name": "POPW2014",
+        "type": "REAL"
+      },
+      {
+        "name": "MUN_GEO",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "MUN_ENG",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "REG_GEO",
+        "type": "TEXT(254)"
+      },
+      {
+        "name": "REG_ENG",
+        "type": "TEXT(254)"
+      }
+    ],
+    "kind": "vector",
+    "table": "pop_2014",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\pop_2014.gpkg"
+  },
+  "rad_dur_apr": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "IDR_ID",
+        "type": "REAL"
+      },
+      {
+        "name": "VALUE",
+        "type": "REAL"
+      },
+      {
+        "name": "UNIT",
+        "type": "TEXT(10)"
+      }
+    ],
+    "kind": "vector",
+    "table": "rad_dur_apr",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\rad_dur_apr.gpkg"
+  },
+  "rad_dur_jan": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "IDR_ID",
+        "type": "REAL"
+      },
+      {
+        "name": "VALUE",
+        "type": "REAL"
+      },
+      {
+        "name": "UNIT",
+        "type": "TEXT(10)"
+      }
+    ],
+    "kind": "vector",
+    "table": "rad_dur_jan",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\rad_dur_jan.gpkg"
+  },
+  "radiance_duration": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "IDR_ID",
+        "type": "REAL"
+      },
+      {
+        "name": "VALUE",
+        "type": "REAL"
+      },
+      {
+        "name": "UNIT",
+        "type": "TEXT(10)"
+      }
+    ],
+    "kind": "vector",
+    "table": "radiance_duration",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\radiance_duration.gpkg"
+  },
+  "radiation_bal": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "VALUE",
+        "type": "REAL"
+      },
+      {
+        "name": "UNIT",
+        "type": "TEXT(15)"
+      }
+    ],
+    "kind": "vector",
+    "table": "radiation_bal",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\radiation_bal.gpkg"
+  },
+  "seismic_zones": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Area_km2",
+        "type": "REAL"
+      },
+      {
+        "name": "Zone_g",
+        "type": "TEXT(15)"
+      },
+      {
+        "name": "Zone",
+        "type": "TEXT(5)"
+      }
+    ],
+    "kind": "vector",
+    "table": "seismic_zones",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\seismic_zones.gpkg"
+  },
+  "soil_arm": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "ID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Descriptio",
+        "type": "TEXT(120)"
+      },
+      {
+        "name": "Tip",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "Shape_Leng",
+        "type": "REAL"
+      },
+      {
+        "name": "Arm_Descri",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "Shape_Le_1",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Area",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "soil_arm",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\soil_arm.gpkg"
+  },
+  "solar_radiance_duratin_jul": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "IDR_ID",
+        "type": "REAL"
+      },
+      {
+        "name": "VALUE",
+        "type": "REAL"
+      },
+      {
+        "name": "UNIT",
+        "type": "TEXT(10)"
+      }
+    ],
+    "kind": "vector",
+    "table": "solar_radiance_duratin_jul",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\solar_radiance_duratin_jul.gpkg"
+  },
+  "solar_radiance_duratin_oct": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "IDR_ID",
+        "type": "REAL"
+      },
+      {
+        "name": "VALUE",
+        "type": "REAL"
+      },
+      {
+        "name": "UNIT",
+        "type": "TEXT(10)"
+      }
+    ],
+    "kind": "vector",
+    "table": "solar_radiance_duratin_oct",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\solar_radiance_duratin_oct.gpkg"
+  },
+  "solar_radiation": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Sun_radiat",
+        "type": "REAL"
+      },
+      {
+        "name": "Unit",
+        "type": "TEXT(20)"
+      }
+    ],
+    "kind": "vector",
+    "table": "solar_radiation",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\solar_radiation.gpkg"
+  },
+  "sum_of_average_daily_air_temperatures_above__10c": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "INTEGER"
+      },
+      {
+        "name": "SHAPE_Leng",
+        "type": "REAL"
+      },
+      {
+        "name": "SHAPE_Area",
+        "type": "REAL"
+      },
+      {
+        "name": "N",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Sum_of_ave",
+        "type": "TEXT(50)"
+      }
+    ],
+    "kind": "vector",
+    "table": "sum_of_average_daily_air_temperatures_above__10c",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\sum_of_average_daily_air_temperatures_above__10c.gpkg"
+  },
+  "temperature": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "OBJECTID",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Area",
+        "type": "REAL"
+      },
+      {
+        "name": "Temperatur",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "Shape_Leng",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Le_1",
+        "type": "REAL"
+      },
+      {
+        "name": "Shape_Area",
+        "type": "REAL"
+      }
+    ],
+    "kind": "vector",
+    "table": "temperature",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\temperature.gpkg"
+  },
+  "tur_roads": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "osm_id",
+        "type": "TEXT(10)"
+      },
+      {
+        "name": "code",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "fclass",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "name",
+        "type": "TEXT(100)"
+      },
+      {
+        "name": "ref",
+        "type": "TEXT(20)"
+      },
+      {
+        "name": "oneway",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "maxspeed",
+        "type": "MEDIUMINT"
+      },
+      {
+        "name": "layer",
+        "type": "INTEGER"
+      },
+      {
+        "name": "bridge",
+        "type": "TEXT(1)"
+      },
+      {
+        "name": "tunnel",
+        "type": "TEXT(1)"
+      }
+    ],
+    "kind": "vector",
+    "table": "tur_roads",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\tur_roads.gpkg"
+  },
+  "vegetation_arm": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Area",
+        "type": "REAL"
+      },
+      {
+        "name": "Veget_zone",
+        "type": "TEXT(50)"
+      },
+      {
+        "name": "ZoneID",
+        "type": "MEDIUMINT"
+      }
+    ],
+    "kind": "vector",
+    "table": "vegetation_arm",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\vegetation_arm.gpkg"
+  },
+  "wind_resources": {
+    "fields": [
+      {
+        "name": "fid",
+        "type": "INTEGER"
+      },
+      {
+        "name": "ID",
+        "type": "INTEGER"
+      },
+      {
+        "name": "GRIDCODE",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Wind_Power",
+        "type": "TEXT(15)"
+      },
+      {
+        "name": "Wind_Speed",
+        "type": "TEXT(15)"
+      },
+      {
+        "name": "Utility",
+        "type": "TEXT(15)"
+      }
+    ],
+    "kind": "vector",
+    "table": "wind_resources",
+    "path": "C:\\Users\\torresmo\\OneDrive\\JOBS\\SUISSE\\GRID\\YANISS\\GEONODE-MAPX\\sustainable_caucasus_archive\\database\\gpkg\\wind_resources.gpkg"
+  }
+}

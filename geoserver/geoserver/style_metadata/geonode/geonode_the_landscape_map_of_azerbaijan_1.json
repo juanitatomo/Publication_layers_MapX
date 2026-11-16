@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "the_landscape_map_of_azerbaijan_1",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "the_landscape_map_of_azerbaijan_1.sld"
+  }
+}

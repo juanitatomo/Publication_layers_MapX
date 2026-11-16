@@ -1,0 +1,10 @@
+{
+  "style": {
+    "name": "geonode_caucasus_population_density_2020",
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "geonode_caucasus_population_density_2020.sld"
+  }
+}

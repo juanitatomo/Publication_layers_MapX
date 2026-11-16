@@ -1,0 +1,10 @@
+{
+  "style": {
+    "name": "geonode_wc2.1_30s_elev_clipped",
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "geonode_wc2.1_30s_elev_clipped.sld"
+  }
+}

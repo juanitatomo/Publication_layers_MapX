@@ -1,0 +1,134 @@
+{
+  "text": {
+    "title": {
+      "en": "Armenia Probabilistic Seismic Hazard Assessment",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Seismic hazard assessment of the area of the Republic of Armenia (RA) at the scale of 1:500,000 was prepared by the Consortium of AIR Worldwide Corporation (USA), GEM Foundation (Italy) and GEORISK Scientific Research CJSC (Armenia) under the Project # 7179350 “Probabilistic Seismic Hazard Assessment for the Republic of Armenia” supported by the World Bank.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "seismic_hazard_475",
+        "natural hazards",
+        "risk",
+        "disaster risk",
+        "armenia",
+        "probabilistic",
+        "seismic",
+        "hazard",
+        "assessment",
+        "caucasus"
+      ],
+      "keys_m49": [
+        "ARM"
+      ],
+      "keys_gemet": [
+        "3664",
+        "4612"
+      ],
+      "keys_topic": [
+        "geoscientificInformation"
+      ]
+    },
+    "attributes": {},
+    "attributes_alias": {},
+    "notes": {
+      "en": "<ul><li>Theme/title: Armenia Probabilistic Seismic Hazard Assessment.</li><li>Compiled for the Sustainable Caucasus GeoNode -> MapX publication workflow.</li><li>Raster values encode the thematic variable described in the abstract; check units before analysis.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "AIR Worldwide, GEM Foundation, and GEORISK (World Bank PSHA project for Armenia), where applicable.",
+    "citation": "Armenia Probabilistic Seismic Hazard Assessment. Sustainable Caucasus GeoNode / MapX publication archive."
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "0001-01-01",
+      "modified_at": "0001-01-01"
+    },
+    "range": {
+      "is_timeless": true,
+      "start_at": "0001-01-01",
+      "end_at": "0001-01-01"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:32638",
+      "url": "http://spatialreference.org/ref/epsg/32638/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "https://www.mapx.org"
+    },
+    "source": {
+      "urls": []
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "Provider terms",
+        "text": "Please refer to the original data provider's terms of use and licensing conditions. See origin links when available."
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

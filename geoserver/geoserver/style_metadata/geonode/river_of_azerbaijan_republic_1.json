@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "river_of_azerbaijan_republic_1",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "river_of_azerbaijan_republic_1.sld"
+  }
+}

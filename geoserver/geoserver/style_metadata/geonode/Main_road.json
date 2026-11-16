@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "Main_road",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "Main_road.sld"
+  }
+}

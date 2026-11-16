@@ -1,0 +1,28 @@
+# Heavy source data (kept locally / OneDrive — not for GitHub)
+database/
+rasters/
+shapefiles/
+*.gpkg
+*.tif
+*.tiff
+*.geotiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.cpg
+
+# Python / OS
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/

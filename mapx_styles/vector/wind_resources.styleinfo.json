@@ -1,0 +1,63 @@
+{
+  "geonode_name": "wind_resources",
+  "mapx_id": "MX-DKBCJ-8ZISL-VG1TN",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Wind_Speed",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "wind_resources.json",
+  "how_to_paste": "1) Set Source attribute = `Wind_Speed`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "0 - 6.0",
+      "label_en": "0 - 6.0 m/sec",
+      "color": "#ffffff",
+      "opacity": 0.0,
+      "size": 1
+    },
+    {
+      "value": "6.0 - 6.8",
+      "label_en": "6.0 - 6.8 m/sec",
+      "color": "#feaf77",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "7.5 - 8.1",
+      "label_en": "7.5 - 8.1 m/sec",
+      "color": "#f1605d",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "8.1 - 8.6",
+      "label_en": "8.1 - 8.6 m/sec",
+      "color": "#b63679",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "8.6 - 9.5",
+      "label_en": "8.6 - 9.5 m/sec",
+      "color": "#721f81",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": ">9.5",
+      "label_en": ">9.5 m/sec",
+      "color": "#2d115f",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "",
+      "label_en": "Wind_Speed is ''",
+      "color": "#808080",
+      "opacity": 0.7,
+      "size": 7
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Wind_Speed', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

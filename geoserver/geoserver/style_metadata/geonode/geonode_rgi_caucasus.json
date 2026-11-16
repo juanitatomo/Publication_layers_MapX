@@ -1,0 +1,15 @@
+{
+  "style": {
+    "name": "rgi_caucasus",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.1.0"
+    },
+    "filename": "rgi_caucasus.sld",
+    "dateCreated": "2024-08-29 21:32:25.45 UTC",
+    "dateModified": "2024-08-29 21:32:27.289 UTC"
+  }
+}

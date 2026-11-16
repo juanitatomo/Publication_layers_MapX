@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "river_ecrin_lamb",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.1.0"
+    },
+    "filename": "river_ecrin_lamb.sld"
+  }
+}

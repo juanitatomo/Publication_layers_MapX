@@ -1,0 +1,91 @@
+{
+  "geonode_name": "temperature",
+  "mapx_id": "MX-EYTJU-LD4SP-THMCJ",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Temperatur",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "temperature.json",
+  "how_to_paste": "1) Set Source attribute = `Temperatur`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "-5",
+      "label_en": "-5[°C]",
+      "color": "#fff5f0",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "-3",
+      "label_en": "-3[°C]",
+      "color": "#ffe5d9",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "-1",
+      "label_en": "-1[°C]",
+      "color": "#fdccb8",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "1",
+      "label_en": "1[°C]",
+      "color": "#fcaf93",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "3",
+      "label_en": "3[°C]",
+      "color": "#fc8f6f",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "5",
+      "label_en": "5[°C]",
+      "color": "#fc7050",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "7",
+      "label_en": "7[°C]",
+      "color": "#f44d37",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "9",
+      "label_en": "9[°C]",
+      "color": "#e22d26",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "11",
+      "label_en": "11[°C]",
+      "color": "#c5161b",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "13",
+      "label_en": "13[°C]",
+      "color": "#a50f15",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "15",
+      "label_en": "15[°C]",
+      "color": "#67000d",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Temperatur', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

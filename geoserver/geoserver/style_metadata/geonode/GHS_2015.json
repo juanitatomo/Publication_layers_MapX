@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "GHS_2015",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "GHS_2015.sld"
+  }
+}

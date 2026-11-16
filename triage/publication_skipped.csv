@@ -1,0 +1,5 @@
+mapx_id,mapx_title,raw_layer,reason,url
+MX-7UKB7-SEHW5-Z7HN9,Caucasus landcover 2010,,test_or_duplicate_or_broken_wms,https://sustainable-caucasus.unepgrid.ch/geoserver/ows?
+MX-VO1UM-OO4GR-SW9VZ,Test Caucasus,,test_or_duplicate_or_broken_wms,
+MX-8Z88D-P09HB-07Y4C,Caucasus Cultural Places 2021,caucasus_pois_clip_culture,test_or_duplicate_or_broken_wms,https://sustainable-caucasus.unepgrid.ch/geoserver/ows?bbox={bbox-epsg-3857}&service=WMS&version=1.1.1&styles=&request=getMap&ZINDEX=10&EXCEPTIONS=application%2Fvnd.ogc.se_blank&srs=EPSG%3A3857&layers=geonode%3Acaucasus_pois_clip_culture&format=image%2Fpng&transparent=true&height=256&width=256
+MX-YWU5S-ND8K2-BK04Z,test,,test_or_duplicate_or_broken_wms,

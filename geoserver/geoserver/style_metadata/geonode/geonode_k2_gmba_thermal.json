@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "k2_gmba_thermal",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "k2_gmba_thermal.sld"
+  }
+}

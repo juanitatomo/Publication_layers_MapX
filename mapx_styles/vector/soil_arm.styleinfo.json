@@ -1,0 +1,147 @@
+{
+  "geonode_name": "soil_arm",
+  "mapx_id": "MX-NFENW-8CZFR-W0MHC",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Descriptio",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "soil_arm.json",
+  "how_to_paste": "1) Set Source attribute = `Descriptio`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "Alluvial-meadow saline lands and alkali soils",
+      "label_en": "Alluvial-meadow saline lands and alkali soils",
+      "color": "#9ddcda",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Alluvial-meadow soils irrigated also in the past",
+      "label_en": "Alluvial-meadow soils irrigated also in the past",
+      "color": "#2fc9dd",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Alpine mountaine-medow turf-peat soils",
+      "label_en": "Alpine mountaine-medow turf-peat soils",
+      "color": "#85b70f",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Brown mountainous-forest soils of dry firests and bushes",
+      "label_en": "Brown mountainous-forest soils of dry firests and bushes",
+      "color": "#b98746",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Brown mountainous-forest soils of moderately humid forests",
+      "label_en": "Brown mountainous-forest soils of moderately humid forests",
+      "color": "#d6a15c",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Desalinated here and there fat mountainous black soils of humid steppe",
+      "label_en": "Desalinated here and there fat mountainous black soils of humid steppe",
+      "color": "#75552c",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Gray mountainous here and there gypsiferous & saline soils",
+      "label_en": "Gray mountainous here and there gypsiferous & saline soils",
+      "color": "#979797",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Gypsiferous and here and there saline colored soils",
+      "label_en": "Gypsiferous and here and there saline colored soils",
+      "color": "#d1dbdd",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Lake Sevan's outcropped bottomlands",
+      "label_en": "Lake Sevan's outcropped bottomlands",
+      "color": "#2863da",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Meadow saline lands and alkali soils",
+      "label_en": "Meadow saline lands and alkali soils",
+      "color": "#bedd74",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Meadow-marshy soils",
+      "label_en": "Meadow-marshy soils",
+      "color": "#0fbf6a",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Mountain-fulvous soils of dry steppes",
+      "label_en": "Mountain-fulvous soils of dry steppes",
+      "color": "#dbb3bc",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Mountainous carbonated and typical black soils with weakly developed black soils of moderately humid steppes",
+      "label_en": "Mountainous carbonated and typical black soils with weakly developed black soils of moderately humid steppes",
+      "color": "#eecec1",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Mountainous-forest steppe soils",
+      "label_en": "Mountainous-forest steppe soils",
+      "color": "#677288",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Non-developed soils of snow-closed zone",
+      "label_en": "Non-developed soils of snow-closed zone",
+      "color": "#edec8d",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Subalpian mountain-medow black soil-like",
+      "label_en": "Subalpian mountain-medow black soil-like",
+      "color": "#565b0c",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Subalpian mountain-medow brown soils",
+      "label_en": "Subalpian mountain-medow brown soils",
+      "color": "#8f5a21",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Watered and irrigated also in the past cultivated gray mountainous soils",
+      "label_en": "Watered and irrigated also in the past cultivated gray mountainous soils",
+      "color": "#388ef0",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "",
+      "label_en": "Descriptio is ''",
+      "color": "#808080",
+      "opacity": 0.7,
+      "size": 7
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Descriptio', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

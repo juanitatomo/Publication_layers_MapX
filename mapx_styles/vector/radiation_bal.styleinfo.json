@@ -1,0 +1,63 @@
+{
+  "geonode_name": "radiation_bal",
+  "mapx_id": "MX-CXVIY-XQRQM-IMKAJ",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "VALUE",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "radiation_bal.json",
+  "how_to_paste": "1) Set Source attribute = `VALUE`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "40",
+      "label_en": "40 kcal/sq.cm",
+      "color": "#fddede",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "45",
+      "label_en": "45 kcal/sq.cm",
+      "color": "#fdb7b9",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "50",
+      "label_en": "50 kcal/sq.cm",
+      "color": "#fd9793",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "55",
+      "label_en": "55 kcal/sq.cm",
+      "color": "#fd906c",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "60",
+      "label_en": "60 kcal/sq.cm",
+      "color": "#f57a4e",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "65",
+      "label_en": "65 kcal/sq.cm",
+      "color": "#e75338",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "70",
+      "label_en": "70 kcal/sq.cm",
+      "color": "#cf2a1d",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'VALUE', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

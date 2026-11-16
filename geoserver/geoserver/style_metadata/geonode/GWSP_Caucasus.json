@@ -1,0 +1,30 @@
+{
+  "style": {
+    "name": "GWSP_Caucasus",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "GWSP_Caucasus.sld",
+    "metadata": {
+      "entry": [
+        {
+          "@key": "msEditorType",
+          "$": "visual"
+        },
+        {
+          "@key": "msStyleJSON",
+          "$": "{\"name\":\"Caucasus dams (2006)\",\"rules\":[{\"name\":\"Dams (2006)\",\"symbolizers\":[{\"kind\":\"Icon\",\"image\":\"https://sustainable-caucasus.unepgrid.ch/static/img/dam-15.png\",\"size\":35,\"symbolizerId\":\"b6be4971-f0ba-11ec-992f-8b6cddee13ab\"}],\"ruleId\":\"b6be4970-f0ba-11ec-992f-8b6cddee13ab\"}]}"
+        },
+        {
+          "@key": "msMD5Hash",
+          "$": "4fb3a97b80a69022f96f88a576936593"
+        }
+      ]
+    },
+    "dateModified": "2022-06-20 17:09:17.753 UTC"
+  }
+}

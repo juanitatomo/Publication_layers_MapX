@@ -1,0 +1,182 @@
+{
+  "geonode_name": "mountains_delimitations_caucasus_etiquettes",
+  "mapx_id": "MX-PADE2-E123N-3RLNM",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Name",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "mountains_delimitations_caucasus_etiquettes.json",
+  "how_to_paste": "1) Set Source attribute = `Name`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "Agri Dagi",
+      "label_en": "Agri Dagi",
+      "color": "#7732cc",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Alborz  Mountains",
+      "label_en": "Alborz  Mountains",
+      "color": "#e9dd31",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Allahu Ekber  Daglari",
+      "label_en": "Allahu Ekber  Daglari",
+      "color": "#bce487",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Bingöl Daglari",
+      "label_en": "Bingöl Daglari",
+      "color": "#ca408e",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Cosan  Daglari",
+      "label_en": "Cosan  Daglari",
+      "color": "#1bb3d9",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Doganli  Daglari",
+      "label_en": "Doganli  Daglari",
+      "color": "#40e25e",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Gavur Daglari  Black Sea",
+      "label_en": "Gavur Daglari  Black Sea",
+      "color": "#4dcc84",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Greater Caucasus",
+      "label_en": "Greater Caucasus",
+      "color": "#e388d3",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Hama Dag",
+      "label_en": "Hama Dag",
+      "color": "#b2cd3a",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Iri Dagh",
+      "label_en": "Iri Dagh",
+      "color": "#419fec",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Ispiriz  Daglari",
+      "label_en": "Ispiriz  Daglari",
+      "color": "#765ae5",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Kargapazari  Daglari",
+      "label_en": "Kargapazari  Daglari",
+      "color": "#a859cc",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Kesis Daglari",
+      "label_en": "Kesis Daglari",
+      "color": "#83c962",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Küh-e  Mishab",
+      "label_en": "Küh-e  Mishab",
+      "color": "#83c962",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Küh-e Bozqush",
+      "label_en": "Küh-e Bozqush",
+      "color": "#6e94ec",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Küh-e haye  Sabalan",
+      "label_en": "Küh-e haye  Sabalan",
+      "color": "#d7a436",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Kuzey Anadolu Daglari /  Pontus Mountains",
+      "label_en": "Kuzey Anadolu Daglari /  Pontus Mountains",
+      "color": "#cf7a39",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Lesser Caucasus",
+      "label_en": "Lesser Caucasus",
+      "color": "#8aed83",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Mescit Daglari",
+      "label_en": "Mescit Daglari",
+      "color": "#de81e4",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Qareh Dagh",
+      "label_en": "Qareh Dagh",
+      "color": "#d94c56",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Talyshskiye Gory",
+      "label_en": "Talyshskiye Gory",
+      "color": "#7ddeda",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Tendürük Dagi",
+      "label_en": "Tendürük Dagi",
+      "color": "#5057cf",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Yalnizcam  Daglari",
+      "label_en": "Yalnizcam  Daglari",
+      "color": "#51f0c1",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Class",
+      "label_en": "Class",
+      "color": "#808080",
+      "opacity": 0.7,
+      "size": 7
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Name', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

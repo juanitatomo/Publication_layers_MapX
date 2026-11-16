@@ -1,0 +1,31 @@
+{
+  "style": {
+    "name": "thickness_rgi_12_2021july09",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "thickness_rgi_12_2021july09.sld",
+    "metadata": {
+      "entry": [
+        {
+          "@key": "msEditorType",
+          "$": "textarea"
+        },
+        {
+          "@key": "msStyleJSON",
+          "$": "{\"name\":\"Default Raster\",\"rules\":[{\"name\":\"Opaque Raster\",\"symbolizers\":[{\"kind\":\"Raster\",\"opacity\":1,\"symbolizerId\":\"fcb74221-6650-11ef-8d19-611184671796\"}],\"ruleId\":\"fcb74220-6650-11ef-8d19-611184671796\"}]}"
+        },
+        {
+          "@key": "msMD5Hash",
+          "$": "906827c30862aa64743575b773820fb2"
+        }
+      ]
+    },
+    "dateCreated": "2024-08-29 21:52:10.536 UTC",
+    "dateModified": "2024-08-29 21:52:52.24 UTC"
+  }
+}

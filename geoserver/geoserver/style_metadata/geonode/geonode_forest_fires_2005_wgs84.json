@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "forest_fires_2005_wgs84",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "forest_fires_2005_wgs84.sld"
+  }
+}

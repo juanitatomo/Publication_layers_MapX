@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "water_channels_in_azerbaijan",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "water_channels_in_azerbaijan.sld"
+  }
+}

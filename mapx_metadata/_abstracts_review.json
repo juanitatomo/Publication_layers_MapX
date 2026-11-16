@@ -1,0 +1,634 @@
+[
+  {
+    "name": "ESA2000_Cauc",
+    "kind": "raster",
+    "title": "Caucasus Land Cover 2000",
+    "theme": "land_cover",
+    "mapx_id": "MX-B786K-6DKU7-LVNOT",
+    "abstract": "This layers shows the Caucasus landcover as of 2000 and was originally downloaded from the European Space Agency (ESA) portal at https://www.esa-landcover-cci.org and ftp://anon-ftp.ceda.ac.uk/neodc/esacci/land_cover/docs/ESACCI-LC-PUG-v2.5.pdf). The layer has then been cropped at the Caucasus ecoregion boundary extent."
+  },
+  {
+    "name": "ESA2005_Cauc",
+    "kind": "raster",
+    "title": "Caucasus Land Cover 2005",
+    "theme": "land_cover",
+    "mapx_id": "MX-I4VTO-9X4S1-VQQPE",
+    "abstract": "This layers shows the Caucasus landcover as of 2005 and was originally downloaded from the European Space Agency (ESA) portal at https://www.esa-landcover-cci.org and ftp://anon-ftp.ceda.ac.uk/neodc/esacci/land_cover/docs/ESACCI-LC-PUG-v2.5.pdf). The layer has then been cropped at the Caucasus ecoregion boundary extent."
+  },
+  {
+    "name": "ESA2010_Cauc",
+    "kind": "raster",
+    "title": "Caucasus Land Cover 2010",
+    "theme": "land_cover",
+    "mapx_id": "MX-2FANI-UZZD6-QHA6V",
+    "abstract": "This layers shows the Caucasus landcover as of 2010 and was originally downloaded from the European Space Agency (ESA) portal at https://www.esa-landcover-cci.org and ftp://anon-ftp.ceda.ac.uk/neodc/esacci/land_cover/docs/ESACCI-LC-PUG-v2.5.pdf). The layer has then been cropped at the Caucasus ecoregion boundary extent."
+  },
+  {
+    "name": "Forest_height_2019_NAFR_Caucasus_Ecoregion",
+    "kind": "raster",
+    "title": "Caucasus Ecoregion Global Forest Height 2019",
+    "theme": "forest",
+    "mapx_id": "MX-CC6W4-30V1Q-5UOYS",
+    "abstract": "Global 30-m spatial resolution forest canopy height map developed through the integration of the Global Ecosystem Dynamics Investigation (GEDI) lidar forest structure measurements and Landsat analysis-ready data time-series, subsampled within Caucasus Ecoregion  boundaries. Pixel values:  0-60 Forest canopy height, meters; 101 Water; 102 Snow/ice; 103 No data. https://glad.umd.edu/dataset/gedi"
+  },
+  {
+    "name": "GHS_2015",
+    "kind": "raster",
+    "title": "Caucasus Population Density (2015)",
+    "theme": "population_socio",
+    "mapx_id": "MX-9OX9Z-M1DWO-FQ6DN",
+    "abstract": "This layers shows the population density in Caucasus as of 2015. Th uni is the number of people per 250 square meters. It was originally downloaded from the Global Human Settlement (GHS) population grid (http://ghsl.jrc.ec.europa.eu/ghs_pop.php) . The layer has then be cropped at the Caucasus ecoregion boundary extent."
+  },
+  {
+    "name": "IFL_2000_Caucasus",
+    "kind": "vector",
+    "title": "Caucasus Intact Forests 2000",
+    "theme": "forest",
+    "mapx_id": "MX-2T4V3-O67CO-QLMIJ",
+    "abstract": "This layer has been downloaded from the Intact Forest Landscapes website (http://www.intactforests.org) and represents the global status as of year 2000. It has then been clipped to the  Caucasus Ecoregion layer extent."
+  },
+  {
+    "name": "IFL_2013_Caucasus",
+    "kind": "vector",
+    "title": "Caucasus Intact Forests 2013",
+    "theme": "forest",
+    "mapx_id": "MX-5SFYP-XH8T7-IS5PH",
+    "abstract": "This layer has been downloaded from the Intact Forest Landscapes website (http://www.intactforests.org) and represents the global status as of year 2013. It has then been clipped to the  Caucasus Ecoregion layer extent."
+  },
+  {
+    "name": "IFL_difference_2000_2013_Caucasus",
+    "kind": "vector",
+    "title": "Caucasus Intact Forests Difference 2000 2013",
+    "theme": "forest",
+    "mapx_id": "MX-WI2WN-R4NMJ-AGJ45",
+    "abstract": "This layer has been created by geoprocessing a symmetrical difference between the layers \"Intact forest 2000\" and \"Intact forest 2013\"."
+  },
+  {
+    "name": "UNESCO_WHC_sites_Caucasus_geonode",
+    "kind": "vector",
+    "title": "Caucasus UNESCO Cultural Heritage Sites",
+    "theme": "culture_tourism",
+    "mapx_id": "MX-N72T7-WFW9D-W9AZ3",
+    "abstract": "This layer shows the location of the UNESCO sites in Caucasus. The data has been downloaded from http://whc.unesco.org/fr/syndication/  as .xls file and converted to a shapefile for the countries of Caucasus."
+  },
+  {
+    "name": "caucasus_annual_growth_pop_2020a",
+    "kind": "vector",
+    "title": "Average annual growth of Caucasus population 2020",
+    "theme": "population_socio",
+    "mapx_id": "MX-WSYAW-HWXV1-TGULV",
+    "abstract": "This map represents the average annual growth of population in Caucasus in 2020 per NUTS3. The unit used to represent the annuak growth is the percentages.  The data comes from the national offices of statistics of each country in Caucasus : Armenia, Azerbaïjian, Georgia, Iran, Russia and Turkey. Data sources : Statistical Committee of the Republic of Armenia, Statistical Committee of the Republic of Azerbaïjian, National Statistics Office of Georgia, Statistical Centre of Iran, Federal State St"
+  },
+  {
+    "name": "caucasus_glaciers",
+    "kind": "vector",
+    "title": "Caucasus Glaciers",
+    "theme": "water_glacier",
+    "mapx_id": "MX-RP7QR-TXY1S-MTJY5",
+    "abstract": "Here is the glacier outlines from Randolph Glacier Inventory 6.0. They were created by digitising ASTER images."
+  },
+  {
+    "name": "caucasus_population_density_2020",
+    "kind": "vector",
+    "title": "Caucasus population density 2020",
+    "theme": "population_socio",
+    "mapx_id": "MX-IFK8A-XWA80-CVQCL",
+    "abstract": "This map represents the population density of Caucasus in 2020 per NUTS3. The unit used to represent the population density is the number of people per km2.  The data comes from the national offices of statistics of each country in Caucasus : Armenia, Azerbaïjian, Georgia, Iran, Russia and Turkey. Data sources : Statistical Committee of the Republic of Armenia, Statistical Committee of the Republic of Azerbaïjian, National Statistics Office of Georgia, Statistical Centre of Iran, Federal State S"
+  },
+  {
+    "name": "caucasus_urbanization_level_2020a",
+    "kind": "vector",
+    "title": "Caucasus urbanization level 2020",
+    "theme": "population_socio",
+    "mapx_id": "MX-I3TF7-TG7IV-D3JOP",
+    "abstract": "This map represents the urbanization level of Caucasus in 2020 per NUTS3. The unit used to represent the urbanization level is the percentages. The data comes from the national offices of statistics of each country in Caucasus : Armenia, Azerbaïjian, Georgia, Iran, Russia and Turkey. Data sources : Statistical Committee of the Republic of Armenia, Statistical Committee of the Republic of Azerbaïjian, National Statistics Office of Georgia, Statistical Centre of Iran, Federal State Statistics Serv"
+  },
+  {
+    "name": "hydroshed_main_rivers_Caucasus",
+    "kind": "vector",
+    "title": "Caucasus Main Rivers",
+    "theme": "water_glacier",
+    "mapx_id": "MX-OXNYS-316UW-MBRFV",
+    "abstract": "This layers shows the main rivers of Caucasus and was originally downloaded from  teh hydrosheds database at http://www.hydrosheds.org/ . The layer has then be cropped at the Caucasus ecoregion boundary extent and the main rivers  filtered and saved as the present shapefile."
+  },
+  {
+    "name": "mountains_delimitations_caucasus_clip0",
+    "kind": "vector",
+    "title": "Caucasus Mountain Ranges",
+    "theme": "elevation_mountains",
+    "mapx_id": "MX-6Q1EB-QPMLL-8RCIG",
+    "abstract": "This layer represents the mountains in Caucasus. Each polyon of the shapefile is a different mountain. The data comes from the University of Bern and was published in 2018, https://ilias.unibe.ch/ilias.php?ref_id=1047348&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=11n&baseClass=ilRepositoryGUI."
+  },
+  {
+    "name": "mountains_delimitations_caucasus_etiquettes",
+    "kind": "vector",
+    "title": "Caucasus Mountain Ranges GMBA v2 0",
+    "theme": "elevation_mountains",
+    "mapx_id": "MX-PADE2-E123N-3RLNM",
+    "abstract": "This layer represents the mountains in Caucasus. Each polyon of the shapefile is a different mountain. The data comes from the University of Bern and was published in 2018, https://ilias.unibe.ch/ilias.php?ref_id=1047348&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=11n&baseClass=ilRepositoryGUI."
+  },
+  {
+    "name": "protect_areas",
+    "kind": "vector",
+    "title": "Caucasus protected areas 2021",
+    "theme": "biodiversity_pa",
+    "mapx_id": "MX-GYL5V-SWOEC-ZN4TT",
+    "abstract": "This layer represents the protected areas in Caucasus based on October 2021 data. The different types of protected areas are based on IUCN categoriesand the data comes from Protected Planet, https://www.protectedplanet.net/en."
+  },
+  {
+    "name": "total_population_2019_NUTS2",
+    "kind": "vector",
+    "title": "Caucasus total population 2020",
+    "theme": "population_socio",
+    "mapx_id": "MX-B1OKT-D494O-HNO25",
+    "abstract": "This map represents the total population of Caucasus in 2020 per NUTS2.  The data comes from the national offices of statistics of each country in Caucasus : Armenia, Azerbaïjian, Georgia, Iran, Russia and Turkey. Data sources : Statistical Committee of the Republic of Armenia, Statistical Committee of the Republic of Azerbaïjian, National Statistics Office of Georgia, Statistical Centre of Iran, Federal State Statistics Service of Russia and Turkish Statistical Institute. To download the data p"
+  },
+  {
+    "name": "elevation_caucasus",
+    "kind": "raster",
+    "title": "Caucasus SRTM Elevation 900m 2020",
+    "theme": "elevation_mountains",
+    "mapx_id": "",
+    "abstract": "This layer represents the SRTM elevation of Caucasus with a 900m precision. The data comes from WorldClim, https://www.worldclim.org/data/worldclim21.html."
+  },
+  {
+    "name": "gmba_thermal",
+    "kind": "raster",
+    "title": "Subdivision of the world into climatic belts following Koerner et al. (2011)",
+    "theme": "elevation_mountains",
+    "mapx_id": "",
+    "abstract": "Subdivision of the world into climatic belts following Koerner et al. (2011). Data obtained from the Ilias universität Bern (https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html)"
+  },
+  {
+    "name": "k1_kapos",
+    "kind": "raster",
+    "title": "Mountain coverages based on Kapos et al., 2000",
+    "theme": "elevation_mountains",
+    "mapx_id": "",
+    "abstract": "Mountain coverages based on the mountain definition by Kapos et al., 2000 .  Data obtained from the Ilias universität Bern (https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html)"
+  },
+  {
+    "name": "k1k2k3_matrix",
+    "kind": "raster",
+    "title": "Combination of the three moutain coverages (Kapos, Koerner, Sayre) ",
+    "theme": "elevation_mountains",
+    "mapx_id": "",
+    "abstract": "Matrix combining the three mountain coverages for comparative purposes and showing areas of agreement and disagreement between the three approaches. Data obtained from the Ilias universität Bern (https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html)"
+  },
+  {
+    "name": "k2_gmba_thermal",
+    "kind": "raster",
+    "title": "Mountain coverages based on Koerner et al., 2011",
+    "theme": "elevation_mountains",
+    "mapx_id": "",
+    "abstract": "Mountain coverages based on the mountain and climatic belt definition by Koerner et al., 2011. Data obtained from the Ilias universität Bern (https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html)"
+  },
+  {
+    "name": "k3_elu_lf",
+    "kind": "raster",
+    "title": "Mountain coverages based on Sayre et al., 2014",
+    "theme": "elevation_mountains",
+    "mapx_id": "",
+    "abstract": "Mountain coverages based on the the work by Sayre et al., 2014 (ELU = Ecological Land Units; LF = (physical) Land (surface) Features). Data obtained from the Ilias universität Bern (https://ilias.unibe.ch/goto_ilias3_unibe_cat_1029094.html)"
+  },
+  {
+    "name": "ls_risk_cauc",
+    "kind": "raster",
+    "title": "Caucasus mortality risk due to landslides",
+    "theme": "hazard",
+    "mapx_id": "",
+    "abstract": "This layers shows the mortality risks in Caucasus  due to landslides . It was originally downloaded from the PREVIEW platform (http://preview.unepgrid.ch) . The layer has then be cropped at the Caucasus ecoregion boundary extent."
+  },
+  {
+    "name": "Caucasus_Ecocorridors_WGS84",
+    "kind": "vector",
+    "title": "Caucasus Ecocorridors",
+    "theme": "biodiversity_pa",
+    "mapx_id": "",
+    "abstract": "This layer shows the ecocorridors in Caucasus based on WWF.  It has been provided by WWF and cropped to the Caucasus  ecoregion extent"
+  },
+  {
+    "name": "Priority_Conservation_Areas_WGS84",
+    "kind": "vector",
+    "title": "Caucasus Priority Conservation Areas",
+    "theme": "biodiversity_pa",
+    "mapx_id": "",
+    "abstract": "This layer shows the priority conservation areas in Caucasus based on WWF.  It has been provided by WWF and cropped to the Caucasus  ecoregion extent"
+  },
+  {
+    "name": "WDPA_Caucasus",
+    "kind": "vector",
+    "title": "Caucasus Protected areas (IUCN classification)",
+    "theme": "biodiversity_pa",
+    "mapx_id": "",
+    "abstract": "Thos original layer has been downloaded from the \"World Database on Protected Areas\" (June 2017 version) available at https://www.protectedplanet.net/c/world-database-on-protected-areas.  It has then been cropped at the Caucasus Ecoregion extent."
+  },
+  {
+    "name": "caucasus_ecoregion_forest_cover",
+    "kind": "vector",
+    "title": "Caucasus ecoregion forest cover",
+    "theme": "land_cover",
+    "mapx_id": "",
+    "abstract": "Caucasus Ecoregion Forest Cover derived from BaseVue 2013 (raster layer downloaded, merged, clipped to WWF Caucasus Ecoregion and converted into vector format, forest cover extracted).  BaseVue 2013 (accessible from ESRI Living Atlas at http://goto.arcgisonline.com/landscape6/World_Land_Cover_30m_BaseVue_2013) is a global, land use / land cover (LULC) product developed by MDA (US), derived from roughly 9,200 Landsat 8 images, 30m spatial resolution. The capture dates for the Landsat 8 imagery ra"
+  },
+  {
+    "name": "caucasus_ecoregion_land_cover",
+    "kind": "vector",
+    "title": "Caucasus ecoregion land cover",
+    "theme": "land_cover",
+    "mapx_id": "",
+    "abstract": "Caucasus Ecoregion Land Cover derived from BaseVue 2013 (raster layer downloaded, merged, clipped to WWF Caucasus Ecoregion and converted into vector format).\n \n BaseVue 2013 (accessible from ESRI Living Atlas at http://goto.arcgisonline.com/landscape6/World_Land_Cover_30m_BaseVue_2013) is a global, land use / land cover (LULC) product developed by MDA (US), derived from roughly 9,200 Landsat 8 images, 30m spatial resolution. The capture dates for the Landsat 8 imagery range from April 11, 2013 "
+  },
+  {
+    "name": "caucasus_ecoregion_wgs84_new",
+    "kind": "vector",
+    "title": "Caucasus ecoregion",
+    "theme": "biodiversity_pa",
+    "mapx_id": "",
+    "abstract": "Data provided by WWF.  This layer represents the Caucasus Ecoregion Caucasus .  It has been produced by WWF Caucasus and WWF Germany offices,  and is available from http://panda.maps.arcgis.com/home/item.html?id=5980f8f3e3744711865567948e87ba77.   Terrestrial ECOS WWF Over the past eight years WWF's Conservation Science Program (CSP) has developed a biogeographic regionalization of the Earth's terrestrial biodiversity. WWF term their biogeographic units ecoregions, which they define as a relativ"
+  },
+  {
+    "name": "emerald_2020_epsg4326_caucasus",
+    "kind": "vector",
+    "title": "emerald_2020_epsg4326_caucasus",
+    "theme": "biodiversity_pa",
+    "mapx_id": "",
+    "abstract": ""
+  },
+  {
+    "name": "fires_2020",
+    "kind": "vector",
+    "title": "Caucasus Fires 2020",
+    "theme": "hazard",
+    "mapx_id": "",
+    "abstract": "This layer represents the number of fires per NUTS3 in Caucasus during the year 2020. The data comes from the NASA FIRMS database, https://firms.modaps.eosdis.nasa.gov/country/."
+  },
+  {
+    "name": "leopard_distribution_area_wgs84",
+    "kind": "vector",
+    "title": "Leopard distribution area",
+    "theme": "biodiversity_pa",
+    "mapx_id": "",
+    "abstract": "Data provided by WWF.  This layer represents the Caucasian leopard actual distribution area. The Caucasian leopard is the rarest species in this ecoregion.  It has been produced by WWF Caucasus and WWF Germany offices,  and is available from http://panda.maps.arcgis.com/home/item.html?id=5980f8f3e3744711865567948e87ba77.   This data is only for non-commercial use and must be credited with the following \"Data provided by WWF\".  Information may not be reproduced or downloaded without permission fr"
+  },
+  {
+    "name": "railroads",
+    "kind": "vector",
+    "title": "Caucasus railroads network 2021",
+    "theme": "infrastructure",
+    "mapx_id": "",
+    "abstract": "This layer represents the railroads network of Caucasus. The data comes from OpenStreetMap, https://download.geofabrik.de/asia/armenia.html."
+  },
+  {
+    "name": "roads_caucasus_select",
+    "kind": "vector",
+    "title": "Caucasus Roads Network 2021",
+    "theme": "infrastructure",
+    "mapx_id": "",
+    "abstract": "This layer represents the roads network of Caucasus. The data comes from OpenStreetMap, https://download.geofabrik.de/asia/armenia.html."
+  },
+  {
+    "name": "seismic_hazard_475",
+    "kind": "raster",
+    "title": "Armenia Probabilistic Seismic Hazard Assessment",
+    "theme": "hazard",
+    "mapx_id": "MX-5H28K-P9XKH-W5KAE",
+    "abstract": "Seismic hazard assessment of the area of the Republic of Armenia (RA) at the scale of 1:500,000 was prepared by the Consortium of AIR Worldwide Corporation (USA), GEM Foundation (Italy) and GEORISK Scientific Research CJSC (Armenia) under the Project # 7179350 “Probabilistic Seismic Hazard Assessment for the Republic of Armenia” supported by the World Bank."
+  },
+  {
+    "name": "Hydrogeology",
+    "kind": "vector",
+    "title": "Armenia Hydrogeology",
+    "theme": "biodiversity_pa",
+    "mapx_id": "MX-5G2XB-OYVPQ-JOP1P",
+    "abstract": "This layer shows main aquifer systems in Armenia. It has been digitized from Hydrogeological map originally downloaded from Water Resources Management Agency of the Ministry of Nature Protection of the Republic of Armenia (http://www.wrma.am/6.php)."
+  },
+  {
+    "name": "arm_catchmets",
+    "kind": "vector",
+    "title": "Armenia River Catchment Areas ERICA",
+    "theme": "water_glacier",
+    "mapx_id": "MX-YIYW9-4M65O-NECSF",
+    "abstract": "It is topologically correct system of nested catchment areas of Armenian rivers, coded using ERICA (European Rivers and Catchment)coding system, which was designed for European Environment Agency. It contains all catchment areas of Armenian rivers  5 km long or longer"
+  },
+  {
+    "name": "arm_forest_area",
+    "kind": "vector",
+    "title": "Armenia Forest Areas",
+    "theme": "forest",
+    "mapx_id": "MX-APENA-FRKKE-0DSRK",
+    "abstract": "GIS data shows distribution of forested territories in Armenia"
+  },
+  {
+    "name": "arm_landuse",
+    "kind": "vector",
+    "title": "Armenia Land Use",
+    "theme": "land_cover",
+    "mapx_id": "MX-9D7AU-R4BAX-AYK4E",
+    "abstract": "This map was prepared in the frame of EU funded \"Program of Prevention, Preparedness and Responcse to natural and man-made Disasters in the ENPI East Region (PPRDEast)\""
+  },
+  {
+    "name": "arm_rivers_erica",
+    "kind": "vector",
+    "title": "Armenia River Network System ERICA",
+    "theme": "water_glacier",
+    "mapx_id": "MX-GS1Q4-Q0NNA-L7H2W",
+    "abstract": "It is fully connected and topologically correct system of Armenian rivers, coded using ERICA (European Rivers and Catchment)coding system, which was designed for European Environment Agency. It containes all rivers of Armenia 5 km long or longer"
+  },
+  {
+    "name": "armenia_landslide",
+    "kind": "vector",
+    "title": "Armenia Landslides",
+    "theme": "hazard",
+    "mapx_id": "MX-MGIN7-EK3KI-AE9GE",
+    "abstract": "Map shows location and shape of landslides on the territory of Armenia"
+  },
+  {
+    "name": "armenia_prec",
+    "kind": "vector",
+    "title": "Armenia Average Annual Precipitation",
+    "theme": "climate",
+    "mapx_id": "MX-4FZRH-PUX6Q-DR30D",
+    "abstract": "GIS data shows average annual precipitation level in Armenia. It has been obtained based on the analysis of direct observations of more than 180 monitoring points. Data of meteorological stations and observation points with short series of measurement had been reduced using cartographic method (for ultra-short series) and ordinary method of ratio."
+  },
+  {
+    "name": "avalanches",
+    "kind": "vector",
+    "title": "Armenia Avalanche Hazard Level",
+    "theme": "hazard",
+    "mapx_id": "MX-B7JUB-S4MR7-737DY",
+    "abstract": "Digital map shows avalanches hazard level in Armenia.  Original data source: Data base of Hydrometeorological Survey of Georgia and Hydrometeorology Institute. Authors: Khaldani L., and  Saluqvadze M."
+  },
+  {
+    "name": "aze_roads",
+    "kind": "vector",
+    "title": "Azerbaijan Roads",
+    "theme": "infrastructure",
+    "mapx_id": "MX-TXFHX-0VKLR-HW8PH",
+    "abstract": "Azerbaijan roads network from OpenstreetMAp (http://download.geofabrik.de/asia.html)"
+  },
+  {
+    "name": "caucasus_pois_clip_culture",
+    "kind": "vector",
+    "title": "Caucasus cultural sites 2021",
+    "theme": "culture_tourism",
+    "mapx_id": "MX-YAE4P-E1XUK-R8PHH",
+    "abstract": "This layer represents different cultural places in Caucasus. The data comes from OpenStreetMap and the legend comes from categories used in OpenStreetMap, https://download.geofabrik.de/asia/armenia.html."
+  },
+  {
+    "name": "climat",
+    "kind": "vector",
+    "title": "Armenia Climatic Zones",
+    "theme": "climate",
+    "mapx_id": "MX-5OWCY-066WV-QKN1U",
+    "abstract": "This is a map of climatic zones of Armenia,  prepared in the frame of  Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development Of Geographic Information System of Armenia for Renewable Energy Projects”"
+  },
+  {
+    "name": "flooding_duration",
+    "kind": "vector",
+    "title": "Armenia Floods Duration",
+    "theme": "hazard",
+    "mapx_id": "MX-KIV7B-P30BH-DITAI",
+    "abstract": "This map shows average duration of spring floods in Armenia.  It was prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development Of Geographic Information System of Armenia for Renewable Energy Projects”"
+  },
+  {
+    "name": "flooding_layer",
+    "kind": "vector",
+    "title": "Armenia Flooding Layer Thickness in Springtime",
+    "theme": "hazard",
+    "mapx_id": "MX-0OMN2-GIPLD-02NRJ",
+    "abstract": "This is a map of spring flooding thickness in Armenia, prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development Of Geographic Information System of Armenia for Renewable Energy Projects”"
+  },
+  {
+    "name": "geo_catchment",
+    "kind": "vector",
+    "title": "Georgia River Catchment Areas ERICA",
+    "theme": "water_glacier",
+    "mapx_id": "MX-VML4K-SOP5O-GW1NG",
+    "abstract": "It is topologically correct nested catchments system of Georgian rivers, coded using ERICA (European Rivers and Catchment) coding system, which was designed for European Environment Agency. It contains catchment areas of all rivers of Georgia 5 km long or longer"
+  },
+  {
+    "name": "geo_rivers_erica",
+    "kind": "vector",
+    "title": "Georgia River Network System ERICA",
+    "theme": "water_glacier",
+    "mapx_id": "MX-GR9IW-1P6GY-0MFQ5",
+    "abstract": "It is fully connected and topologically correct system of Georgiian rivers, coded using ERICA (European Rivers and Catchment)coding system, which was designed for European Environment Agency. It contains all rivers of Georgia 5 km long or longer"
+  },
+  {
+    "name": "geo_roads",
+    "kind": "vector",
+    "title": "Georgia Roads",
+    "theme": "infrastructure",
+    "mapx_id": "MX-PDWPR-GPVJ7-XXVPT",
+    "abstract": "Georgia roads network from OpenstreetMap (http://download.geofabrik.de/europe.html)"
+  },
+  {
+    "name": "glims_polygons",
+    "kind": "vector",
+    "title": "Caucasus Cryosphere",
+    "theme": "water_glacier",
+    "mapx_id": "MX-8LOWS-UVROS-Z9EXQ",
+    "abstract": "This layer shows the location of the Caucasus glaciers (as polygons) coming from the glims database (http://glims.colorado.edu/glacierdata/). Data has been cropped to the Caucasus ecoregion extent."
+  },
+  {
+    "name": "irn_roads",
+    "kind": "vector",
+    "title": "Iran Roads",
+    "theme": "infrastructure",
+    "mapx_id": "MX-9KABH-TGAYP-YG05F",
+    "abstract": "Iran roads network from OpenstreetMap (http://download.geofabrik.de/asia.html)"
+  },
+  {
+    "name": "l_water_s",
+    "kind": "vector",
+    "title": "Armenia Low Water Runoff Layer in Summertime",
+    "theme": "hazard",
+    "mapx_id": "MX-R502I-0LBHZ-ENBD2",
+    "abstract": "GIS data shows a thickness of runoff layer. This digital data was prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development of Geographic Information System of Armenia for Renewable Energy Projects”"
+  },
+  {
+    "name": "l_water_w",
+    "kind": "vector",
+    "title": "Armenia Low Water Runoff Layer in Wintertime",
+    "theme": "hazard",
+    "mapx_id": "MX-J53H0-191FR-LIW7U",
+    "abstract": "GIS data shows a thickness of runoff layer. This digital data was prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development of Geographic Information System of Armenia for Renewable Energy Projects”"
+  },
+  {
+    "name": "lakes_and_reservoirs",
+    "kind": "vector",
+    "title": "Armenia Lakes and Reservoirs ERICA",
+    "theme": "water_glacier",
+    "mapx_id": "MX-ZZ9UT-1CWX4-7D58C",
+    "abstract": "The map of  lakes and reservoirs, coded using ERICA (European Rivers and Catchment)coding system, which was designed for European Environment Agency."
+  },
+  {
+    "name": "landscape",
+    "kind": "vector",
+    "title": "Armenia Landscapes",
+    "theme": "elevation_mountains",
+    "mapx_id": "MX-IVFCA-B7HZ3-KA2VZ",
+    "abstract": "Landscape map of Armenia at scale 1:750,000. This vector data was produced for SCOPES funded \"Supporting Sustainable Mountain Development in the Caucasus (Sustainable Caucasus)\" project"
+  },
+  {
+    "name": "max_precipitation",
+    "kind": "vector",
+    "title": "Armenia Maximal Daily Precipitation",
+    "theme": "climate",
+    "mapx_id": "MX-90P7W-VANI6-R6BA4",
+    "abstract": "This  map shows maximal daily quantity of precipitations have fallen once  for 50 years. It has been obtained based on the analysis of direct observations of more than 180 monitoring points. Data of meteorological stations and observation points with short series of measurement had been reduced using cartographic method (for ultra-short series) and ordinary method of ratio."
+  },
+  {
+    "name": "model_2017",
+    "kind": "vector",
+    "title": "Armenia and adjacent territories Active Faults",
+    "theme": "hazard",
+    "mapx_id": "MX-U8FNZ-EXD46-B2SNO",
+    "abstract": "Active faults map of the Republic of Armenia and adjacent territories at the scale of 1:500,000 was prepared by the GEORISK Scientific Research CJSC (Armenia) under the  World Bank supported Project # 7179350 “Probabilistic Seismic Hazard Assessment for the Republic of Armenia”, implemented in Consortium with AIR Worldwide Corporation (USA) and  GEM Foundation (Italy)"
+  },
+  {
+    "name": "mudflow_arm",
+    "kind": "vector",
+    "title": "Armenia Debris and Mudflows",
+    "theme": "hazard",
+    "mapx_id": "MX-QH4CS-M8A7A-WCAS1",
+    "abstract": "Map shows distribution and hazard level of debris- and mud-flows  on the territory of Armenia.  Author:  R. Ter-Minasyan"
+  },
+  {
+    "name": "pop_1989",
+    "kind": "vector",
+    "title": "Georgia Population 1989",
+    "theme": "population_socio",
+    "mapx_id": "MX-6XOT2-5SBOF-BC6B4",
+    "abstract": "GEO Census 1989: population of Georgia by administrative-territorial units. Census data source: GeoStat, General Population Census of Georgia 1989, http://geostat.ge and http://cencus.ge. GIS data source: GeoGraphic, http://geographic.ge."
+  },
+  {
+    "name": "pop_2002",
+    "kind": "vector",
+    "title": "Georgia Population 2002",
+    "theme": "population_socio",
+    "mapx_id": "MX-SAJ8L-LB7VW-9KYR6",
+    "abstract": "GEO Census 2002: population of Georgia by administrative-territorial units and sex. Census data source: GeoStat, General Population Census of Georgia 2002, http://geostat.ge and http://cencus.ge. GIS data source: GeoGraphic, http://geographic.ge."
+  },
+  {
+    "name": "pop_2014",
+    "kind": "vector",
+    "title": "Georgia Population 2014",
+    "theme": "population_socio",
+    "mapx_id": "MX-DLA27-36KXS-YA1R0",
+    "abstract": "GEO Census 2014: population of Georgia by administrative-territorial units and sex. Census data source: GeoStat, General Population Census of Georgia 2014, http://geostat.ge  and http://cencus.ge. GIS data source: GeoGraphic, http://geographic.ge."
+  },
+  {
+    "name": "rad_dur_apr",
+    "kind": "vector",
+    "title": "Armenia Average Solar Radiance Duration in April",
+    "theme": "climate",
+    "mapx_id": "MX-8DC3W-Q74NS-4LA7O",
+    "abstract": "GIS layer provides information about average monthly duration (in hours) of solar radiance  during  April. This map has been created using observation data from 22 meteorological stations."
+  },
+  {
+    "name": "rad_dur_jan",
+    "kind": "vector",
+    "title": "Armenia Average Solar Radiance Duration in January",
+    "theme": "climate",
+    "mapx_id": "MX-QADA7-ZALP5-69X48",
+    "abstract": "GIS layer provides information about average monthly duration (in hours) of solar radiance during January. This map has been created using observation data from 22 meteorological stations."
+  },
+  {
+    "name": "radiance_duration",
+    "kind": "vector",
+    "title": "Armenia Average Annual Solar Radiance Duration",
+    "theme": "climate",
+    "mapx_id": "MX-VN451-KUBBX-P4SO1",
+    "abstract": "GIS layer provides information about average annual solar radiance duration in hours. This map has been created using observation data from 22 meteorological stations."
+  },
+  {
+    "name": "radiation_bal",
+    "kind": "vector",
+    "title": "Armenia Radiation Balance",
+    "theme": "climate",
+    "mapx_id": "MX-CXVIY-XQRQM-IMKAJ",
+    "abstract": "GIS data shows radiation balance in Armenia. Radiation balance of underlying terrain calculated by equation: R=(Q+q)(1-Ao)-E, where R – radiation balance value; Q and q – direct and diffused radiation; Ao - underlying terrain albedo; E – effective-terrestrial radiation."
+  },
+  {
+    "name": "seismic_zones",
+    "kind": "vector",
+    "title": "Armenia Seismic Zonation",
+    "theme": "hazard",
+    "mapx_id": "MX-FR6Q4-8CQHZ-S2OOW",
+    "abstract": "The Seismic Zonation Map of the Territory of the Republic of Armenia at the scale of 1:500,000 was prepared by the Consortium of AIR Worldwide Corporation (USA), GEM Foundation (Italy) and GEORISK Scientific Research CJSC (Armenia) under the Project # 7179350 “Probabilistic Seismic Hazard Assessment for the Republic of Armenia” supported by the World Bank.  The area of the RA is divided into 3 zones in the ascending intensity order (I, II and III ) with expected PGA values  expressed in fraction"
+  },
+  {
+    "name": "soil_arm",
+    "kind": "vector",
+    "title": "Armenia Soils",
+    "theme": "elevation_mountains",
+    "mapx_id": "MX-NFENW-8CZFR-W0MHC",
+    "abstract": "Soils map of Armenia at scale 1:750,000. This vector data was produced for  SCOPES funded \"Supporting Sustainable Mountain Development in the Caucasus (Sustainable Caucasus)\" project"
+  },
+  {
+    "name": "solar_radiance_duratin_jul",
+    "kind": "vector",
+    "title": "Armenia Average Solar Radiance Duration in July",
+    "theme": "climate",
+    "mapx_id": "MX-B4SPE-RY2G7-5B99I",
+    "abstract": "GIS layer provides information about average monthly duration (in hours) of solar radiance  during July. This map has been created using observation data from 22 meteorological stations."
+  },
+  {
+    "name": "solar_radiance_duratin_oct",
+    "kind": "vector",
+    "title": "Armenia Average Solar Radiance Duration in October",
+    "theme": "climate",
+    "mapx_id": "MX-UJ61V-8M8H3-8LHJ4",
+    "abstract": "GIS layer provides information about average monthly duration (in hours) of solar radiance during October. This map has been created using observation data from 22 meteorological stations."
+  },
+  {
+    "name": "solar_radiation",
+    "kind": "vector",
+    "title": "Armenia Average Annual Solar Radiation",
+    "theme": "climate",
+    "mapx_id": "MX-BUGNK-997EE-35S6P",
+    "abstract": "GIS data shows average annual solar radiation level  in Armenia. This digital map was prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development Of Geographic Information System of Armenia for Renewable Energy Projects”"
+  },
+  {
+    "name": "sum_of_average_daily_air_temperatures_above__10c",
+    "kind": "vector",
+    "title": "Average daily air temperatures above 10 C",
+    "theme": "climate",
+    "mapx_id": "MX-XNKR0-70YKR-88U5Y",
+    "abstract": "No abstract provided"
+  },
+  {
+    "name": "temperature",
+    "kind": "vector",
+    "title": "Armenia Average Annual Temperature",
+    "theme": "climate",
+    "mapx_id": "MX-EYTJU-LD4SP-THMCJ",
+    "abstract": "This is a map shows  average annual temperature (in degree centigrade) in Armenia. It is based on observations of more than 90 meteorological stations had ever operated in Armenia since 1885. Data of meteorological stations with short series of observations had been reduced to an 80-year period using the method of difference. This GIS layer was prepared in the frame of Global Environment Facility (GEF) and Armenian Renewable Resources and Energy Efficiency Fund Project “Development Of Geographic"
+  },
+  {
+    "name": "tur_roads",
+    "kind": "vector",
+    "title": "Turkey Roads",
+    "theme": "infrastructure",
+    "mapx_id": "MX-Q1X1D-AKJRB-FK0YD",
+    "abstract": "Turkey roads network from OpenstreetMap (http://download.geofabrik.de/europe.html)"
+  },
+  {
+    "name": "vegetation_arm",
+    "kind": "vector",
+    "title": "Armenia Vegetation",
+    "theme": "other",
+    "mapx_id": "MX-3HXSF-G84XP-Y6MMF",
+    "abstract": "This GIS layer shows a general vegetation types  in Armenia."
+  },
+  {
+    "name": "wind_resources",
+    "kind": "vector",
+    "title": "Armenia and adjacent territories Wind Resources",
+    "theme": "climate",
+    "mapx_id": "MX-DKBCJ-8ZISL-VG1TN",
+    "abstract": "Annual average wind resource potential for Armenia at a 50 meter height."
+  }
+]

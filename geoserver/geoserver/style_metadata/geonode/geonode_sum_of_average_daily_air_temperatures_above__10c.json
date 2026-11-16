@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "sum_of_average_daily_air_temperatures_above__10c",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "sum_of_average_daily_air_temperatures_above__10c.sld"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "geonode_name": "landscape",
+  "mapx_id": "MX-IVFCA-B7HZ3-KA2VZ",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Tipe",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "landscape.json",
+  "how_to_paste": "1) Set Source attribute = `Tipe`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "High mountain alpine",
+      "label_en": "High mountain alpine",
+      "color": "#8ddcca",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "High mountain subalpine",
+      "label_en": "High mountain subalpine",
+      "color": "#74cf8f",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "High-altitude snow-cowered",
+      "label_en": "High-altitude snow-cowered",
+      "color": "#33becd",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Low and middle mountain forest shelter belt",
+      "label_en": "Low and middle mountain forest shelter belt",
+      "color": "#217c16",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Low and middle mountain steppe",
+      "label_en": "Low and middle mountain steppe",
+      "color": "#5dba26",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Low mountain, dry steppe",
+      "label_en": "Low mountain, dry steppe",
+      "color": "#f3ae0e",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Middle mountain meadow steppe",
+      "label_en": "Middle mountain meadow steppe",
+      "color": "#85fb4a",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Middle mountain steppe",
+      "label_en": "Middle mountain steppe",
+      "color": "#ecad6d",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Mountain-valley semidesert",
+      "label_en": "Mountain-valley semidesert",
+      "color": "#f3f60e",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Submountain semidesert",
+      "label_en": "Submountain semidesert",
+      "color": "#c1b43d",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "",
+      "label_en": "Tipe is ''",
+      "color": "#808080",
+      "opacity": 0.7,
+      "size": 7
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Tipe', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

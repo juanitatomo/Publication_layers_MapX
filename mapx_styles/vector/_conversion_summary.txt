@@ -1,0 +1,76 @@
+SLD -> MapX JSON conversion report
+Vector layers: 66
+Status counts: {'ok': 54, 'partial': 8, 'css_skip': 4}
+Output dir: C:\Users\torresmo\OneDrive\JOBS\SUISSE\GRID\YANISS\GEONODE-MAPX\sustainable_caucasus_archive\mapx_styles\vector
+
+=== ok (54) ===
+  IFL_2000_Caucasus  |  single  |  attr=-  |  rules=1  |  polygon
+  IFL_2013_Caucasus  |  single  |  attr=-  |  rules=1  |  polygon
+  IFL_difference_2000_2013_Caucasus  |  single  |  attr=-  |  rules=1  |  polygon
+  UNESCO_WHC_sites_Caucasus_geonode  |  single  |  attr=-  |  rules=1  |  point
+  caucasus_glaciers  |  single  |  attr=-  |  rules=1  |  polygon
+  hydroshed_main_rivers_Caucasus  |  single  |  attr=-  |  rules=1  |  line
+  mountains_delimitations_caucasus_clip0  |  single  |  attr=-  |  rules=1  |  polygon
+  mountains_delimitations_caucasus_etiquettes  |  categorical  |  attr=Name  |  rules=24  |  polygon
+  protect_areas  |  categorical  |  attr=IUCN_CAT  |  rules=9  |  polygon
+  Caucasus_Ecocorridors_WGS84  |  single  |  attr=-  |  rules=1  |  polygon
+  Priority_Conservation_Areas_WGS84  |  single  |  attr=-  |  rules=1  |  polygon
+  WDPA_Caucasus  |  single  |  attr=-  |  rules=1  |  polygon
+  caucasus_ecoregion_forest_cover  |  categorical  |  attr=Class_Name  |  rules=2  |  polygon
+  caucasus_ecoregion_land_cover  |  categorical  |  attr=Class_Name  |  rules=12  |  polygon
+  caucasus_ecoregion_wgs84_new  |  single  |  attr=-  |  rules=1  |  polygon
+  emerald_2020_epsg4326_caucasus  |  categorical  |  attr=Status  |  rules=3  |  polygon
+  leopard_distribution_area_wgs84  |  single  |  attr=-  |  rules=1  |  polygon
+  railroads  |  categorical  |  attr=fclass  |  rules=4  |  line
+  roads_caucasus_select  |  categorical  |  attr=fclass  |  rules=4  |  line
+  Hydrogeology  |  categorical  |  attr=Aquifer  |  rules=10  |  polygon
+  arm_catchmets  |  single  |  attr=-  |  rules=1  |  polygon
+  arm_forest_area  |  single  |  attr=-  |  rules=1  |  polygon
+  arm_landuse  |  categorical  |  attr=Landuse  |  rules=8  |  polygon
+  arm_rivers_erica  |  single  |  attr=-  |  rules=1  |  line
+  armenia_landslide  |  single  |  attr=-  |  rules=1  |  polygon
+  armenia_prec  |  categorical  |  attr=Precipitat  |  rules=9  |  polygon
+  avalanches  |  categorical  |  attr=DangerLvl  |  rules=3  |  polygon
+  caucasus_pois_clip_culture  |  categorical  |  attr=fclass  |  rules=7  |  point
+  climat  |  categorical  |  attr=Descriptio  |  rules=11  |  polygon
+  flooding_duration  |  categorical  |  attr=Dur_days  |  rules=9  |  polygon
+  flooding_layer  |  categorical  |  attr=Thick_mm  |  rules=9  |  polygon
+  geo_catchment  |  single  |  attr=-  |  rules=1  |  polygon
+  geo_rivers_erica  |  single  |  attr=-  |  rules=1  |  line
+  glims_polygons  |  single  |  attr=-  |  rules=1  |  polygon
+  l_water_s  |  categorical  |  attr=NUMERICUSE  |  rules=12  |  polygon
+  l_water_w  |  categorical  |  attr=NUMERICUSE  |  rules=10  |  polygon
+  lakes_and_reservoirs  |  single  |  attr=-  |  rules=1  |  polygon
+  landscape  |  categorical  |  attr=Tipe  |  rules=11  |  polygon
+  max_precipitation  |  categorical  |  attr=Precip_mm  |  rules=10  |  polygon
+  model_2017  |  categorical  |  attr=NAME_TB  |  rules=37  |  line
+  mudflow_arm  |  categorical  |  attr=risk  |  rules=3  |  polygon
+  rad_dur_apr  |  categorical  |  attr=VALUE  |  rules=19  |  polygon
+  rad_dur_jan  |  categorical  |  attr=VALUE  |  rules=19  |  polygon
+  radiance_duration  |  categorical  |  attr=VALUE  |  rules=7  |  polygon
+  radiation_bal  |  categorical  |  attr=VALUE  |  rules=7  |  polygon
+  seismic_zones  |  categorical  |  attr=Zone  |  rules=4  |  polygon
+  soil_arm  |  categorical  |  attr=Descriptio  |  rules=19  |  polygon
+  solar_radiance_duratin_jul  |  categorical  |  attr=VALUE  |  rules=19  |  polygon
+  solar_radiance_duratin_oct  |  categorical  |  attr=VALUE  |  rules=19  |  polygon
+  solar_radiation  |  categorical  |  attr=Sun_radiat  |  rules=11  |  polygon
+  sum_of_average_daily_air_temperatures_above__10c  |  categorical  |  attr=Sum_of_ave  |  rules=6  |  polygon
+  temperature  |  categorical  |  attr=Temperatur  |  rules=11  |  polygon
+  vegetation_arm  |  categorical  |  attr=ZoneID  |  rules=15  |  polygon
+  wind_resources  |  categorical  |  attr=Wind_Speed  |  rules=7  |  polygon
+
+=== partial (8) ===
+  caucasus_annual_growth_pop_2020a  |  range  |  attr=Growth_pop  |  rules=7  |  polygon
+  caucasus_population_density_2020  |  range  |  attr=pop_densit  |  rules=7  |  polygon
+  caucasus_urbanization_level_2020a  |  range  |  attr=Urban_leve  |  rules=6  |  polygon
+  total_population_2019_NUTS2  |  range  |  attr=NUTS2_Popu  |  rules=8  |  polygon
+  fires_2020  |  range  |  attr=nbr_fires  |  rules=7  |  polygon
+  pop_1989  |  range  |  attr=POP_1989  |  rules=15  |  point
+  pop_2002  |  range  |  attr=POP_2002  |  rules=15  |  point
+  pop_2014  |  range  |  attr=POP_2014  |  rules=15  |  point
+
+=== css_skip (4) ===
+  aze_roads  |    |  attr=-  |  rules=0  |  
+  geo_roads  |    |  attr=-  |  rules=0  |  
+  irn_roads  |    |  attr=-  |  rules=0  |  
+  tur_roads  |    |  attr=-  |  rules=0  |  

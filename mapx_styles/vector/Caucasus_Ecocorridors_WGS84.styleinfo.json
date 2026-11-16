@@ -1,0 +1,21 @@
+{
+  "geonode_name": "Caucasus_Ecocorridors_WGS84",
+  "mapx_id": "",
+  "kind": "single",
+  "status": "ok",
+  "source_attribute": "",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "Caucasus_Ecocorridors_WGS84.json",
+  "how_to_paste": "Single symbol: paste JSON for color; Source attribute optional (one rule applies to all features)",
+  "rules": [
+    {
+      "value": "Ecocorridors",
+      "label_en": "Ecocorridors",
+      "color": "#1e8822",
+      "opacity": 0.14,
+      "size": 1
+    }
+  ],
+  "warning": "Single-symbol layer; one color for all features."
+}

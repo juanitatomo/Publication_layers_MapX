@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "caucasus_2017233_terra_721_250m",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "caucasus_2017233_terra_721_250m.sld"
+  }
+}

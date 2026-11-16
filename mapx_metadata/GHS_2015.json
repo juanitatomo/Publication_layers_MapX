@@ -1,0 +1,142 @@
+{
+  "text": {
+    "title": {
+      "en": "Caucasus Population Density (2015)",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Population density for the Caucasus ecoregion in 2015 from the Global Human Settlement Layer (GHSL) population grid. Pixel values represent the number of people per 250 m cell. Supports demographic analysis, exposure assessment, and urban–rural planning at regional scale.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "GHS_2015",
+        "population",
+        "demography",
+        "socioeconomic",
+        "caucasus",
+        "density",
+        "2015"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "6571",
+        "1485"
+      ],
+      "keys_topic": [
+        "society"
+      ]
+    },
+    "attributes": {},
+    "attributes_alias": {},
+    "notes": {
+      "en": "<ul><li>Unit: people per 250 m grid cell.</li><li>Source: JRC GHSL population grid; cropped to the Caucasus ecoregion.</li><li>Do not interpret as cadastral population counts; values are modelled grid estimates.</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "European Commission, Joint Research Centre - Global Human Settlement Layer (GHSL).",
+    "citation": "European Commission, JRC. GHSL population grid (2015). http://ghsl.jrc.ec.europa.eu/ghs_pop.php. Cropped to the Caucasus ecoregion."
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "2015-01-01",
+      "modified_at": "2015-01-01"
+    },
+    "range": {
+      "is_timeless": false,
+      "start_at": "2015-01-01",
+      "end_at": "2015-12-31"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:4326",
+      "url": "http://spatialreference.org/ref/epsg/4326/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "http://ghsl.jrc.ec.europa.eu/ghs_pop.php"
+    },
+    "source": {
+      "urls": [
+        {
+          "is_download_link": false,
+          "url": "http://ghsl.jrc.ec.europa.eu/ghs_pop.php",
+          "label": "GHSL population grid"
+        }
+      ]
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "Provider terms",
+        "text": "Refer to JRC GHSL licensing and citation guidance for the population grid product."
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

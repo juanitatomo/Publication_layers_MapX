@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "tur_roads",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "tur_roads.sld"
+  }
+}

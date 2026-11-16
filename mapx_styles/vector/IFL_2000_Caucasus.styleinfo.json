@@ -1,0 +1,21 @@
+{
+  "geonode_name": "IFL_2000_Caucasus",
+  "mapx_id": "MX-2T4V3-O67CO-QLMIJ",
+  "kind": "single",
+  "status": "ok",
+  "source_attribute": "",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "IFL_2000_Caucasus.json",
+  "how_to_paste": "Single symbol: paste JSON for color; Source attribute optional (one rule applies to all features)",
+  "rules": [
+    {
+      "value": "Intact forests 2000",
+      "label_en": "Intact forests 2000",
+      "color": "#466a37",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "Single-symbol layer; one color for all features."
+}

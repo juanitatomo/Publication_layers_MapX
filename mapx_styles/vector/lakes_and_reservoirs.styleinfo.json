@@ -1,0 +1,21 @@
+{
+  "geonode_name": "lakes_and_reservoirs",
+  "mapx_id": "MX-ZZ9UT-1CWX4-7D58C",
+  "kind": "single",
+  "status": "ok",
+  "source_attribute": "",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "lakes_and_reservoirs.json",
+  "how_to_paste": "Single symbol: paste JSON for color; Source attribute optional (one rule applies to all features)",
+  "rules": [
+    {
+      "value": "Class",
+      "label_en": "Class",
+      "color": "#000088",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "Single-symbol layer; one color for all features."
+}

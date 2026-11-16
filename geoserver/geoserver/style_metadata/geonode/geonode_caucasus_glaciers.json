@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "caucasus_glaciers",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "caucasus_glaciers.sld"
+  }
+}

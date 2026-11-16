@@ -1,0 +1,128 @@
+{
+  "geonode_name": "total_population_2019_NUTS2",
+  "mapx_id": "MX-B1OKT-D494O-HNO25",
+  "kind": "range",
+  "status": "partial",
+  "source_attribute": "NUTS2_Popu",
+  "paste_json_as_categorical": false,
+  "geometry": "polygon",
+  "style_json": "total_population_2019_NUTS2.json",
+  "how_to_paste": "RANGE: set Source attribute to `NUTS2_Popu`; do NOT rely on categorical JSON values (labels like 1-20 are not field values). Use Auto style / intervals with colors from lookup/styleinfo; see range_min/range_max columns.",
+  "rules": [
+    {
+      "value": "No Data",
+      "label_en": "No Data",
+      "color": "#969595",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "< 100'000",
+      "label_en": "< 100'000",
+      "color": "#ffe1d3",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "100'000 - 250'000",
+      "label_en": "100'000 - 250'000",
+      "color": "#fdbea5",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "250'000 - 500'000",
+      "label_en": "250'000 - 500'000",
+      "color": "#fc9777",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "500'000 - 1'000'000",
+      "label_en": "500'000 - 1'000'000",
+      "color": "#fc7050",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "1'000'000 - 2'000'000",
+      "label_en": "1'000'000 - 2'000'000",
+      "color": "#f24431",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "2'000'000 - 5'000'000",
+      "label_en": "2'000'000 - 5'000'000",
+      "color": "#d42020",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "> 5'000'000",
+      "label_en": "> 5'000'000",
+      "color": "#ad1016",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "range_cuts": [
+    {
+      "label": "No Data",
+      "min": -999999.0,
+      "max": 0.0,
+      "color": "#969595",
+      "attribute": "NUTS2_Popu"
+    },
+    {
+      "label": "< 100'000",
+      "min": 0.0,
+      "max": 100000.0,
+      "color": "#ffe1d3",
+      "attribute": "NUTS2_Popu"
+    },
+    {
+      "label": "100'000 - 250'000",
+      "min": 100000.0,
+      "max": 250000.0,
+      "color": "#fdbea5",
+      "attribute": "NUTS2_Popu"
+    },
+    {
+      "label": "250'000 - 500'000",
+      "min": 250000.0,
+      "max": 500000.0,
+      "color": "#fc9777",
+      "attribute": "NUTS2_Popu"
+    },
+    {
+      "label": "500'000 - 1'000'000",
+      "min": 500000.0,
+      "max": 1000000.0,
+      "color": "#fc7050",
+      "attribute": "NUTS2_Popu"
+    },
+    {
+      "label": "1'000'000 - 2'000'000",
+      "min": 1000000.0,
+      "max": 2000000.0,
+      "color": "#f24431",
+      "attribute": "NUTS2_Popu"
+    },
+    {
+      "label": "2'000'000 - 5'000'000",
+      "min": 2000000.0,
+      "max": 5000000.0,
+      "color": "#d42020",
+      "attribute": "NUTS2_Popu"
+    },
+    {
+      "label": "> 5'000'000",
+      "min": 5000000.0,
+      "max": 10000000.0,
+      "color": "#ad1016",
+      "attribute": "NUTS2_Popu"
+    }
+  ],
+  "warning": "Numeric range style from SLD. MapX categorical Values like '1-20' will show as 'all' because they are not attribute values. Set Source attribute to 'NUTS2_Popu' and apply interval/Auto style using range_cuts colors."
+}

@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "seismic_hazard_475",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "seismic_hazard_475.sld"
+  }
+}

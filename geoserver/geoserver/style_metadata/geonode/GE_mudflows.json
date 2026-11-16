@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "GE_mudflows",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "GE_mudflows.sld"
+  }
+}

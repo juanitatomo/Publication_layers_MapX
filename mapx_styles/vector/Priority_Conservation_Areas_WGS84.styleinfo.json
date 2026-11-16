@@ -1,0 +1,21 @@
+{
+  "geonode_name": "Priority_Conservation_Areas_WGS84",
+  "mapx_id": "",
+  "kind": "single",
+  "status": "ok",
+  "source_attribute": "",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "Priority_Conservation_Areas_WGS84.json",
+  "how_to_paste": "Single symbol: paste JSON for color; Source attribute optional (one rule applies to all features)",
+  "rules": [
+    {
+      "value": "Priority conservation areas",
+      "label_en": "Priority conservation areas",
+      "color": "#9ed7c2",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "Single-symbol layer; one color for all features."
+}

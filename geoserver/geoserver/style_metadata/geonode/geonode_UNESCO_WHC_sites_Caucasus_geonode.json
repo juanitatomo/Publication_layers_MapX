@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "UNESCO_WHC_sites_Caucasus_geonode",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "UNESCO_WHC_sites_Caucasus_geonode.sld"
+  }
+}

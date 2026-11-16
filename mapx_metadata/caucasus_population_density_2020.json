@@ -1,0 +1,361 @@
+{
+  "text": {
+    "title": {
+      "en": "Caucasus Population Density 2020",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Population density of the Caucasus for 2020 by NUTS3 units, expressed as people per km2. Values are compiled from national statistical offices of Armenia, Azerbaijan, Georgia, Iran, Russia and Turkey. Supports demographic analysis, exposure assessment and regional planning.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "caucasus_population_density_2020",
+        "population",
+        "demography",
+        "socioeconomic",
+        "caucasus",
+        "density",
+        "2020"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "6571",
+        "1485"
+      ],
+      "keys_topic": [
+        "society"
+      ]
+    },
+    "attributes": {
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm1_code": {
+        "en": "Admin Level 1 Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm1_name": {
+        "en": "Admin Level 1 Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm2_code": {
+        "en": "Admin Level 2 Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm2_name": {
+        "en": "Admin Level 2 Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "copie_de_s": {
+        "en": "Copied field (source)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "pop_densit": {
+        "en": "Population Density (people/km2)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "copie_de_2": {
+        "en": "Copied field (secondary)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "attributes_alias": {
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm1_code": {
+        "en": "Admin Level 1 Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm1_name": {
+        "en": "Admin Level 1 Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm2_code": {
+        "en": "Admin Level 2 Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Adm2_name": {
+        "en": "Admin Level 2 Name",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "copie_de_s": {
+        "en": "Copied field (source)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "pop_densit": {
+        "en": "Population Density (people/km2)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "copie_de_2": {
+        "en": "Copied field (secondary)",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "notes": {
+      "en": "<ul><li>Unit: people per km2 at NUTS3 level.</li><li>Source offices: Armstat, Stat.gov.az, GeoStat, Amar, Rosstat, TurkStat.</li><li>Style classification in MapX uses numeric field pop_densit (range classes); see style paste guide.</li><li>Bounding box is approximate Caucasus extent; use MapX Update values from source for precision.</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "National statistical offices of Armenia, Azerbaijan, Georgia, Iran, Russia and Turkey; Sustainable Caucasus compilation.",
+    "citation": "Caucasus population density 2020 (NUTS3). Sustainable Caucasus GeoNode archive. Compiled from national statistical offices (Armstat, Stat.az, GeoStat, Amar, Rosstat, TurkStat)."
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "2020-01-01",
+      "modified_at": "2020-01-01"
+    },
+    "range": {
+      "is_timeless": false,
+      "start_at": "2020-01-01",
+      "end_at": "2020-12-31"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:4326",
+      "url": "http://spatialreference.org/ref/epsg/4326/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "https://www.armstat.am/en/"
+    },
+    "source": {
+      "urls": [
+        {
+          "is_download_link": false,
+          "url": "https://www.armstat.am/en/",
+          "label": "armstat.am"
+        },
+        {
+          "is_download_link": false,
+          "url": "https://www.stat.gov.az/",
+          "label": "stat.gov.az"
+        },
+        {
+          "is_download_link": false,
+          "url": "https://www.amar.org.ir/english",
+          "label": "amar.org.ir"
+        },
+        {
+          "is_download_link": false,
+          "url": "https://data.tuik.gov.tr/",
+          "label": "data.tuik.gov.tr"
+        },
+        {
+          "is_download_link": false,
+          "url": "https://www.geostat.ge/en",
+          "label": "geostat.ge"
+        },
+        {
+          "is_download_link": false,
+          "url": "https://eng.rosstat.gov.ru/",
+          "label": "eng.rosstat.gov.ru"
+        }
+      ]
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "Provider terms",
+        "text": "Refer to each national statistical office terms of use. Links listed under origin sources."
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

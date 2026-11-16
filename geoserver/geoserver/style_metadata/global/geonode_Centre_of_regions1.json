@@ -1,0 +1,10 @@
+{
+  "style": {
+    "name": "geonode_Centre_of_regions1",
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "geonode_Centre_of_regions1.sld"
+  }
+}

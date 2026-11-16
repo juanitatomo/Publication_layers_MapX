@@ -1,0 +1,63 @@
+{
+  "geonode_name": "caucasus_pois_clip_culture",
+  "mapx_id": "MX-YAE4P-E1XUK-R8PHH",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "fclass",
+  "paste_json_as_categorical": true,
+  "geometry": "point",
+  "style_json": "caucasus_pois_clip_culture.json",
+  "how_to_paste": "1) Set Source attribute = `fclass`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "archaeological",
+      "label_en": "archaeological",
+      "color": "#54b04a",
+      "opacity": 0.7,
+      "size": 9
+    },
+    {
+      "value": "artwork",
+      "label_en": "artwork",
+      "color": "#ac5b31",
+      "opacity": 0.7,
+      "size": 7
+    },
+    {
+      "value": "castle",
+      "label_en": "castle",
+      "color": "#487bb6",
+      "opacity": 0.7,
+      "size": 7
+    },
+    {
+      "value": "memorial",
+      "label_en": "memorial",
+      "color": "#faff39",
+      "opacity": 0.7,
+      "size": 7
+    },
+    {
+      "value": "monument",
+      "label_en": "monument",
+      "color": "#85420a",
+      "opacity": 0.7,
+      "size": 9
+    },
+    {
+      "value": "museum",
+      "label_en": "museum",
+      "color": "#000000",
+      "opacity": 0.7,
+      "size": 7
+    },
+    {
+      "value": "ruins",
+      "label_en": "ruins",
+      "color": "#ffffff",
+      "opacity": 0.7,
+      "size": 7
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'fclass', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

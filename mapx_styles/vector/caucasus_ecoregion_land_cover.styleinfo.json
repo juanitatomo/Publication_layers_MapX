@@ -1,0 +1,98 @@
+{
+  "geonode_name": "caucasus_ecoregion_land_cover",
+  "mapx_id": "",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Class_Name",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "caucasus_ecoregion_land_cover.json",
+  "how_to_paste": "1) Set Source attribute = `Class_Name`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "Deciduous Forest",
+      "label_en": "Deciduous Forest",
+      "color": "#6bc26c",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Evergreen Forest",
+      "label_en": "Evergreen Forest",
+      "color": "#729c6a",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Shrub/Scrub",
+      "label_en": "Shrub/Scrub",
+      "color": "#ccd17d",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Grassland",
+      "label_en": "Grassland",
+      "color": "#d3eda6",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Barren / Minimal Vegetation",
+      "label_en": "Barren / Minimal Vegetation",
+      "color": "#f0e9c9",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Agriculture, General",
+      "label_en": "Agriculture, General",
+      "color": "#a7d9bd",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Agriculture, Paddy",
+      "label_en": "Agriculture, Paddy",
+      "color": "#839ec7",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Wetland",
+      "label_en": "Wetland",
+      "color": "#6e72ba",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Ice / Snow",
+      "label_en": "Ice / Snow",
+      "color": "#f5ffff",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Urban, High Density",
+      "label_en": "Urban, High Density",
+      "color": "#6e4046",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Urban, Medium to Low Density",
+      "label_en": "Urban, Medium to Low Density",
+      "color": "#bd8088",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Water",
+      "label_en": "Water",
+      "color": "#808080",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Class_Name', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

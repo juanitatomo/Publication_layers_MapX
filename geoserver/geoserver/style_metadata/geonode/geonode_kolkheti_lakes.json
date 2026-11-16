@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "kolkheti_lakes",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "kolkheti_lakes.sld"
+  }
+}

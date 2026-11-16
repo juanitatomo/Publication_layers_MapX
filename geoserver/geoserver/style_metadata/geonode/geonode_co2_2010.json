@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "co2_2010",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "co2_2010.sld"
+  }
+}

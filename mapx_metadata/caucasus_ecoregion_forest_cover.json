@@ -1,0 +1,266 @@
+{
+  "text": {
+    "title": {
+      "en": "Caucasus ecoregion forest cover",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Caucasus Ecoregion Forest Cover derived from BaseVue 2013 (raster layer downloaded, merged, clipped to WWF Caucasus Ecoregion and converted into vector format, forest cover extracted). BaseVue 2013 (accessible from ESRI Living Atlas at http://goto.arcgisonline.com/landscape6/World_Land_Cover_30m_BaseVue_2013) is a global, land use / land cover (LULC) product developed by MDA (US), derived from roughly 9,200 Landsat 8 images, 30m spatial resolution. The capture dates for the Landsat 8 imagery range from April 11, 2013 to June 29, 2014. The following 16 classes of land use / land cover are listed by their cell value in this layer: (1) deciduous forest, (2) evergreen forest, (3) shrub/scrub, (4) grassland, (5) barren or minimal vegetation, (6) not used, (7) agriculture (general), (8) agriculture (paddy), (9) wetland, (10) mangrove, (11) water: (12) ice/snow, (13) clouds, (14) woody wetlands (only continental US), (15) mixed forest (only continental US), (16) not used, (17) not used, (18) not used, (19) not used, (20) high density urban, (21) medium-low density urban.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "caucasus_ecoregion_forest_cover",
+        "land cover",
+        "land use",
+        "remote sensing",
+        "caucasus",
+        "ecoregion",
+        "forest",
+        "cover"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "4665",
+        "4612"
+      ],
+      "keys_topic": [
+        "environment",
+        "imageryBaseMapsEarthCover"
+      ]
+    },
+    "attributes": {
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "ID": {
+        "en": "Identifier",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "GRIDCODE": {
+        "en": "Grid Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Class_Name": {
+        "en": "Land Cover Class",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "DN": {
+        "en": "Digital Number / Class Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "attributes_alias": {
+      "fid": {
+        "en": "Feature ID",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "ID": {
+        "en": "Identifier",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "GRIDCODE": {
+        "en": "Grid Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "Class_Name": {
+        "en": "Land Cover Class",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      },
+      "DN": {
+        "en": "Digital Number / Class Code",
+        "fr": "",
+        "es": "",
+        "ar": "",
+        "ru": "",
+        "zh": "",
+        "de": "",
+        "bn": "",
+        "fa": "",
+        "ps": ""
+      }
+    },
+    "notes": {
+      "en": "<ul><li>Theme/title: Caucasus ecoregion forest cover.</li><li>Compiled for the Sustainable Caucasus GeoNode -> MapX publication workflow.</li><li>Spatial coverage limited to the Caucasus ecoregion / study area where noted in source metadata.</li><li>Vector attribute names follow the source GeoPackage schema; aliases are human-readable labels for MapX.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "Data provided by WWF (non-commercial use; credit required).",
+    "citation": "Caucasus ecoregion forest cover (2013). Sustainable Caucasus GeoNode archive. Source: http://goto.arcgisonline.com/landscape6/World_Land_Cover_30m_BaseVue_2013."
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "2013-01-01",
+      "modified_at": "2014-01-01"
+    },
+    "range": {
+      "is_timeless": false,
+      "start_at": "2013-01-01",
+      "end_at": "2014-12-31"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:4326",
+      "url": "http://spatialreference.org/ref/epsg/4326/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "http://goto.arcgisonline.com/landscape6/World_Land_Cover_30m_BaseVue_2013"
+    },
+    "source": {
+      "urls": [
+        {
+          "is_download_link": false,
+          "url": "http://goto.arcgisonline.com/landscape6/World_Land_Cover_30m_BaseVue_2013",
+          "label": "goto.arcgisonline.com"
+        }
+      ]
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "Provider terms",
+        "text": "Please refer to the original data provider's terms of use and licensing conditions. See origin links when available."
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

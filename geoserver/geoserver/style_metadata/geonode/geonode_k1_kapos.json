@@ -1,0 +1,13 @@
+{
+  "style": {
+    "name": "k1_kapos",
+    "workspace": {
+      "name": "geonode"
+    },
+    "format": "sld",
+    "languageVersion": {
+      "version": "1.0.0"
+    },
+    "filename": "k1_kapos.sld"
+  }
+}

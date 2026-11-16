@@ -1,0 +1,77 @@
+{
+  "geonode_name": "flooding_duration",
+  "mapx_id": "MX-KIV7B-P30BH-DITAI",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Dur_days",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "flooding_duration.json",
+  "how_to_paste": "1) Set Source attribute = `Dur_days`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "10",
+      "label_en": "10 days",
+      "color": "#feebe2",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "20",
+      "label_en": "20 days",
+      "color": "#fdd0ce",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "30",
+      "label_en": "30 days",
+      "color": "#fbb4b9",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "40",
+      "label_en": "40 days",
+      "color": "#f98ead",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "50",
+      "label_en": "50 days",
+      "color": "#f768a1",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "60",
+      "label_en": "60 days",
+      "color": "#de4196",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "70",
+      "label_en": "70 days",
+      "color": "#c51b8a",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "80",
+      "label_en": "80 days",
+      "color": "#a00e81",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "90",
+      "label_en": "90 days",
+      "color": "#7a0177",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Dur_days', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

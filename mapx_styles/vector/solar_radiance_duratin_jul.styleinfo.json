@@ -1,0 +1,147 @@
+{
+  "geonode_name": "solar_radiance_duratin_jul",
+  "mapx_id": "MX-B4SPE-RY2G7-5B99I",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "VALUE",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "solar_radiance_duratin_jul.json",
+  "how_to_paste": "1) Set Source attribute = `VALUE`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "60",
+      "label_en": "60 h0urs",
+      "color": "#ffff49",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "80",
+      "label_en": "80 hours",
+      "color": "#fff44d",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "100",
+      "label_en": "100 hours",
+      "color": "#ffe951",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "120",
+      "label_en": "120 hours",
+      "color": "#ffdd56",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "140",
+      "label_en": "140 hours",
+      "color": "#ffd25a",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "160",
+      "label_en": "160 hours",
+      "color": "#fec558",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "180",
+      "label_en": "180 hours",
+      "color": "#feb751",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "200",
+      "label_en": "200 hours",
+      "color": "#fea94a",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "220",
+      "label_en": "220 hours",
+      "color": "#fe9b43",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "240",
+      "label_en": "240 hours",
+      "color": "#fd8d3c",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "260",
+      "label_en": "260 hours",
+      "color": "#fb7b35",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "280",
+      "label_en": "280 hours",
+      "color": "#f8682f",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "300",
+      "label_en": "300 hours",
+      "color": "#f55629",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "310",
+      "label_en": "310 hours",
+      "color": "#f24423",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "320",
+      "label_en": "320 hours",
+      "color": "#e63420",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "340",
+      "label_en": "340 hours",
+      "color": "#d22721",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "360",
+      "label_en": "360 hours",
+      "color": "#be1a21",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "380",
+      "label_en": "380 hours",
+      "color": "#a90d22",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "400",
+      "label_en": "400 hours",
+      "color": "#950023",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'VALUE', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

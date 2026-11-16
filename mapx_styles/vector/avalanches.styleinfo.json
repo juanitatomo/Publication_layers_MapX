@@ -1,0 +1,35 @@
+{
+  "geonode_name": "avalanches",
+  "mapx_id": "MX-B7JUB-S4MR7-737DY",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "DangerLvl",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "avalanches.json",
+  "how_to_paste": "1) Set Source attribute = `DangerLvl`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "Strong",
+      "label_en": "High",
+      "color": "#713b98",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Temperate",
+      "label_en": "Middle",
+      "color": "#4886a5",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "Weak",
+      "label_en": "Low",
+      "color": "#9beee2",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'DangerLvl', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

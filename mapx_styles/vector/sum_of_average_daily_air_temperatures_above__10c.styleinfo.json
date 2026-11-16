@@ -1,0 +1,56 @@
+{
+  "geonode_name": "sum_of_average_daily_air_temperatures_above__10c",
+  "mapx_id": "MX-XNKR0-70YKR-88U5Y",
+  "kind": "categorical",
+  "status": "ok",
+  "source_attribute": "Sum_of_ave",
+  "paste_json_as_categorical": true,
+  "geometry": "polygon",
+  "style_json": "sum_of_average_daily_air_temperatures_above__10c.json",
+  "how_to_paste": "1) Set Source attribute = `Sum_of_ave`  2) Paste JSON  3) Check each Value matches dropdown (not 'all')",
+  "rules": [
+    {
+      "value": "<800",
+      "label_en": "<800",
+      "color": "#f79797",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "800-2000",
+      "label_en": "800-2000",
+      "color": "#f16d6d",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "2000-3000",
+      "label_en": "2000-3000",
+      "color": "#e75858",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "3000-3800",
+      "label_en": "3000-3800",
+      "color": "#d83838",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": "3800-4500",
+      "label_en": "3800-4500",
+      "color": "#bc1818",
+      "opacity": 0.7,
+      "size": 1
+    },
+    {
+      "value": ">4500",
+      "label_en": ">4500",
+      "color": "#990505",
+      "opacity": 0.7,
+      "size": 1
+    }
+  ],
+  "warning": "In MapX choose Source attribute = 'Sum_of_ave', then paste JSON. Each rules[].value must match a real attribute value in the dropdown."
+}

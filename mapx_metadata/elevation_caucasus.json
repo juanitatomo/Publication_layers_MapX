@@ -1,0 +1,143 @@
+{
+  "text": {
+    "title": {
+      "en": "Caucasus SRTM Elevation 900m 2020",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "abstract": {
+      "en": "Dataset representing the SRTM elevation of Caucasus with a 900m precision. The data comes from WorldClim, https://www.worldclim.org/data/worldclim21.html.",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "keywords": {
+      "keys": [
+        "elevation_caucasus",
+        "mountains",
+        "elevation",
+        "topography",
+        "caucasus",
+        "srtm",
+        "900m",
+        "2020"
+      ],
+      "keys_m49": [
+        "ARM",
+        "AZE",
+        "IRN",
+        "TUR",
+        "RUS",
+        "GEO"
+      ],
+      "keys_gemet": [
+        "2685",
+        "4612"
+      ],
+      "keys_topic": [
+        "elevation"
+      ]
+    },
+    "attributes": {},
+    "attributes_alias": {},
+    "notes": {
+      "en": "<ul><li>Theme/title: Caucasus SRTM Elevation 900m 2020.</li><li>Compiled for the Sustainable Caucasus GeoNode -> MapX publication workflow.</li><li>Raster values encode the thematic variable described in the abstract; check units before analysis.</li><li>Verify licensing, citation, and fitness-for-purpose with the original data provider before redistribution.</li></ul>",
+      "fr": "",
+      "es": "",
+      "ar": "",
+      "ru": "",
+      "zh": "",
+      "de": "",
+      "bn": "",
+      "fa": "",
+      "ps": ""
+    },
+    "language": {
+      "codes": [
+        {
+          "code": "en"
+        }
+      ]
+    },
+    "data_attribution": "WorldClim.",
+    "citation": "Caucasus SRTM Elevation 900m 2020 (2020). Sustainable Caucasus GeoNode archive. Source: https://www.worldclim.org/data/worldclim21.html."
+  },
+  "temporal": {
+    "issuance": {
+      "periodicity": "notPlanned",
+      "released_at": "2020-01-01",
+      "modified_at": "2020-01-01"
+    },
+    "range": {
+      "is_timeless": false,
+      "start_at": "2020-01-01",
+      "end_at": "2020-12-31"
+    }
+  },
+  "spatial": {
+    "crs": {
+      "code": "EPSG:4326",
+      "url": "http://spatialreference.org/ref/epsg/4326/"
+    },
+    "bbox": {
+      "lng_min": 36.0,
+      "lng_max": 54.0,
+      "lat_min": 35.0,
+      "lat_max": 46.5
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "function": "Point of contact",
+        "honorific": "",
+        "name": "Sustainable Caucasus / MapX publication",
+        "organisation": "UNEP/GRID-Geneva",
+        "address": "",
+        "city": "Geneva",
+        "state": "",
+        "postal_code": "",
+        "country": "Switzerland",
+        "email": "info@mapx.org"
+      }
+    ]
+  },
+  "origin": {
+    "homepage": {
+      "url": "https://www.worldclim.org/data/worldclim21.html"
+    },
+    "source": {
+      "urls": [
+        {
+          "is_download_link": false,
+          "url": "https://www.worldclim.org/data/worldclim21.html",
+          "label": "worldclim.org"
+        }
+      ]
+    }
+  },
+  "license": {
+    "licenses": [
+      {
+        "name": "Provider terms",
+        "text": "Please refer to the original data provider's terms of use and licensing conditions. See origin links when available."
+      }
+    ]
+  },
+  "annex": {
+    "references": []
+  }
+}

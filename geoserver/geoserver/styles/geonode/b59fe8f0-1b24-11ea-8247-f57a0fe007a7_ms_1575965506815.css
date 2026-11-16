@@ -1,0 +1,29 @@
+@styleTitle '${styleTitle}';
+@styleAbstract '${styleAbstract}';
+
+* {
+    /*
+    replace "Label" with [myPropertyName]
+    to get a label from feature data
+    */
+    label: "Label";
+    label-anchor: 0.5 2;
+    /* label-group: true; */
+    label-conflict-resolution: false;
+
+    font-fill: #000;
+    font-family: "sans-serif";
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    font-size: 20;
+
+    halo-color: #fff;
+    halo-radius: 4;
+
+    mark: symbol("circle"), symbol("circle");
+    :mark {
+        size: 7, 3;
+        stroke: #0d0d0d;
+        stroke-width: 0.7;
+    };
+}
